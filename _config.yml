@@ -1,0 +1,58 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        /blog/:categories/:year-:month-:day-:title/
+
+# Setup
+title:            Emily Esten
+tagline:          digital projects for the public
+description:
+url:              https://emilyesten.com
+
+paginate:         10
+paginate_path: 	  blog/page:num
+
+# Sass settings
+sass:
+  sass_dir: assets/css/_scss
+  style: compressed
+
+# Full URL for indexing
+url: https://emilyesten.com
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# Markdown
+kramdown:
+  smart_quotes: ["lsquo", "rsquo", "ldquo", "rdquo"]
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Collections
+collections:
+  research:
+    output: true
+    permalink: research/:path/
+  teaching:
+    output: true
+    permalink: teaching/:path/
+
+# Excludes
+exclude:
+  - CNAME
+  - LICENSE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
