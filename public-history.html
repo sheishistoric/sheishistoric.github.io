@@ -7,17 +7,11 @@ title: CV
     <li>
         <a href="#t1">ABOUT ME</a></li>
     <li>
-        <a href="#t2">EDUCATION</a></li>
-    <li>
         <a href="#t3">EMPLOYMENT</a></li>
     <li>
         <a href="#t4">WRITING</a></li>
     <li>
         <a href="#t5">CONFERENCES</a></li>
-    <li>
-        <a href="#t6">AWARDS + GRANTS</a></li>
-    <li>
-        <a href="#t7a">WORKSHOPS LED</a></li>
     <li>
         <a href="#t8">PROJECTS</a></li>
     <li>
@@ -31,36 +25,13 @@ title: CV
 
 <!-- 1: Profile -->
 <div class="clear">
-<h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Hi, I&rsquo;m Jeffrey Moro</h2>
+<h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Hi, I'm Emily Esten</h2>
     <div class="column-last column-bottom clear">
-        <p>{{ site.data.cv.profile }}</p>
+        <p>{{ site.data.cv.profile.publichistory }}</p>
     </div>
-</div>
-
-<!-- 2: Education -->
-<div class="clear">
-    <h2><span id="t2"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Education</h2>
-    {% for institution in site.data.cv.education %}
-        <div class="one-fourth column-bottom clear subcat">{{ institution.date }}</div>
-        <div class="three-fourths column-last column-bottom clear">
-            <b>{{ institution.institution }}</b><br/>
-            <span class="cv-meta">{{ institution.degree }} • {{ institution.awards }}</span>
-        </div>
-    {% endfor %}
 </div>
 
 <!-- 3: Employment -->
-<div class="clear">
-<h2><span id="t3"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> University Employment</h2>
-{% for title in site.data.cv.employment-university %}
-    <div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
-    <div class="three-fourths column-last column-bottom clear">
-        <b>{{ title.title }}</b> • <a id="showEmployment{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
-        <span class="cv-meta">{{ title.company }}.</span>
-        <div class="context" id="employment{{ forloop.index }}"><p>{{ title.context }}</p></div>
-    </div>
-{% endfor %}
-</div>
 <div class="clear">
 <h2><span id="t3"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Public History Employment</h2>
 {% for title in site.data.cv.employment-publichistory %}
@@ -133,45 +104,6 @@ title: CV
 
 </div>
 
-<!-- 6: Awards -->
-<div class="clear">
-<h2><span id="t6"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Awards + Grants</h2>
-    {% for title in site.data.cv.awards %}
-        <div class="one-fourth column-bottom clear subcat"></div>
-        <div class="three-fourths column-last column-bottom clear">
-            {% if title.context !="" %}
-                <b>{{ title.title }}</b>
-                 • <a id="showAward{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
-                <span class="cv-meta">{{ title.secondary }} {{ title.date }}</span><br/>
-                <div class="context" id="award{{ forloop.index }}"><p>{{ title.context }}</p></div>
-            {% else %}
-                <b>{{ title.title }}</b><br/>
-                <span class="cv-meta">{{ title.secondary }} {{ title.date }}.</span>
-            {% endif %}
-        </div>
-    {% endfor %}
-</div>
-
-</div>
-
-<!-- 7a: Workshops Led -->
-<div class="clear">
-<h2><span id="t7a"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Workshops Led</h2>
-
-{% for title in site.data.cv.workshop %}
-        <div class="one-fourth column-bottom clear subcat"></div>
-        <div class="three-fourths column-last column-bottom clear">
-            {% if title.url !="" %}
-                <a href="{{ title.url }}" target="_blank"><b>{{ title.title }}</b></a>
-            {% else %}
-                <b>{{ title.title }}</b>
-            {% endif %} <br/>
-            <span class="cv-meta">{{ title.location }}. {{ title.date }}.</span>
-        </div>
-{% endfor %}
-
-</div>
-
 <!-- 8: Digital Projects -->
 <div class="clear">
 <h2><span id="t8"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Projects</h2>
@@ -217,21 +149,4 @@ title: CV
                     <b>{{ title.title }}</b> • <span class="cv-meta">{{ title.institution }}. {{ title.year }}.</span><br/>
                 {% endfor %}
             </div>
-</div>
-
-<div hidden id="resumeJson">
-  {{ site.data.cv | jsonify }}
-</div>
-
-<!-- 10: Skills -->
-<div class="clear">
-<h2><span id="t10"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Skills</h2>
-
-    {% for title in site.data.cv.skills%}
-            <div class="one-fourth column-bottom clear subcat"></div>
-            <div class="three-fourths column-last column-bottom clear">
-            <b>{{ title.title }}</b> • <span class="cv-meta">{{ title.things }}</span>
-            </div>
-    {% endfor %}
-
 </div>

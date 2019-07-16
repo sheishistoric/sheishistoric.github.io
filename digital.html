@@ -31,22 +31,10 @@ title: CV
 
 <!-- 1: Profile -->
 <div class="clear">
-<h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Hi, I&rsquo;m Jeffrey Moro</h2>
+<h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Hi, I'm Emily Esten</h2>
     <div class="column-last column-bottom clear">
-        <p>{{ site.data.cv.profile }}</p>
+        <p>{{ site.data.cv.profile.digital }}</p>
     </div>
-</div>
-
-<!-- 2: Education -->
-<div class="clear">
-    <h2><span id="t2"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Education</h2>
-    {% for institution in site.data.cv.education %}
-        <div class="one-fourth column-bottom clear subcat">{{ institution.date }}</div>
-        <div class="three-fourths column-last column-bottom clear">
-            <b>{{ institution.institution }}</b><br/>
-            <span class="cv-meta">{{ institution.degree }} • {{ institution.awards }}</span>
-        </div>
-    {% endfor %}
 </div>
 
 <!-- 3: Employment -->
@@ -133,45 +121,6 @@ title: CV
 
 </div>
 
-<!-- 6: Awards -->
-<div class="clear">
-<h2><span id="t6"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Awards + Grants</h2>
-    {% for title in site.data.cv.awards %}
-        <div class="one-fourth column-bottom clear subcat"></div>
-        <div class="three-fourths column-last column-bottom clear">
-            {% if title.context !="" %}
-                <b>{{ title.title }}</b>
-                 • <a id="showAward{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
-                <span class="cv-meta">{{ title.secondary }} {{ title.date }}</span><br/>
-                <div class="context" id="award{{ forloop.index }}"><p>{{ title.context }}</p></div>
-            {% else %}
-                <b>{{ title.title }}</b><br/>
-                <span class="cv-meta">{{ title.secondary }} {{ title.date }}.</span>
-            {% endif %}
-        </div>
-    {% endfor %}
-</div>
-
-</div>
-
-<!-- 7a: Workshops Led -->
-<div class="clear">
-<h2><span id="t7a"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Workshops Led</h2>
-
-{% for title in site.data.cv.workshop %}
-        <div class="one-fourth column-bottom clear subcat"></div>
-        <div class="three-fourths column-last column-bottom clear">
-            {% if title.url !="" %}
-                <a href="{{ title.url }}" target="_blank"><b>{{ title.title }}</b></a>
-            {% else %}
-                <b>{{ title.title }}</b>
-            {% endif %} <br/>
-            <span class="cv-meta">{{ title.location }}. {{ title.date }}.</span>
-        </div>
-{% endfor %}
-
-</div>
-
 <!-- 8: Digital Projects -->
 <div class="clear">
 <h2><span id="t8"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Projects</h2>
@@ -185,18 +134,6 @@ title: CV
         <div class="three-fourths column-last column-bottom clear">
             <a href="{{ title.url }}"><b>{{ title.title }}</b></a> • <a id="showProject{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>{{ title.role }}. {{ title.date }}.</small>
             <div class="context" id="project{{ forloop.index }}"><p>{{ title.context }}</p></div>
-        </div>
-{% endfor %}
-
-{% for title in site.data.exhibitions %}
-    {% if forloop.first == true %}
-        <div class="one-fourth column-bottom clear subcat"><em>Exhibitions</em></div>
-    {% else %}
-        <div class="one-fourth column-bottom clear subcat"></div>
-    {% endif %}
-        <div class="three-fourths column-last column-bottom clear">
-            <a href="{{ title.url }}"><b>{{ title.title }}</b></a> • <a id="showExhibitions{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>{{ title.role }}. {{ title.date }}.</small>
-            <div class="context" id="minorProject{{ forloop.index }}"><p>{{ title.context }}</p></div>
         </div>
 {% endfor %}
 
@@ -217,10 +154,6 @@ title: CV
                     <b>{{ title.title }}</b> • <span class="cv-meta">{{ title.institution }}. {{ title.year }}.</span><br/>
                 {% endfor %}
             </div>
-</div>
-
-<div hidden id="resumeJson">
-  {{ site.data.cv | jsonify }}
 </div>
 
 <!-- 10: Skills -->
