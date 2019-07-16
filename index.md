@@ -13,4 +13,4 @@ I’m interested in technology and communities, especially as it relates to publ
 
 Broadly speaking, I’m interested in digital humanities, public history, public humanities, and digital culture.
 
-On this corner of the Internet, you can [see some of my work](/research), [check out my CV](/cv), or [read some blog posts](/blog).
+On this corner of the Internet, you can [see some of my digital projects](/digital), [see some of my public history work](/digital), [see some of my exhibitions](/exhibitions)[check out my CV](/cv), or [read some blog posts](/blog).
