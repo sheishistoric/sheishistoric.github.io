@@ -17,9 +17,9 @@ contact:
 ########### Profile ###########
 profile: "I am a digital scholar, a public humanities practitioner, and public historian. I’m currently the Judaica Digital Humanities Project Coordinator for Penn Libraries and assist with Contingent Magazine."
 
-profile-publichumanities:
+profile-public: I practice digital public humanities, bringing my love for museums and my interest in digital tools together. I think about how community building, engagement, and development in relation to the humanities can be augmented or transformed for the better with technology. My passion is for collaborating on public projects that think critically about audience, content, and method. I'm an ardent supporter of <a href="">#MuseumsAreNotNeutral</a>, a campaign that urges museum professionals to acknowledge and address social realities, and believe museums are most responsive when we bring people ad collections together to benefit our communities.
 
-profile-digital:
+profile-digital: With universities and cultural institutions, I build innovative digital projects to engage audiences with objects, stories, and ideas. My philosophy for collaborating on digital projects comes from Allison Parrish's <a href="http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/">"Hacker Questions"</a>.
 
 ########### Education ###########
 education:
@@ -37,23 +37,23 @@ employment-university:
     company: Penn Libraries
     date: "2019–Present"
     context: "Using digital humanities methods to deepen public and scholarly engagement with Penn's Judiaca materials."
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
   - title: Researcher and Collaborator, Mapping Violence
     company: Brown University, Department of American Studies
     date: "2018–2019"
     context: "As a Researcher and Collaborator on the team, I completed four new entries for the database, built a prototype map in Carto of the first phase of research, and built the foundation for a digital exhibit on the Porvenir Massacre. As the lead digital specialist, I also coordinated with student developers and system administrators to maintain and operate the existing database, and provided strategic direction on the layout, interface, and content for project website. All the code for the digital exhibit can be found on the GitHub repository."
-    page-tag: digital
+    page-tag-tech: digital
   - title: Teaching Assistant
     company: Brown University, School of Professional Studies
     date: "2017"
     context: "Introduced students to critical reading & literary theory in online English course <i>Fantastic Places and Unhuman Humans</i>"
-    page-tag: digital
+    page-tag-tech: digital
   - title: Digital Projects Assistant
     company: Brown University, Department of American Studies
     date: "2016-2017"
     context: "Explored museum history and catalog history by designing two digital projects using Tiki-Toki, Google Sheets, and Tableau Public visualizations"
-    page-tag: digital
+    page-tag-tech: digital
   - title: Research Intern
     company: University of Massachusetts Amherst, Department of History
     date: "2013–2016"
@@ -69,7 +69,7 @@ employment-publichumanities:
     company: Contingent Magazine
     date: "2019–Present"
     context: "Developed Contingent Magazine Theme for Wordpress and coordinated social media roll-out for launch of Contingent Magazine"
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
   - title: Exhibition Researcher
     company: New Bedford Fishing Heritage Center
@@ -86,12 +86,12 @@ employment-publichumanities:
     date: "2018"
     context: "As the Digital Humanities Fellow at the Edward M. Kennedy Institute for the United States Senate, I consider how technology could amplify narratives about the Kennedy family, the Senator’s work in the Senate, and current issues in the US government. In addition to planning out future experiences in VR, AR, and digital exhibit content, I develped two iPad applications and one digital projection & web display regarding the 2018 U.S. Senate elections."
     page-tag: publichumanities
-    page-tag: digital
+    page-tag-tech: digital
   - title: Smithsonian Center for Learning and Digital Access
     company: Evaluation Assistant
     date: "2016"
     context: "Led evaluation case studies of institutional use of Smithsonian Learning Lab, a digital collections platform that allows users to discover Smithsonian Institution digital resources, and use them to create and share collections tailored to their needs and that of their target audiences. I conducted and transcribed interviews; developed data collection questionnaires, consent forms, and rubrics; and drafted summaries of case study data for internal and public consumption."
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
   - title: Volunteer
     company: New Bedford Whaling National Historical Park
@@ -113,7 +113,8 @@ employment-publichumanities:
     company: University of Massachusetts Press
     date: "2014–2015"
     context: "Supported senior editorial staff by sourcing potential authors to produce new materials, creating fact sheets to analyze press growth and success, and starting press blog"
-    page-tag: none
+    page-tag: notpublic
+    page-tag-tech: notdigital
   - title: Archival Intern
     company: New Bedford Whaling Museum
     date: "2014"
@@ -132,7 +133,7 @@ web:
     venue: "Smithsonian Center for Learning and Digital Access"
     date: "August 2018"
     url: "https://learninglab.si.edu/cabinet/file/edc7e1f0-fc84-40eb-8cd2-cdf51ad7958a/Smithsonian-SCLDA_InternalLearningLabUsage_Report.pdf"
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
 
 other:
@@ -145,23 +146,26 @@ conference-talks:
     location: Atlanta, Georgia
     date: Nov. 2018
     url: "https://www.hastac.org/blogs/sheishistoric/2018/05/02/oah18-digital-public-humanities-historians"
-    page-tag: "digital"
+    page-tag-tech: digital
     page-tag: publichumanities
   - title: "#Resistance: Rogue Government Twitter and Digital Political Activism"
     institution: Society for Comparative Literature and the Arts
     location: Baltimore, Maryland
     date: Oct. 2017
-    page-tag: "digital"
+    page-tag-tech: digital
+    url: ""
   - title: "Courage, Perseverance, and Trust: The Manjiro Story"
     institution: UMass Graduate History Association
     location: Amherst, Massachusetts
     date: May 2018
     page-tag: "publichumanities"
+    url: ""
   - title: "Charity as Coercion: The Ladies’ Branch of the New Bedford Port Society, 1833-1880"
     institution: University of Massachusetts Amherst
     location: Amherst, Massachusetts
     date: April 2016
     event: "Massachusetts Undergraduate Research Conference"
+    url: ""
 
 conference-other:
   - title: "Museum of Forbidden Technologies"
@@ -170,16 +174,17 @@ conference-other:
     date: July 2019
     type: Exhibition
     event: "ACH 2019"
-    page-tag: digital
-    page-tag: digital
+    page-tag-tech: digital
+    url: ""
   - title: "You Can't Handle The Post-Truth"
     institution: Theorizing the Web
     location: New York, NY
     date: Nov. 2018
     type: Panel (Moderator)
-    page-tag: digital
+    page-tag-tech: digital
     event: "TTW19"
-    page-tag: digital
+    page-tag-tech: digital
+    url: "https://theorizingtheweb.org/ny/ny2019/program-9/"
   - title: "Mapping Segregated Histories: Digital Research and Visualizations for the Public"
     institution: American Studies Association
     location: Atlanta, Georgia
@@ -188,6 +193,7 @@ conference-other:
     event: "ASA2018"
     page-tag: "digital"
     page-tag: publichumanities
+    url: ""
   - title: "Cataloging History: Revisualizing the 1853 New York Crystal Palace"
     institution: Alliance of Digital Humanities Organizations
     location: Mexico City, Mexico
@@ -195,22 +201,24 @@ conference-other:
     type: Poster
     event: "DH2018"
     url: "https://dh2018.adho.org/en/cataloging-history-revisualizing-the-1853-new-york-crystal-palace/"
-    page-tag: digital
+    page-tag-tech: digital
   - title: "Public Humanities: Mapping Violence"
     institution: Brown University, Department of American Studies
     location: Providence, Rhode Island
     date: May 2018
     type: Poster
     event: "Brown University American Studies Graduate Student Conference"
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
+    url: ""
   - title: "Mapping Violence"
     institution: Northeastern University School of Law
     location: Boston, Massachusetts
     date: January 2018
     type: Workshop Presentation
     event: "The Digital Red Record: The Promises and Perils of Digitally Documenting Historic Racial Violence"
-    page-tag: digital
+    page-tag-tech: digital
+    url: ""
   - title: "Building a Feminist Future: On (Digital) Pedagogical Praxis"
     institution: HASTAC
     location: Orlando, Florida
@@ -218,7 +226,7 @@ conference-other:
     type: Panel
     event: "HASTAC 2017"
     url: "https://docs.google.com/document/d/13B0UenBTBd5Az1rLsYhEI7zz3mhQXUVEhGLGdNAPZf0/"
-    page-tag: digital
+    page-tag-tech: digital
   - title: "Meeting in the Middle: Community Engagement in a Digital World"
     institution: National Council for Public History
     location: Indianapolis, Indiana
@@ -226,7 +234,7 @@ conference-other:
     type: Working Group
     event: "NCPH 2017"
     url: "http://ncph.org/wp-content/uploads/2017/02/Meeting-in-the-Middle-case-statements.pdf"
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
 
 other-talks:
@@ -236,8 +244,9 @@ other-talks:
     date: February
     year: 2019
     type: Talk
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
+    url: ""
   - title: "Twitter Chat: Public Humanities and Public Scholarship"
     institution: HASTAC Scholars
     location: Virtual
@@ -245,7 +254,7 @@ other-talks:
     year: 2017
     type: Twitter Chat
     url: "https://www.hastac.org/opportunities/twitter-chat-public-humanities-and-public-scholarship"
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
 
 ########### Awards ###########
@@ -270,38 +279,40 @@ projects:
     url: "https://scribesofthecairogeniza.org"
     date: "2019"
     context: "Scribes of the Cairo Geniza is a project with the ultimate goal of transcribing Cairo Geniza fragments."
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
   - title: "Mapping Violence"
     role: Researcher & Collaborator
     url: "http://mappingviolence.com"
     date: "2017-2018"
     context: "Mapping Violence recovers lost and obscured cases of racial violence in Texas from 1900 to 1930, a period of now largely forgotten bloodshed. Making these histories public is a crucial step towards reckoning with the long legacies of violence."
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
   - title: "Visualizing the Crystal Palace"
     role: PI with Steven Lubar, Steffani Gomez, Brian Croxall, Patrick Rashleigh
     url: "http://cds.library.brown.edu/projects/crystalpalace/"
     date: "2017–18"
     context: "Geographic visualizations in Tableau, Google Maps, and D3 to discuss historical significance of museum catalogs, supplemented by two co-authored Medium posts with Steven Lubar. Data hosted on GitHub."
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
   - title: Inside the Lost Museum
     role: PI with Steven Lubar
     url: "https://www.tiki-toki.com/timeline/entry/690396/Inside-the-Lost-Museum/"
     date: "2016"
     context: "An interactive timeline as a digital companion to his book, Inside the Lost Museum: Curating, Past and Present (July 2017 by Harvard University Press.)"
-    page-tag: digital
+    page-tag-tech: digital
   - title: "The Two New Bedfords: Spatial and Social Analysis of the City, 1800-1870"
     role: PI, supervised by Laura Lovett, Marla Miller, Eric Poehler
     date: "2015–16"
     context: "Digital narrative and prototype recreation of a historic building in New Bedford important in the lives of 19th-century sailors. Funded by University of Massachusetts Amherst Department of History"
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
+    url: ""
   - title: "Night Vale Museum of Forbidden Techologies"
     role: Curator
     date: "2015"
     context: "Funded by Five College Digital Humanities."
+    url: ""
 
 exhibitions:
   - title: "Wheelhouse Technology from Sounding Leads to Satellites"
@@ -310,27 +321,31 @@ exhibitions:
     date: "2019"
     context: "Over the past century, new technologies have allowed New Bedford’s fleet to arrive on the grounds faster, fish safer, and communicate more easily. But at what cost? This exhibit considers the evolution and impact of technological change on the industry, the community, and the fish. In addition to considering the science behind devices such as EPIRB, SONAR, and LORAN, the exhibit and programs will consider topics such as Technology & Privacy, Dependence on Technology, and Technology & Sustainability."
     page-tag: publichumanities
+    url: ""
   - title: "2018 U.S. Senate Election Map"
     role: Technical Lead
     location: Edward M. Kennedy Institute for the United States Senate
     url: "https://www.emkinstitute.org/explore-the-institute/exhibits/senate-election-wall-2018"
     date: "2018"
     context: "This technology-driven projected display immersed visitors in the 2018 U.S. Senate Elections, where at total of 35 seats are up for election. Of the 35 seats up for election, 23 are held by Democrats, 8 by Republicans, and 2 by Independents. Projected onto the institute’s exhibit hall walls and available on tablets, visitors explore the races allowing the candidates and races in each of the 33 states, and learned about how the balance of power shifts between political parties each election."
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
+    url: ""
   - title: "Senate Staff Office"
     role: Technical Lead
     location: Edward M. Kennedy Institute for the United States Senate
     url: "https://www.emkinstitute.org/explore-the-institute/exhibits/senate-staff-office"
     date: "2018"
     context: "The Senate Staff Office exhibit features the exemplary work of Senator Kennedy’s staff, and what is involved in working in a United States Senator’s office. Through a mixture of hands-on activities, video features, and office artifacts, visitors have the opportunity to hear firsthand stories from Senator Edward M. Kennedy’s staff and take on the role of those assigned with completing daily Senate office responsibilities. The interactive exhibit highlights some of the key roles in the Washington, D.C. office and the home state office, including the jobs of scheduler, chief of staff, legislative assistant, and press secretary."
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
+    url: ""
   - title: "Office House: Professor Mary Sheldon Barnes"
     role: Curator
     location: Sophia Smith Archives, Smith College
     date: "2016"
     context: "Physical exhibit on the Mary Sheldon Barnes Papers from Smith College, regarding Professor Barnes’s tenure at Stanford University"
+    url: ""
     page-tag: publichumanities
   - title: "The 1937 Project for the Preservation and Dissemination of Useful Information"
     role: Collaborator
@@ -339,6 +354,7 @@ exhibitions:
     date: "2016"
     context: "Developed two exhibitions in collaboration with the Swift River Valley Historical Society regarding the history of the Quabbin Reservoir for a Mellon-funded initiative"
     page-tag: publichumanities
+    url: ""
   - title: "A River Runs Through Us: Life Along the Mill River"
     role: Co-Curator
     location: University of Massachusetts Amherst
@@ -346,13 +362,14 @@ exhibitions:
     date: "2015"
     context: "Draft script for a six-panel wayside exhibit panel in Florence, Massachusetts discussing the history of the Mill River. "
     page-tag: publichumanities
+    url: ""
 
 ########### Membership and Service ###########
 service:
   - title: "Programming and Scholarship Committee Member, ACH 2019"
     institution: "Association for Computers and the Humanities"
     year: "2018–19"
-    page-tag: digital
+    page-tag-tech: digital
   - title: "Board Member"
     institution: "Somerset Cultural Council"
     year: "2016-2018"
@@ -362,13 +379,13 @@ membership:
   - title: Member
     institution: "Museum Computer Network"
     year: "2019-Present"
-    page-tag: digital
+    page-tag-tech: digital
     page-tag: publichumanities
   - title: Member
     institution: "Association for Computers and the Humanities"
     year: "2018-Present"
   - title: Member
-    page-tag: digital
+    page-tag-tech: digital
     institution: "Fembot Collective"
     year: "2017-Present"
   - title: Member

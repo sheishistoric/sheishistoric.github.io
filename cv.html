@@ -31,7 +31,7 @@ title: CV
 
 <!-- 1: Profile -->
 <div class="clear">
-<h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Hi, I'm Emily Esten</h2>
+<h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a>About Me</h2>
     <div class="column-last column-bottom clear">
         <p>{{ site.data.cv2.profile }}</p>
     </div>
@@ -183,8 +183,13 @@ title: CV
         <div class="one-fourth column-bottom clear subcat"></div>
     {% endif %}
         <div class="three-fourths column-last column-bottom clear">
-            <a href="{{ title.url }}"><b>{{ title.title }}</b></a> • <a id="showProject{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>{{ title.role }}. {{ title.date }}.</small>
-            <div class="context" id="project{{ forloop.index }}"><p>{{ title.context }}</p></div>
+          {% if title.url !="" %}
+              <a href="{{ title.url }}" target="_blank"><b>&ldquo;{{ title.title }}&rdquo;</b><br/></a> • <a id="showProject{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>{{ title.role }}. {{ title.date }}.</small>
+              <div class="context" id="project{{ forloop.index }}"><p>{{ title.context }}</p></div>
+          {% else %}
+              <b>&ldquo;{{ title.title }}&rdquo;</b><br/> • <a id="showProject{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>{{ title.role }}. {{ title.date }}.</small>
+              <div class="context" id="project{{ forloop.index }}"><p>{{ title.context }}</p></div>
+          {% endif %}
         </div>
 {% endfor %}
 
