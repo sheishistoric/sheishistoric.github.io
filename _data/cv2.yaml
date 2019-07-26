@@ -84,7 +84,7 @@ employment-publichumanities:
   - title: Digital Humanities Fellow
     company: Edward M. Kennedy Institute for the United States Senate
     date: "2018"
-    context: "As the Digital Humanities Fellow at the Edward M. Kennedy Institute for the United States Senate, I consider how technology could amplify narratives about the Kennedy family, the Senator’s work in the Senate, and current issues in the US government. In addition to planning out future experiences in VR, AR, and digital exhibit content, I develped two iPad applications and one digital projection & web display regarding the 2018 U.S. Senate elections."
+    context: "As the Digital Humanities Fellow at the Edward M. Kennedy Institute for the United States Senate, I consider how technology could amplify narratives about the Kennedy family, the Senator’s work in the Senate, and current issues in the US government. In addition to planning out future experiences in VR, AR, and digital exhibit content, I develped two iPad applications and one digital projection/web display regarding the 2018 U.S. Senate elections."
     page-tag: publichumanities
     page-tag-tech: digital
   - title: Smithsonian Center for Learning and Digital Access
@@ -168,6 +168,14 @@ conference-talks:
     url: ""
 
 conference-other:
+  - title: "#SH1: Feminist Digital Humanities Paper Session"
+    institution: Association for Computers and the Humanities
+    location: Pittsburgh, Pennsylvania
+    date: July 2019
+    type: Paper Session (Chair)
+    event: "ACH 2019"
+    page-tag-tech: digital
+    url: ""
   - title: "Museum of Forbidden Technologies"
     institution: Association for Computers and the Humanities
     location: Pittsburgh, Pennsylvania
@@ -270,7 +278,7 @@ awards:
     secondary: "For attendance at the NEMA 2016 conference"
   - title: HASTAC Scholars Fellow
     date: "2016-2018"
-    secondary: ""
+    secondary: "The HASTAC Scholars program is a collective of graduate and undergraduate students who are engaged with innovative projects and research at the intersection of digital media & learning, 21st century education, the digital humanities, and technology in the arts, humanities and sciences."
 
 ########### Digital ###########
 projects:
@@ -401,5 +409,7 @@ skills:
     things: "HTML, CSS, Jekyll + Liquid templating (reading), Python (reading), Swift (reading)"
   - title: "Social Media"
     things: Twitter, Facebook, Instagram, Tumblr, HootSuite, TweetDeck
+  - title: "Jack of All Trades"
+    things: "Tableau Public, Garageband, iMovie, Audacity, Photoshop, Illustrator, WordPress, Drupal, Wikia"
 
 ---
