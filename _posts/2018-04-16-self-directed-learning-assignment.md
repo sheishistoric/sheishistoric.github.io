@@ -9,7 +9,7 @@ permalink: /graduate/digital-media-and-virtual-performance/self-directed-learnin
 timeline_notification:
   - "1523918011"
   - "1523918011"
-categories:
+tags:
   - Digital Media and Virtual Performance
 ---
 I&#8217;m not a very fidgety person, except for with my hands. I wear rings on my fingers so that I always have something to play with, I&#8217;ll often wrap hair elastics around my wrist for a quick play toy in class, and I mindlessly take apart paper clips in order to meld them into new shapes. Something about the stimulation for spinning and fidgeting around fingers keeps me focused on other things, though I&#8217;ve never really thought about what I&#8217;m doing or how my body does it.

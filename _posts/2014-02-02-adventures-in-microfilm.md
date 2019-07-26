@@ -15,9 +15,8 @@ tumblr_sheishistoric_permalink:
 original_post_id:
   - "6784"
   - "6784"
-categories:
-  - Highlights
 tags:
+  - Highlights
   - history 298
   - interlibrary loan
   - microfilm

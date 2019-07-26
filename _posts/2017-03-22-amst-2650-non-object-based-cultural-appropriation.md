@@ -9,7 +9,7 @@ permalink: /graduate/amst-2650-non-object-based-cultural-appropriation/
 publicize_twitter_user:
   - sheishistoric
   - sheishistoric
-categories:
+tags:
   - AMST 2650
   - Graduate
 ---

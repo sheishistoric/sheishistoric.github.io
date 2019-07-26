@@ -9,7 +9,7 @@ permalink: /graduate/readings-from-fall-17-semester/
 publicize_twitter_user:
   - sheishistoric
   - sheishistoric
-categories:
+tags:
   - Graduate
 ---
 More for me than for you: some favorite readings this semester across the three classes I took. Links when possible.

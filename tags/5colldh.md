@@ -1,5 +1,7 @@
 ---
+exclude: true
 layout: taglist
-tagname: "5colldh"
-title: "5colldh"
+title: "Tagged: 5colldh"
+tag: 5colldh
+robots: noindex
 ---

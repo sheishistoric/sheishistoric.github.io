@@ -17,7 +17,6 @@ original_post_id:
   - "6787"
 categories:
   - Highlights
-tags:
   - history 298
   - ma history
   - new bedford ma
@@ -68,7 +67,7 @@ _For to snatch from the vile the vicious and the brothel every single sailor man
 
 _How well their work was finished we want the world to know_
 
-_For the Sailor’s Church our fathers builded has lived through gale, flood, and fire since one hundred years ago._ 
+_For the Sailor’s Church our fathers builded has lived through gale, flood, and fire since one hundred years ago._
 
 _The builders of this Seamen’s Bethel have long since gone to their eternal rest_
 
@@ -110,7 +109,7 @@ _The choir provides fine music while the spiritually hungry at their Father’s 
 
 _They then go out and tell others who are happy to know_
 
-_Of a little Church Around the Corner where they may worship as they did one hundred years ago._ 
+_Of a little Church Around the Corner where they may worship as they did one hundred years ago._
 
 _And during the year of nineteen and twenty-nine_
 
@@ -172,7 +171,7 @@ _Shifting like the weather vane, but it’s always the same just as it was one h
 
 _The aged barks of faithfully revolving on your lofty spine_
 
-_Reflects the fancies of your worthy sires_ 
+_Reflects the fancies of your worthy sires_
 
 _Our father modeled that ship this sailors’ church to adorn_
 
@@ -198,11 +197,11 @@ _If they have no cenotaph to mark their final resting place_
 
 _Let’s enshrine them in our hearts there we’ll find an open space_
 
-_Then that tablet you may carry with you every single place you go._ 
+_Then that tablet you may carry with you every single place you go._
 
-_That’s the way the cenotaphs to the sacred memory our_ 
+_That’s the way the cenotaphs to the sacred memory our_
 
-_New Bedford seamen started just one hundred years ago._ 
+_New Bedford seamen started just one hundred years ago._
 
 _&#8211; Rev. Mr. Thurber_
 

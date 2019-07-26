@@ -6,7 +6,7 @@ author: admin
 layout: post
 guid: http://emilyesten.com/?p=9670
 permalink: /graduate/amst-2650-sustainability-resilience-futurists/
-categories:
+tags:
   - AMST 2650
   - Graduate
 ---

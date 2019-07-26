@@ -10,12 +10,12 @@ publicize_twitter_user:
   - sheishistoric
   - sheishistoric
 image: /wp-content/uploads/2017/10/unnamed-2.jpg
-categories:
+tags:
   - DC Practicum 2017
   - Graduate
   - Highlights
 ---
-To finish off my summer practicum, I had to put together a presentation of five things I learned. As I was doing this, I realized that the most important things I learned were the things that I already knew. And more importantly, I realized that **I am a public human.** 
+To finish off my summer practicum, I had to put together a presentation of five things I learned. As I was doing this, I realized that the most important things I learned were the things that I already knew. And more importantly, I realized that **I am a public human.**
 
 Let me back up: Grad school is hard. By the end of last semester, I looked at my summer practicum in DC as a way to escape my life and responsibilities back in Providence. Literally – I submitted my final assignment on a Thursday night, and I was on the plane to DC the next morning.
 

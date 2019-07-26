@@ -22,7 +22,7 @@ tags:
   - fairhaven
   - fairhaven ma
   - hell-hound rogers
-  - henry hutleston rogers
+  - henry huttleston rogers
   - hist 164
   - ma history
   - research paper
@@ -32,7 +32,7 @@ My course is coming to a close! The final assignment is to write a research pape
 
 I really want to share my paper with all of you, but I am actually in the process of turning this into a book! However, I do have some of the online sources that I used for my paper and that can inform those of you who are interested. 
 
-<img class="inline_external_image constrained_image enlarged" height="49" src="https://i1.wp.com/millicentlibrary.org/wp-content/uploads/2013/12/lib-sno.gif?resize=44%2C49" width="44" data-recalc-dims="1" /> 
+<img class="inline_external_image constrained_image enlarged" height="49" src="https://i1.wp.com/millicentlibrary.org/wp-content/uploads/2013/12/lib-sno.gif?resize=44%2C49" width="44" data-recalc-dims="1" />
 
 <!-- more -->
 

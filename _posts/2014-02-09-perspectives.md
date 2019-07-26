@@ -15,9 +15,8 @@ tumblr_sheishistoric_id:
 original_post_id:
   - "6736"
   - "6736"
-categories:
-  - Highlights
 tags:
+  - Highlights
   - history
   - history 298
   - jewish history

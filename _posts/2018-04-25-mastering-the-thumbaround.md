@@ -9,7 +9,7 @@ permalink: /graduate/mastering-the-thumbaround/
 timeline_notification:
   - "1524667689"
   - "1524667689"
-categories:
+tags:
   - Digital Media and Virtual Performance
   - Graduate
 ---

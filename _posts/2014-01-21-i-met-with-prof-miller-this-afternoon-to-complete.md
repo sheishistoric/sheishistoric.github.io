@@ -14,9 +14,8 @@ tumblr_sheishistoric_id:
 original_post_id:
   - "6893"
   - "6893"
-categories:
-  - Highlights
 tags:
-  - history 298
+  - Highlights
+  - History 298
 ---
 I met with Prof. Miller this afternoon to complete the paperwork necessary to file for an internship with Career Services, so I will be handing that in today! More to follow&hellip;

@@ -6,7 +6,7 @@ author: admin
 layout: post
 guid: http://emilyesten.com/?p=9660
 permalink: /graduate/digital-storytelling-its-britney-bitch-commentary-on-distortion-in-spearss-use-of-social-media/
-categories:
+tags:
   - Digital Storytelling
   - Graduate
 tags:

@@ -12,7 +12,7 @@ timeline_notification:
 publicize_twitter_user:
   - sheishistoric
   - sheishistoric
-categories:
+tags:
   - Digital Media and Virtual Performance
   - Graduate
 ---

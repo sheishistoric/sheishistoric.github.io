@@ -9,7 +9,7 @@ permalink: /graduate/amst-2650-memorial-mania-on-college-campuses/
 publicize_twitter_user:
   - sheishistoric
   - sheishistoric
-categories:
+tags:
   - AMST 2650
   - Graduate
 ---

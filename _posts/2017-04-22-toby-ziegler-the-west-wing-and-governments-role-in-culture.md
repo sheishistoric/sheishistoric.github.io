@@ -9,7 +9,7 @@ permalink: /graduate/toby-ziegler-the-west-wing-and-governments-role-in-culture/
 publicize_twitter_user:
   - sheishistoric
   - sheishistoric
-categories:
+tags:
   - AMST 2650
   - Graduate
 ---

@@ -9,7 +9,7 @@ permalink: /graduate/critical-annotation-of-boellstorff/
 timeline_notification:
   - "1517874056"
   - "1517874056"
-categories:
+tags:
   - Digital Media and Virtual Performance
   - Graduate
 ---

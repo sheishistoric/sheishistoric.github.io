@@ -6,7 +6,7 @@ author: admin
 layout: post
 guid: http://emilyesten.com/?p=9689
 permalink: /graduate/amst-2650-making-museums-public-vs-making-museum-publics/
-categories:
+tags:
   - AMST 2650
   - Graduate
 ---

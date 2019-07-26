@@ -9,7 +9,7 @@ permalink: /graduate/dc-practicum-2017/visiting-the-hirshhorn/
 publicize_twitter_user:
   - sheishistoric
   - sheishistoric
-categories:
+tags:
   - DC Practicum 2017
 ---
 I finally made it to the Hirshhorn after many, many visits to DC. Unfortunately, I was a bit too late to visit Yayoi Kusama&#8217;s &#8220;Infinity Mirrors&#8221;.  However, I did get to check out the rest of the Masterworks collection. I was particularly captivated by this piece:
@@ -19,14 +19,14 @@ I finally made it to the Hirshhorn after many, many visits to DC. Unfortunately,
 
 > **Reynier Leyva Novo**  
 > Cuban, b. Havana, 1983.
-> 
+>
 > **The Weight of History**  
 > **5 Nights**
-> 
+>
 > Ink
-> 
+>
 > Joseph H. Hirshhorn Purchase Fund, 2016 (16.12)
-> 
+>
 > In his series &#8220;The Weight of History,&#8221; Reyneir Leyva Novo employs iNk, a software developed to compute the weight, volume, and area of the ink used in printed documents. 5 Nights applies the iNk software to five revolutionary texts that constituted the basis of totalitarian regimes in the twentieth century.
 
 It&#8217;s a stark image, for one. The piece is in this transition space between two galleries – there&#8217;s not much else in the room. And from a distance, it doesn&#8217;t seem like much. To be honest, if I&#8217;d hadn&#8217;t turned my head the right way, I would&#8217;ve completely missed the piece altogether.  

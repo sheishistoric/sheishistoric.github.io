@@ -10,7 +10,7 @@ publicize_twitter_user:
   - sheishistoric
   - sheishistoric
 image: /wp-content/uploads/2017/11/screen_shot_2017-10-26_at_9-56-24_pm.png
-categories:
+tags:
   - Graduate
   - HASTAC
 ---
@@ -23,7 +23,7 @@ From <a href="https://www.hastac.org/opportunities/twitter-chat-public-humanitie
 >     </div>
 >   </div>
 > </div>
-> 
+>
 > <div class="field field--name-body field--type-text-with-summary field--label-hidden">
 >   <div class="field__items">
 >     <div class="field__item even">

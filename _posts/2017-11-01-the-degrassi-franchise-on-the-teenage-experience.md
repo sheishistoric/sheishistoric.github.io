@@ -10,7 +10,7 @@ publicize_twitter_user:
   - sheishistoric
   - sheishistoric
 image: /wp-content/uploads/2017/11/degrassijh_9554.jpg
-categories:
+tags:
   - Highlights
 ---
 __

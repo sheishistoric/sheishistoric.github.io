@@ -9,7 +9,7 @@ permalink: /highlights/three-little-words-2017/
 publicize_twitter_user:
   - sheishistoric
   - sheishistoric
-categories:
+tags:
   - Highlights
 ---
 Taking an idea from Heather VanMouwerik at [GradHacker](https://www.insidehighered.com/blogs/gradhacker/making-positive-changes-new-year) (who, in turn, took the idea from [Chris Brogan](http://chrisbrogan.com/3-words-2016/)), I’m replacing a New Year’s Resolutions with three little words for 2017. As Brogan describes:

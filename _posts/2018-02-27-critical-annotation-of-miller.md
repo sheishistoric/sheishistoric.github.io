@@ -9,7 +9,7 @@ permalink: /graduate/critical-annotation-of-miller/
 timeline_notification:
   - "1519692621"
   - "1519692621"
-categories:
+tags:
   - Digital Media and Virtual Performance
   - Graduate
 ---

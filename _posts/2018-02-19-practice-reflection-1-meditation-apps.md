@@ -9,7 +9,7 @@ permalink: /graduate/practice-reflection-1-meditation-apps/
 timeline_notification:
   - "1519073016"
   - "1519073016"
-categories:
+tags:
   - Digital Media and Virtual Performance
   - Graduate
 ---
@@ -19,7 +19,7 @@ As someone who fell out of meditative practice, the idea of jumping back into it
 
 The Headspace experience structures your participation, slowly incorporating the practice into your day into a &#8220;journey&#8221; before you can unlock the app&#8217;s library. It sends notifications throughout the day, inserting itself into my life in unintended ways. We often think of the physical intruding on our virtual experiences – lag in _Second Life_, prior knowledge of individual people characters in _EverQuest_ – but here the boundary works differently. I am being reminded of my relationship with the virtual in my physical existence, Headspace commanding me to be calm or relax or to mindful _now._ _ _
 
-<img class="  wp-image-10056 aligncenter" src="https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/screen-shot-2018-02-19-at-3-45-09-pm.png?resize=504%2C157" alt="Screen Shot 2018-02-19 at 3.45.09 PM" width="504" height="157" srcset="https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/screen-shot-2018-02-19-at-3-45-09-pm.png?w=1422&ssl=1 1422w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/screen-shot-2018-02-19-at-3-45-09-pm.png?resize=300%2C94&ssl=1 300w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/screen-shot-2018-02-19-at-3-45-09-pm.png?resize=768%2C240&ssl=1 768w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/screen-shot-2018-02-19-at-3-45-09-pm.png?resize=1024%2C320&ssl=1 1024w" sizes="(max-width: 504px) 100vw, 504px" data-recalc-dims="1" /> 
+<img class="  wp-image-10056 aligncenter" src="https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/screen-shot-2018-02-19-at-3-45-09-pm.png?resize=504%2C157" alt="Screen Shot 2018-02-19 at 3.45.09 PM" width="504" height="157" srcset="https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/screen-shot-2018-02-19-at-3-45-09-pm.png?w=1422&ssl=1 1422w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/screen-shot-2018-02-19-at-3-45-09-pm.png?resize=300%2C94&ssl=1 300w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/screen-shot-2018-02-19-at-3-45-09-pm.png?resize=768%2C240&ssl=1 768w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/screen-shot-2018-02-19-at-3-45-09-pm.png?resize=1024%2C320&ssl=1 1024w" sizes="(max-width: 504px) 100vw, 504px" data-recalc-dims="1" />
 
 The whole meditative experience starts to feel transactional by day 10, these notifications included, and so I start to think more broadly about where our interfaces fail to meet. Is it the auditory interaction with Andy that&#8217;s not working for me? Is it the direction of his script, its consistency? Is it these notifications, feeling uncomfortable about my investment in Headspace as one that seeks to explore the interfaces of mind and body?
 

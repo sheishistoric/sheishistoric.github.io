@@ -1,5 +1,7 @@
 ---
+exclude: true
 layout: taglist
-tagname: "twitter"
-title: "twitter"
+title: "Tagged: twitter"
+tag: twitter
+robots: noindex
 ---

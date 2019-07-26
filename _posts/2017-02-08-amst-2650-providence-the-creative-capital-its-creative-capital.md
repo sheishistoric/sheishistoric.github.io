@@ -6,7 +6,7 @@ author: admin
 layout: post
 guid: http://emilyesten.com/?p=9692
 permalink: /graduate/amst-2650-providence-the-creative-capital-its-creative-capital/
-categories:
+tags:
   - AMST 2650
   - Graduate
 ---
