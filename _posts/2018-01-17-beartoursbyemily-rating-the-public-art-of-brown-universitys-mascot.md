@@ -11,6 +11,7 @@ timeline_notification:
   - "1516206573"
 tags:
   - Highlights
+period: graduate
 ---
 On [Medium](https://medium.com/@sheishistoric/beartoursbyemily-rating-the-public-art-of-brown-universitys-mascot-f4fa7ecdbce2):
 

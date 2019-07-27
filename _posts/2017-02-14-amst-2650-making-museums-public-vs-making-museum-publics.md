@@ -9,6 +9,7 @@ permalink: /graduate/amst-2650-making-museums-public-vs-making-museum-publics/
 tags:
   - AMST 2650
   - Graduate
+period: graduate
 ---
 From [AMST 2650](http://blogs.brown.edu/amst-2650-s01-spring-2017/):
 

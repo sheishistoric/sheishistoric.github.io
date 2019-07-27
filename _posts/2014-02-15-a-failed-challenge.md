@@ -24,6 +24,7 @@ tags:
   - ma history
   - new bedford ma
   - queen liliuokalani
+period: undergraduate
 ---
 This week, I was met with a challenge I could not meet. As my final microfilm assignment (for the time being), I was asked to look into the invitation of ex-queen Liliuokalani to New Bedford’s semi-centennial. According to a scrapbook my supervisor found at the New Bedford Whaling Museum, the ex-queen was invited to the celebration and to the surprise of everyone, she accepted. As written in the file, “the celebration committee was quite disturbed just what to do with an ex-queen and her attendants, but later the Queen recalled her acceptance.” My job was to look into any articles referring to her potential visit and her backing out. Our theory was that the committee wasn’t expecting her to accept, and panicked!
 
@@ -40,16 +41,16 @@ As for the semi-centennial, it certainly looked like an event to remember.  Dis
 I still don’t know the reason why Liliuokalani rescinded the offer, so the journey continues into next week. I’ll especially take a closer look into the last few weeks of the reel, around the time of the San Francisco Call article. But this week reminded me of the struggle that comes with research. The answers aren’t always there – and when they are, it takes a lot more effort than just a few hours reading through a week of newspapers. I love a challenge – and it certainly makes this story more interesting as I read more and more about the situation. Stay tuned!
 
 <div>
-  </p> 
-  
+  </p>
+
   <hr size="1" />
-  
+
   <div id="ftn1">
     <p>
       <a href="#_ftnref1" name="_ftn1" title="" target="_blank">[1]</a> Kim, Alice. &ldquo;Liliuokalani Preventing U.S. Annexation &#8211; Hawai&#8217;i Digital Newspaper Project.&rdquo; Liliuokalani Preventing U.S. Annexation &#8211; Hawai&#8217;i Digital Newspaper Project. <a href="https://sites.google.com/a/hawaii.edu/ndnp-hawaii/Home/historical-feature-articles/liliuokalani-preventing-us-annexation" target="_blank">https://sites.google.com/a/hawaii.edu/ndnp-hawaii/Home/historical-feature-articles/liliuokalani-preventing-us-annexation</a> (accessed February 14, 2014).
     </p>
   </div>
-  
+
   <div id="ftn2">
     <p>
       <a href="#_ftnref2" name="_ftn2" title="" target="_blank">[2]</a> <em>San Francisco Call, </em>“Going to New Bedford,” September 15, 1897. <a href="http://cdnc.ucr.edu/cgi-bin/cdnc?a=d&d=SFC18970925.2.148" target="_blank">http://cdnc.ucr.edu/cgi-bin/cdnc?a=d&d=SFC18970925.2.148</a> (accessed February 14, 2014

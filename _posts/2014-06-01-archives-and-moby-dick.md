@@ -27,6 +27,7 @@ tags:
   - new bedford whaling museum
   - summer 2014
   - walter teller
+period: undergraduate
 ---
 Since entering my hiatus from weekly blog posts, I’ve returned home for the summer to enjoy the weather, catch up on reading, and relax. Well, not so much relax &#8211; that lasted about a week before I needed to get back to work.
 

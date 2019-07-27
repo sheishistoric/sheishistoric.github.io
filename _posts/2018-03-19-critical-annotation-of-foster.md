@@ -15,6 +15,7 @@ publicize_twitter_user:
 tags:
   - Digital Media and Virtual Performance
   - Graduate
+period: graduate
 ---
 <figure id="attachment_10067" aria-describedby="caption-attachment-10067" style="width: 2448px" class="wp-caption alignnone"><img class="alignnone size-full wp-image-10067" src="https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?resize=700%2C933" alt="IMG_0853" width="700" height="933" srcset="https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?w=2448&ssl=1 2448w, https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?resize=225%2C300&ssl=1 225w, https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?resize=768%2C1024&ssl=1 768w, https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?w=1400&ssl=1 1400w, https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?w=2100&ssl=1 2100w" sizes="(max-width: 700px) 100vw, 700px" data-recalc-dims="1" /><figcaption id="caption-attachment-10067" class="wp-caption-text">Susan Leigh Foster, _Choreographing Empathy: Kinesthesia in Performance_ (London: Routledge, 2011), 2._ _</figcaption></figure>
 

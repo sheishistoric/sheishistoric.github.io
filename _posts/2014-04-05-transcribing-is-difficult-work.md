@@ -22,6 +22,7 @@ tags:
   - oral history
   - public history
   - scribe
+period: undergraduate
 ---
 My supervisor sent me the task late last week: transcribing an oral history interview with volunteers of the National Park Service in New Bedford. It didn’t sound particularly difficult – while I’d never actually tried to transcribe a recording before, I considered myself a quick typist and had often had to transcribe my grandfather’s stories into concise Word documents. So, I figured it couldn’t be too difficult of a job.
 

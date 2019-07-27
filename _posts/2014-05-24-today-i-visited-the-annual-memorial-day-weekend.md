@@ -22,5 +22,6 @@ tags:
   - fort phoenix
   - revolutionary war
 format: gallery
+period: undergraduate
 ---
 Today, I visited the annual Memorial Day weekend Revolutionary War Encampment at Fort Phoenix, hosted by the Fairhaven Village Militia. 

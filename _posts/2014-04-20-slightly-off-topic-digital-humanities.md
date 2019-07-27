@@ -26,6 +26,7 @@ tags:
   - hons391a
   - new bedford ma
   - umass amherst
+period: undergraduate
 ---
 Since it is so close to the end of the semester, I’m not receiving tasks anymore. But before I get to my final blog post, I wanted to write about something I’m doing in another course: Honors 391A.
 

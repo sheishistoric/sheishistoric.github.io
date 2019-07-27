@@ -15,6 +15,7 @@ publicize_twitter_user:
 tags:
   - Digital Media and Virtual Performance
   - Graduate
+period: graduate
 ---
 I danced in show choir for three years in high school, though I really saw it as an opportunity to sing more than to move. I would come home from dance retreat weekends extremely sore, thinking about moving my body in new ways.
 

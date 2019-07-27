@@ -26,6 +26,7 @@ tags:
   - pioneer valley
   - smith college
   - umass amherst
+period: undergraduate
 ---
 In my studies, I find it extremely  
 important for my understanding of a particular topic to be able to connect with  
@@ -50,7 +51,7 @@ already tackled the racial diversity and abolitionist efforts I hoped to
 investigate in the panel; **<a href="http://www.smith.edu/hsc/silk/" target="_blank">Smith College</a>** addressed  
 sericulture and the silk manufacturing business. My partner and I reviewed  
 these established projects – both for their information and structure – in  
-order to understand the topics addressed and the language used for an exhibit. 
+order to understand the topics addressed and the language used for an exhibit.
 
 For the civil engineering panel, my  
 partner and I looked into the historic Mill River flood of 1874, the hurricane  
@@ -85,7 +86,7 @@ my class had to present our proposal at a public forum. I found this
 opportunity to be a great opportunity, and I appreciated the feedback from  
 members of the community. Their comments and critiques helped my classmates and  
 me frame our work and gave us valuable insights into the needs of the  
-community. 
+community.
 
 I enjoyed working with John and  
 Gaby of MRGI. They have lots of ideas for the future of the Initiative and  
@@ -93,7 +94,7 @@ while they have loads of work moving forward, I hope to see the organization
 succeed in bringing people back to the river and establishing the greenway. I  
 hope that our class’s collaboration with the MRGI has been as valuable for them  
 as it has been for me, and I can’t wait to see what’s in store for the  
-semester’s worth of hard work. 
+semester’s worth of hard work.
 
 Overall, this class served two  
 purposes. In the first half of the semester, we received a crash course in the  

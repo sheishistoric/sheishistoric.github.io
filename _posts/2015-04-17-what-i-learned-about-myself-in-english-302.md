@@ -11,6 +11,7 @@ original_post_id:
   - "9266"
 categories:
   - English 302
+period: undergraduate
 ---
 [<img class=" size-medium wp-image-3929 aligncenter" src="https://i2.wp.com/blogs.umass.edu/english302-russworm/files/2015/04/modern_communication_technology_flat_illustration_by_cursorch-d72tm9f-253x300.jpg?resize=253%2C300" alt="modern_communication_technology_flat_illustration_by_cursorch-d72tm9f" width="253" height="300" data-recalc-dims="1" />](https://i0.wp.com/blogs.umass.edu/english302-russworm/files/2015/04/modern_communication_technology_flat_illustration_by_cursorch-d72tm9f.jpg)
 

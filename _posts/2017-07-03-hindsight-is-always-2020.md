@@ -18,6 +18,7 @@ tags:
   - distant reading
   - national portrait gallery
   - presidents
+period: graduate
 ---
 I&#8217;ve visited this installation twice now, and I&#8217;m fascinated by its data-as-art example. (Is this a common trend in art that I just haven&#8217;t gotten around to yet?) It&#8217;s in the newly renovated _American Presidents_ wing at the National Portrait Gallery, which is a treat in itself to visit.
 

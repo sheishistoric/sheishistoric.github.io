@@ -12,6 +12,7 @@ publicize_twitter_user:
 tags:
   - 'Conferences &amp; Lectures'
   - Graduate
+period: graduate
 ---
 From [the way of improvement leads home](https://thewayofimprovement.com):
 

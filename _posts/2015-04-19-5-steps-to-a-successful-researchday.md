@@ -21,6 +21,7 @@ tags:
   - history major problems
   - research day
   - researchday
+period: undergraduate
 ---
 One of the perks of being a humanities major is the NO FINAL EXAM notice I see on every syllabus. However, that perk comes at a price &#8211; the independent research project, of which I currently have three to finish. 
 

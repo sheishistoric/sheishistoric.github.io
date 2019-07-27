@@ -24,6 +24,7 @@ tags:
   - summer 2014
   - whaling museum
 format: link
+period: undergraduate
 ---
 [Matthew and Rachel Howland](http://whalingmuseumblog.org/2014/07/21/matthew-and-rachel-howland/)
 

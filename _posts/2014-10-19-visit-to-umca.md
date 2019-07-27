@@ -25,6 +25,7 @@ tags:
   - contemporary art
   - umass amherst
   - university museum of contemporary art
+period: undergraduate
 ---
 So on Friday afternoon, my friend and I made our way over to the University Museum of Contemporary Art (UMCA) here at UMass. It’s been on our to-do lists for awhile, and so when the opportunity arose after lunch, we made our way over to the Fine Arts Center (FAC) to stop in.
 

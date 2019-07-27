@@ -11,6 +11,7 @@ original_post_id:
   - "1942"
 categories:
   - Thesis
+period: undergraduate
 ---
 I am by no means an authority on the subject of an undergrad thesis. That’s exactly why I’m starting this next series of posts. I’m documenting this project as a reverse guide to myself &#8211; for when I try to do this again for my MA.
 

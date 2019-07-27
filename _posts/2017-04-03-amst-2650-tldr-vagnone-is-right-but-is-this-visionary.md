@@ -12,6 +12,7 @@ publicize_twitter_user:
 tags:
   - AMST 2650
   - Graduate
+period: graduate
 ---
 From [AMST 2650](http://blogs.brown.edu/amst-2650-s01-spring-2017/):
 

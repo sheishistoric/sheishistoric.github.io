@@ -24,6 +24,7 @@ tags:
   - new bedford ma
   - new bedford whaling
   - the whaleman
+period: undergraduate
 ---
 Because I’m still focusing on my microfilm projects, I haven’t had much of an opportunity to explore a new database – not that I mind, of course. This week, my assignments were researching the placement of the plaque outside the Seamen’s Bethel, and the construction of the original Tiferes (now Tifereth) Synagogue. Growing up in such a historic area, monuments or buildings such as these often go by the wayside. But when I took the time to research them, my perspective of New Bedford and its people changed greatly.  
 

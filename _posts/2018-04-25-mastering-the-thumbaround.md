@@ -12,6 +12,7 @@ timeline_notification:
 tags:
   - Digital Media and Virtual Performance
   - Graduate
+period: graduate
 ---
 Pen spinning is about as hard as you think it is, which is to say it is difficult. For my presentation, I am trying to master the _thumbaround_, which is the cool pen-twirling move where the pen swings around your thumb and you catch it with index finger. It&#8217;s supposedly one of the easier moves to do, and it looks impressive when the pen isn&#8217;t flying across the room.
 

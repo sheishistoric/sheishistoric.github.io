@@ -23,6 +23,7 @@ tags:
   - ncph
   - ncph2017
   - public history
+period: graduate
 ---
 From HASTAC:
 

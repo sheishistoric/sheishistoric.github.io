@@ -12,6 +12,7 @@ publicize_twitter_user:
 tags:
   - Graduate
   - HASTAC
+period: graduate
 ---
 From <a href="https://www.hastac.org/blogs/sheishistoric/2017/05/08/chapter-3-atlanta-compromise-reacting-past" target="_blank" rel="noopener noreferrer">HASTAC</a>, as part of a collaborative review of _Structuring Equality_:
 

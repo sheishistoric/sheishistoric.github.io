@@ -13,6 +13,7 @@ image: /wp-content/uploads/2017/06/img_6811.jpg
 tags:
   - DC Practicum 2017
   - Graduate
+period: graduate
 ---
 &nbsp;
 

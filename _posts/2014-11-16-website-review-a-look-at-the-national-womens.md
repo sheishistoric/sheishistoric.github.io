@@ -24,6 +24,7 @@ tags:
   - "national women's history museum"
   - nwhm
   - "women's history"
+period: undergraduate
 ---
 I’ve been looking into a lot of digital history exhibits – for business and pleasure – but along the way, I took a look at the National Women’s History Museum (NWMH).  Check it out at <a href="http://www.nwhm.org" target="_blank">www.nwhm.org</a>.
 

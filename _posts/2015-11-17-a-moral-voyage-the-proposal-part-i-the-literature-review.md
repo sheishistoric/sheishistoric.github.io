@@ -16,13 +16,14 @@ tags:
   - a moral voyage
   - commonwealth honors college
 format: link
+period: undergraduate
 ---
 From Honors Student Blog:
 
 > 20 trips to the library, 14 books, 6 articles, 5 (surviving) recyclable bags from the circulation desk, and countless hours later, I can officially say that I have written my spring proposal.
-> 
+>
 > Essentially, to enroll in the spring semester of my honors thesis, I have to fill out a proposal. I did something similar to register for the fall semester, but this proposal is a much more involved and in-depth process. The proposal serves two purposes:
-> 
+>
 >   * It’s proof that this first semester of research hasn’t gone to waste – that I know what I’m talking about regarding the topic, that I know why it’s relevant and important to historians, and that I know that this is new and original research.
 >   * It’s a syllabus – it gives a general overview of the thesis, what it will accomplish, and the dates and deadlines for a first draft and subsequent drafts.
 

@@ -8,6 +8,7 @@ guid: http://emilyesten.com/?p=9781
 permalink: /graduate/a-day-of-public-humanizing/
 tags:
   - Graduate
+period: graduate
 ---
 From <a href="https://digitalstorytelling.jimmcgrath.us/uncategorized/calling-something-a-dataset-visualizing-the-crystal-palace/#more-140" target="_blank" rel="noopener noreferrer">Day of PH</a>:
 

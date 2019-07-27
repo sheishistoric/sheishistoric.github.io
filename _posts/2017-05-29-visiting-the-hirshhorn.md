@@ -11,6 +11,7 @@ publicize_twitter_user:
   - sheishistoric
 tags:
   - DC Practicum 2017
+period: graduate
 ---
 I finally made it to the Hirshhorn after many, many visits to DC. Unfortunately, I was a bit too late to visit Yayoi Kusama&#8217;s &#8220;Infinity Mirrors&#8221;.  However, I did get to check out the rest of the Masterworks collection. I was particularly captivated by this piece:
 

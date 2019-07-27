@@ -12,6 +12,7 @@ original_post_id:
 categories:
   - Highlights
   - Thesis
+period: undergraduate
 ---
 I wanted to expand on [this blog post](https://www.honors.umass.edu/blog/eesten/moral-voyage-mighty-theme) first, because I didn’t have such a straightforward way of coming up with a topic. I mean, it did sort of start that way, but not quite.
 

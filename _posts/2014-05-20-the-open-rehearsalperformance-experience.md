@@ -26,6 +26,7 @@ tags:
   - risd museum
   - sarah urist green
   - the art assignment
+period: undergraduate
 ---
 I love watching PBS&rsquo;s new web series &ldquo;The Art Assignment&rdquo; – partly due to John and Sarah Green, who are a fantastically creative couple with serious vlogging skills, but also because of the combination of art history and art experience. For those of you who haven&rsquo;t watched I seriously suggest you <a href="http://www.youtube.com/user/theartassignment" target="_blank">check it out</a> &#8211; but the basic premise is that Sarah Urist Green (and sometimes John) travel to meet various artists, talk about types of art, and encourage viewers to try out an assignment for themselves. It gets you thinking about how art is more than our traditional expectations, and how to take those boundaries for your participation in creation.
 

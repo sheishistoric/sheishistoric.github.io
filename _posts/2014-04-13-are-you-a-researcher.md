@@ -22,6 +22,7 @@ tags:
   - pacific islanders
   - research
   - whaling
+period: undergraduate
 ---
 The answer is probably yes. 
 

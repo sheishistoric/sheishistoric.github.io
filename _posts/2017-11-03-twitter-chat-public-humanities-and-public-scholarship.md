@@ -13,6 +13,7 @@ image: /wp-content/uploads/2017/11/screen_shot_2017-10-26_at_9-56-24_pm.png
 tags:
   - Graduate
   - HASTAC
+period: graduate
 ---
 From <a href="https://www.hastac.org/opportunities/twitter-chat-public-humanities-and-public-scholarship" target="_blank" rel="noopener noreferrer">HASTAC</a>:
 

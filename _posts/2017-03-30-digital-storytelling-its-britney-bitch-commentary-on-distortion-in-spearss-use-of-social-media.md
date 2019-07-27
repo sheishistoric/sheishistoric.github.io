@@ -18,6 +18,7 @@ tags:
   - persona
   - social media
   - twitter
+period: graduate
 ---
 For [Digital Storytelling](https://digitalstorytelling.jimmcgrath.us):
 

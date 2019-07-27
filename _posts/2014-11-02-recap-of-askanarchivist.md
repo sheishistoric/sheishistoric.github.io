@@ -23,6 +23,7 @@ tags:
   - archivist
   - askanarchivist
   - twitter
+period: undergraduate
 ---
 Thursday was #AskAnArchivist on Twitter, so I took advantage of the opportunity to get in contact with archivists across the nation.  Here are some of the questions I asked:
 

@@ -17,6 +17,7 @@ tags:
   - new bedford free public library
   - "seamen's bethel"
   - thesis thoughts
+period: undergraduate
 ---
 I&#8217;ve been reading through the diaries of Reverend Moses How, who served as chaplain of the Seamen&#8217;s Bethel from 1844 to 1859.** **Reading How&#8217;s diaries (there are several in the collection) isn&#8217;t as interesting as one may think &#8211; they read straightforward, more like a planner than the source of secrets. How visited jails, Sunday schools, Port Society meetings, and traveled around the south coast of Massachusetts to talk to numerous people.
 

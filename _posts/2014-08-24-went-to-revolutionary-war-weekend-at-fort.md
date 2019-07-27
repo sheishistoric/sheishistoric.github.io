@@ -27,5 +27,6 @@ tags:
   - revolutionary war
   - summer 2014
 format: gallery
+period: undergraduate
 ---
 Went to Revolutionary War Weekend at Fort Taber/Rodman in New Bedford! I loved their battle reenactment &#8211; it was nice that they had a historian explaining the details of the process alongside the presentation.

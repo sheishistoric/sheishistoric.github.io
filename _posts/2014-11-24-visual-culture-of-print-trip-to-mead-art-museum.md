@@ -24,6 +24,7 @@ tags:
   - mead art museum
   - museum life
   - museums
+period: undergraduate
 ---
 This week, my Hampshire College course took a trip to the Mead Art Museum at Amherst College!
 

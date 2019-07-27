@@ -25,6 +25,7 @@ tags:
   - internships
   - productivity
   - smithsonian archives
+period: undergraduate
 ---
 Somehow, I ended up getting ahead on my assignments (and took a break from studying for my HIST397GGH midterm on Thursday) and was able to get a lot of other work done!
 

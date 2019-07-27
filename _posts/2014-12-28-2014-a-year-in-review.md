@@ -22,6 +22,7 @@ tags:
   - historian
   - history
   - public history
+period: undergraduate
 ---
 Seeing as 2014 was a big plot-development year in my life (and this blog’s first full year of activity,) I wanted to spend this last Sunday summarizing exactly what I did this year.<!-- more -->
 

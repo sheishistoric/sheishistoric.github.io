@@ -26,6 +26,7 @@ tags:
   - roger williams park
   - roger williams park museum
 format: gallery
+period: undergraduate
 ---
 While home for <strike>Columbus Day </strike>Weekend<strike>,</strike> I made sure to visit a museum! These photos are from the Roger Williams Park Museum of Natural History. It&rsquo;s been several years since my last visit, and I only vaguely remembered its exhibits &#8211; the planetarium being the most memorable. 
 

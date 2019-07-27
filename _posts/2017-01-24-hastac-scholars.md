@@ -9,6 +9,7 @@ permalink: /graduate/hastac-scholars/
 tags:
   - Graduate
   - HASTAC
+period: graduate
 ---
 From HASTAC:
 

@@ -15,6 +15,7 @@ publicize_twitter_user:
 tags:
   - Digital Media and Virtual Performance
   - Graduate
+period: graduate
 ---
 More for me than for you: some favorite readings this semester from the three classes I took. Links when possible.
 

@@ -27,10 +27,11 @@ tags:
   - new bedford ma
   - research
   - umass amherst
+period: undergraduate
 ---
 13 blog posts, 12 short essays, about 60 hours of experience, and lots of other things that could probably be measured in numbers later, HISTORY 298 is just about over. And it’s certainly been a long, enjoyable ride.
 
-When I started on this project at the beginning of last semester, I wasn’t entirely sure what I was getting into. The email that had been sent out to history majors had required a French-speaking junior or senior – I met neither requirement. But I sent an email anyway, mostly because I was curious – _French-Canadians_ _in New Bedford?_ 
+When I started on this project at the beginning of last semester, I wasn’t entirely sure what I was getting into. The email that had been sent out to history majors had required a French-speaking junior or senior – I met neither requirement. But I sent an email anyway, mostly because I was curious – _French-Canadians_ _in New Bedford?_
 
 A few emails were exchanged, a few questions asked, and BAM! I was working with Laura, a PhD candidate working as the Graduate Research Assistant with Dr. Miller on the project “Ethnohistory of Ethnic Whalemen and their Communities in the New Bedford Area.”
 

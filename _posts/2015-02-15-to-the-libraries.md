@@ -24,6 +24,7 @@ tags:
   - ma history
   - mill river
   - northampton
+period: undergraduate
 ---
 This week, I was back in a library  
 – three of them, in fact! I had almost forgotten how much I love being  
@@ -31,7 +32,7 @@ surrounded by archival materials. I like looking at the stacks and nimbly
 making my way through the folders to find what I’m looking for. There’s something  
 about holding important documents in my arms and the fresh smell of opening an  
 old book that pulls me in. And then, once I’m in, there’s no holding back – I’m  
-absorbed into something and somewhere and I’m absolutely thrilled. 
+absorbed into something and somewhere and I’m absolutely thrilled.
 
 <!-- more -->
 

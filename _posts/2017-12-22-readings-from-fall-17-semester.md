@@ -11,6 +11,7 @@ publicize_twitter_user:
   - sheishistoric
 tags:
   - Graduate
+period: graduate
 ---
 More for me than for you: some favorite readings this semester across the three classes I took. Links when possible.
 

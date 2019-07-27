@@ -27,6 +27,7 @@ tags:
   - ma history
   - research paper
   - standard oil
+period: undergraduate
 ---
 My course is coming to a close! The final assignment is to write a research paper about some aspect of Southeastern New England history &#8211; a person, a place, an event, etc. For my paper, I chose **The Gifts of Henry Huttleston Rogers,** a multimillionaire of Standard Oil who chose to donate several buildings and industries to his hometown of Fairhaven, Massachusetts. 
 

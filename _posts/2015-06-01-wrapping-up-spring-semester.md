@@ -19,6 +19,7 @@ categories:
   - Highlights
 tags:
   - umass amherst
+period: undergraduate
 ---
 So I’ve been home for a few weeks and I haven’t been writing for my blog. But that’s not for lack of information &#8211; it’s just taking me a bit longer to settle down and get my words on screen. 
 

@@ -8,6 +8,7 @@ guid: http://emilyesten.com/?p=10037
 permalink: /graduate/revisualizing-the-crystal-palace-cataloging-history-part-4/
 tags:
   - Graduate
+period: graduate
 ---
 Co-written with Steven Lubar on <a href="https://medium.com/@lubar/revisualizing-the-crystal-palace-d239e50d9e12" target="_blank" rel="noopener noreferrer">Medium</a>:
 

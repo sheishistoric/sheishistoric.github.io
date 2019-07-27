@@ -11,6 +11,7 @@ original_post_id:
   - "9262"
 categories:
   - English 302
+period: undergraduate
 ---
 [<img class="alignnone size-medium wp-image-3779" src="https://i0.wp.com/blogs.umass.edu/english302-russworm/files/2015/04/CBiV4CmWEAAiLln.jpg-large-225x300.jpeg?resize=225%2C300" alt="CBiV4CmWEAAiLln.jpg-large" width="225" height="300" data-recalc-dims="1" />](https://i1.wp.com/blogs.umass.edu/english302-russworm/files/2015/04/CBiV4CmWEAAiLln.jpg-large.jpeg)
 

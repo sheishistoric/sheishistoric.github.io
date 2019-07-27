@@ -11,6 +11,7 @@ original_post_id:
   - "9332"
 categories:
   - Highlights
+period: undergraduate
 ---
 While I&#8217;m playing the waiting game with grad school applications, I&#8217;m extremely excited for everything else going on in Spring 2016. Here&#8217;s what&#8217;s happening:
 

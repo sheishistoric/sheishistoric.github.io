@@ -21,6 +21,7 @@ tags:
   - goals
   - new years
   - resolutions
+period: undergraduate
 ---
 I love the concept of New Years’ resolutions. I like using the beginning of anything – years, semesters, weeks – as a chance to review what I’ve accomplished and what I want going forward. Here’s what I’m hoping to do in 2015:
 

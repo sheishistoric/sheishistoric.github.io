@@ -25,6 +25,7 @@ tags:
   - hons391a
   - photoscan
   - sketchup
+period: undergraduate
 ---
 This week in the Digital Humanities Lab, we were presented with two new programs that allow people to create 3D models. At first, it was slightly harder to understand their applications to _humanities_ – they seemed more like engineering tools than programs designed for history majors. Both Sketchup and PhotoScan look a lot more complicated than many of their previous programs we discussed. (It might just have been me though – I’m not the most adept person when it comes to manipulating image programs.) But in their increased level of difficulty, they provide greater opportunities for entertainment and research.
 

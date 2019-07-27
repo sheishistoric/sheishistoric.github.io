@@ -29,6 +29,7 @@ tags:
   - summer 2014
   - warren delano
   - whaling museum
+period: undergraduate
 ---
 Ack! So many new things happening (and it&rsquo;s been awhile since I&rsquo;ve written anything) – where should I start?<!-- more -->
 

@@ -12,6 +12,7 @@ original_post_id:
 categories:
   - Commonwealth Honors College
 format: link
+period: undergraduate
 ---
 From Honors Student Blog:
 

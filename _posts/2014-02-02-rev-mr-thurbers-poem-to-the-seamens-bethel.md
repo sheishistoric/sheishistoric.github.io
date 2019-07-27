@@ -24,6 +24,7 @@ categories:
   - "seamen's bethel"
   - whalemen
   - whaling history
+period: undergraduate
 ---
 I&rsquo;ve been working through a few projects this past week for my internship, and working with the microfilm has certainly been exciting! (But more on that later.) One of my tasks was looking into the history of the plaque outside the Seamen&rsquo;s Bethel in New Bedford. I found this poem, printed in _The Morning Mercury_, which was read at the tablet&rsquo;s ceremony. <!-- more -->
 

@@ -14,6 +14,7 @@ tags:
   - DC Practicum 2017
   - Graduate
   - Highlights
+period: graduate
 ---
 To finish off my summer practicum, I had to put together a presentation of five things I learned. As I was doing this, I realized that the most important things I learned were the things that I already knew. And more importantly, I realized that **I am a public human.**
 

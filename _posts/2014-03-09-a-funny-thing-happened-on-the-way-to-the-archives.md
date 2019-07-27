@@ -25,6 +25,7 @@ tags:
   - smithsonian
   - smithsonian archives
   - thomas smilie
+period: undergraduate
 ---
 With a title like that, I’m sure you know what this week’s post is about.
 

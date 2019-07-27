@@ -22,6 +22,7 @@ tags:
   - digital humanities
   - fall 2014
   - public history
+period: undergraduate
 ---
 It was quite a summer, but I couldn’t be happier to be back at UMass for another year! I’ve already had my first week of classes, and I’m pleased to say that it should be an interesting semester.
 

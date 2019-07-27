@@ -21,6 +21,7 @@ tags:
   - 5colldh
   - found on twitter
   - umass press
+period: undergraduate
 ---
 It’s getting to the end of the semester, but a lot of stuff has been happening.
 

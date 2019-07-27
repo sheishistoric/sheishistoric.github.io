@@ -11,6 +11,7 @@ original_post_id:
   - "9260"
 categories:
   - Highlights
+period: undergraduate
 ---
 When we were discussing our team illustrations, I noticed that all of the boards explaining how platforms work featured stick-figure people. While the people figured into the equation in different ways depending on the team’s artistic interpretation, those little stick figures were all directly involved with the use of the platform. I’m pointing this out not because this assignment was supposed to showcase our drawing skills, but it highlights something that we all identified in our explanations of platforms – that in order to be means of connection or consumerism or presentation, there has to be some involvement on our part. Twitter as a social media platform allows our voices and our hashtags to find a community. Amazon as a shopping platform connects businesses and entrepreneurs with prospective markets. While could argue that platforms are about presenting ideas and products, the true value of platforms is about bringing **people** closer together.
 

@@ -26,6 +26,7 @@ tags:
   - public history
   - western ma
 format: gallery
+period: undergraduate
 ---
 (I love when I have pictures to include!)
 

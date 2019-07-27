@@ -21,5 +21,6 @@ tags:
   - new bedford ma
   - summer 2014
 format: gallery
+period: undergraduate
 ---
 Visited the Morgan at the New Bedford State Pier! Lots of exhibits inside and out, and the ship is absolutely beautiful.

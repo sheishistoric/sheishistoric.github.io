@@ -31,6 +31,7 @@ tags:
   - world war ii
   - wpa
   - wwii
+period: undergraduate
 ---
 So for HIST 397Z, we had to make a digital history contribution in one of three ways: 1) by investigating a building or memorial for **Lost UMass**; 2) contribute to **Living New Deal** by updating or creating a new entry; or 3) create a **Document Deep Dive** with a primary source found in the Five College archives. I chose the middle one, hoping to make an adventure out of finding one of these locations.
 

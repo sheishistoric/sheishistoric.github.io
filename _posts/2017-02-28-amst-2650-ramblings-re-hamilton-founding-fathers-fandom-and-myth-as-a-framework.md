@@ -9,6 +9,7 @@ permalink: /graduate/amst-2650-ramblings-re-hamilton-founding-fathers-fandom-and
 tags:
   - AMST 2650
   - Graduate
+period: graduate
 ---
 From [AMST 2650](http://blogs.brown.edu/amst-2650-s01-spring-2017/):
 

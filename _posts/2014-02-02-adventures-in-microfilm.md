@@ -21,6 +21,7 @@ tags:
   - interlibrary loan
   - microfilm
   - technology
+period: undergraduate
 ---
 This semester, I have certainly gotten off to a running start. My classes are great, my internships are busy, and I’ve even been making new friends – well, if you consider ILLiad a friend. Interlibrary loan has been my lifeline as I’ve attempted to get work done for HIST 298.  I’ve made over a dozen requests, and the reels are coming in much faster than I can look at them. I actually have to restrain my microfilm time to two hours, because otherwise I would spend whole days looking at newspapers from the nineteenth century.<!-- more -->
 

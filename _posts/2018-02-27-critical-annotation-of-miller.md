@@ -12,6 +12,7 @@ timeline_notification:
 tags:
   - Digital Media and Virtual Performance
   - Graduate
+period: graduate
 ---
 <img class="alignnone size-full wp-image-10064" src="https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?resize=700%2C933" alt="IMG_0631" width="700" height="933" srcset="https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?w=2448&ssl=1 2448w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?resize=225%2C300&ssl=1 225w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?resize=768%2C1024&ssl=1 768w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?w=1400&ssl=1 1400w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?w=2100&ssl=1 2100w" sizes="(max-width: 700px) 100vw, 700px" data-recalc-dims="1" />
 

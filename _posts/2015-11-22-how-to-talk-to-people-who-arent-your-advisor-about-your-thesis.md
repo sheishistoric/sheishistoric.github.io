@@ -11,6 +11,7 @@ original_post_id:
   - "1843"
 categories:
   - Thesis
+period: undergraduate
 ---
 By “who aren’t your advisor,” I really mean “people who have no idea about academia.” I’m still trying to nail down the best way to sum up my research without sounding like a walking thesaurus. I feel like each week there’s some new element I want to add or a new source takes me in a totally direction. I also feel like I have to give each person the background on my topic before I actually explain what it is.
 
@@ -19,11 +20,11 @@ By “who aren’t your advisor,” I really mean “people who have no idea abo
 The most recent conversation happened when my roommate’s family came to visit for the weekend:
 
 > Roommate’s Parents: So what are you working on?
-> 
+>
 > Me: Oh, I’m writing my thesis proposal.
-> 
+>
 > Roommate’s Parents: Oh, what’s it on?
-> 
+>
 > Me: Well, I’m looking into this women’s organization called the Ladies’ Branch of the New Bedford Port Society and their reform efforts  to impose moral order on the transient seamen, within a gendered and racialized and class-related context … y’know, within a rapidly urbanizing whaling environment…
 
 At that moment, I realized I had been talking very quickly and kinda rambling and that my roommate’s parents were probably not that interested in my thesis and were probably making small talk, so I kinda just let my sentence die out.

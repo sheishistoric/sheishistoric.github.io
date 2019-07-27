@@ -25,6 +25,7 @@ tags:
   - nmah
   - us fish commission
   - us history
+period: undergraduate
 ---
 Ah, spring break – the time when college students put aside their studies to relax, have fun, and maybe even travel to some warm destination. Well, I guess I _tried_ to do all three of those – unfortunately, the weather didn’t quite cooperate for that last one, and I ended up in Washington D.C. with a couple inches of snow on the ground.
 

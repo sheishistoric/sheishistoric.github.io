@@ -23,6 +23,7 @@ tags:
   - history 298
   - if love was a plane
   - liliuokalani
+period: undergraduate
 ---
 This week felt like a long one – in more ways than one. It’s right around that time of the semester for midterms and housing discussions and lots of assignments. The prospects of spring break and the possibility of warm weather are right around the corner. Emotions and tensions can get to a breaking point.  And I happened to have the pleasure of being in the middle of all of it – stress seemed to be everywhere I turned. 
 

@@ -27,6 +27,7 @@ tags:
   - walter magnes teller
   - whaling museum
 format: link
+period: undergraduate
 ---
 [Walter Magnes Teller Collection](http://whalingmuseumblog.org/2014/06/23/walter-magnus-teller-collection/#comments)
 
@@ -36,7 +37,7 @@ format: link
       <em>Emily Esten from UMASS Amherst is currently interning in the Museum&rsquo;s Research Library. Her first project centered around Manuscript Collection #131 (Mss 131) with a complete finding aid serving as the finish product. Below are Emily&rsquo;s reflections on her first completed project. </em>
     </p>
   </blockquote>
-  
+
   <p>
     Check out the blog post I wrote for the NBWM&rsquo;s blog, with my reflections on Mss 131!
   </p>

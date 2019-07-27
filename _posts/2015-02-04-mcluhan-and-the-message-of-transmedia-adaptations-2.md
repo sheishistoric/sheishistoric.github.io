@@ -11,6 +11,7 @@ original_post_id:
   - "9268"
 categories:
   - English 302
+period: undergraduate
 ---
 <img class=" aligncenter" src="https://i0.wp.com/mastersofmedia.hum.uva.nl/wp-content/uploads/2007/06/mcluhan2.jpg?resize=200%2C240" alt="" width="200" height="240" data-recalc-dims="1" />
 

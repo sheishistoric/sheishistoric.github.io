@@ -109,12 +109,12 @@ employment-publichumanities:
     date: "2015"
     context: "Engaged visitors with 18th-19th-century social history of Providence, RI, by developing curriculum packets and leading tours"
     page-tag: publichumanities
-  - title: Editorial Intern
-    company: University of Massachusetts Press
-    date: "2014–2015"
-    context: "Supported senior editorial staff by sourcing potential authors to produce new materials, creating fact sheets to analyze press growth and success, and starting press blog"
-    page-tag: notpublic
-    page-tag-tech: notdigital
+#  - title: Editorial Intern
+#    company: University of Massachusetts Press
+#    date: "2014–2015"
+#    context: "Supported senior editorial staff by sourcing potential authors to produce new materials, creating fact sheets to analyze press growth and success, and starting press blog"
+#    page-tag: notpublic
+#    page-tag-tech: notdigital
   - title: Archival Intern
     company: New Bedford Whaling Museum
     date: "2014"
@@ -309,14 +309,14 @@ projects:
     date: "2016"
     context: "An interactive timeline as a digital companion to his book, Inside the Lost Museum: Curating, Past and Present (July 2017 by Harvard University Press.)"
     page-tag-tech: digital
-  - title: "The Two New Bedfords: Spatial and Social Analysis of the City, 1800-1870"
+  - title: "The Two New Bedfords: Spatial and Social Analysis of the City, 1800-1870 (defunct)"
     role: PI, supervised by Laura Lovett, Marla Miller, Eric Poehler
     date: "2015–16"
     context: "Digital narrative and prototype recreation of a historic building in New Bedford important in the lives of 19th-century sailors. Funded by University of Massachusetts Amherst Department of History"
     page-tag-tech: digital
     page-tag: publichumanities
     url: ""
-  - title: "Night Vale Museum of Forbidden Techologies"
+  - title: "Night Vale Museum of Forbidden Techologies (defunct)"
     role: Curator
     date: "2015"
     context: "Funded by Five College Digital Humanities."
@@ -348,29 +348,29 @@ exhibitions:
     page-tag-tech: digital
     page-tag: publichumanities
     url: ""
-  - title: "Office House: Professor Mary Sheldon Barnes"
-    role: Curator
-    location: Sophia Smith Archives, Smith College
-    date: "2016"
-    context: "Physical exhibit on the Mary Sheldon Barnes Papers from Smith College, regarding Professor Barnes’s tenure at Stanford University"
-    url: ""
-    page-tag: publichumanities
-  - title: "The 1937 Project for the Preservation and Dissemination of Useful Information"
-    role: Collaborator
-    location: University of Massachusetts Amherst
-    url: "https://appliedhumaniteslearninglab.wordpress.com/1937-project/"
-    date: "2016"
-    context: "Developed two exhibitions in collaboration with the Swift River Valley Historical Society regarding the history of the Quabbin Reservoir for a Mellon-funded initiative"
-    page-tag: publichumanities
-    url: ""
-  - title: "A River Runs Through Us: Life Along the Mill River"
-    role: Co-Curator
-    location: University of Massachusetts Amherst
-    url: "http://millrivergreenway.org/greenway-projects/david-glassbergs-umass-public-history-project/"
-    date: "2015"
-    context: "Draft script for a six-panel wayside exhibit panel in Florence, Massachusetts discussing the history of the Mill River. "
-    page-tag: publichumanities
-    url: ""
+#  - title: "Office House: Professor Mary Sheldon Barnes"
+  #  role: Curator
+  #  location: Sophia Smith Archives, Smith College
+  #  date: "2016"
+  #  context: "Physical exhibit on the Mary Sheldon Barnes Papers from Smith College, regarding Professor Barnes’s tenure at Stanford University"
+  #  url: ""
+  #  page-tag: publichumanities
+#  - title: "The 1937 Project for the Preservation and Dissemination of Useful Information"
+  #  role: Collaborator
+  #  location: University of Massachusetts Amherst
+  #  url: "https://appliedhumaniteslearninglab.wordpress.com/1937-project/"
+  #  date: "2016"
+  #  context: "Developed two exhibitions in collaboration with the Swift River Valley Historical Society regarding the history of the Quabbin Reservoir for a Mellon-funded initiative"
+  #  page-tag: publichumanities
+  #  url: ""
+#  - title: "A River Runs Through Us: Life Along the Mill River"
+  #  role: Co-Curator
+  #  location: University of Massachusetts Amherst
+  #  url: "http://millrivergreenway.org/greenway-projects/david-glassbergs-umass-public-history-project/"
+  #  date: "2015"
+  #  context: "Draft script for a six-panel wayside exhibit panel in Florence, Massachusetts discussing the history of the Mill River. "
+  #  page-tag: publichumanities
+  #  url: ""
 
 ########### Membership and Service ###########
 service:
@@ -403,7 +403,7 @@ membership:
 
 ########### Skills ###########
 skills:
-  - title: "Human-Adjacent Languages"
+  - title: "Languages"
     things: "Spanish (conversational)"
   - title: "Computer-Adjacent Languages"
     things: "HTML, CSS, Jekyll + Liquid templating (reading), Python (reading), Swift (reading)"

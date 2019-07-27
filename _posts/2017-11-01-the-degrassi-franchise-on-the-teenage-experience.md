@@ -12,6 +12,7 @@ publicize_twitter_user:
 image: /wp-content/uploads/2017/11/degrassijh_9554.jpg
 tags:
   - Highlights
+period: graduate
 ---
 __
 

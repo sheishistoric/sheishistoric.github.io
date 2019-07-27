@@ -24,6 +24,7 @@ tags:
   - thatcamp2014
   - thatcampne
 format: link
+period: undergraduate
 ---
 [Session Proposal: Think Different. | THATCamp New England 2014](http://newengland2014.thatcamp.org/2014/05/20/session-proposal-think-different/)
 

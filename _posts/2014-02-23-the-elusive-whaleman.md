@@ -26,6 +26,7 @@ tags:
   - smithsonian archives
   - us fish commission
   - whaling
+period: undergraduate
 ---
 After struggling with microfilm last week (still working on Queen Liliuokalani, by the way) I moved onto my new assignment. This time, I investigated a different aspect of whaling: the international connection it created. Specifically, I was asked to go through a report by the U.S. Fish Commission & the United States National Museum in order to document every item donated by a New Bedford person/firm to the 1883 International Fisheries Exhibition.
 

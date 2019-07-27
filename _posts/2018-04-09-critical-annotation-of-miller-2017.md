@@ -15,6 +15,7 @@ publicize_twitter_user:
 tags:
   - Digital Media and Virtual Performance
   - Graduate
+period: graduate
 ---
 &nbsp;
 

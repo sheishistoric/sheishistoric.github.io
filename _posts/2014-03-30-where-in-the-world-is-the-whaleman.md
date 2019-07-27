@@ -26,6 +26,7 @@ tags:
   - new bedford ma
   - sanborn map company
   - sanborn maps
+period: undergraduate
 ---
 This week, returned to the task of the whaleman – he may have been found, but his story has not. Let me explain &#8211; in the photo, the whaleman is standing in front of a doorway. This doorway’s sole distinguishing feature is the number 47. In discussing this with an archivist, he jokingly suggested looking through all the “47’s” in the New Bedford directory.
 

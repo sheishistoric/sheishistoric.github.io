@@ -11,6 +11,7 @@ publicize_twitter_user:
   - sheishistoric
 tags:
   - Graduate
+period: graduate
 ---
 Co-written with Steven Lubar on <a href="https://medium.com/@lubar/catalog-as-book-file-and-database-ac954096152e" target="_blank" rel="noopener noreferrer">Medium</a>:
 

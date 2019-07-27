@@ -28,6 +28,7 @@ tags:
   - new bedford
   - new bedford whaling musum
   - summer 2014
+period: undergraduate
 ---
 Here’s what I love about historians: they are storytellers. Whether we know it consciously or simply find our way there, we search the past for a semblance of something relatable or funny or interesting. We further our interests (or those of others) in efforts to remember something worth remembering.
 

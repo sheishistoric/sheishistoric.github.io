@@ -23,6 +23,7 @@ tags:
   - family
   - rhode island
   - ri history
+period: undergraduate
 ---
 As I’m wrapping up my posts for 2014, I’ve looked through my saved drafts for inspiration. A lot of these posts are one or two sentences along, waiting for a time when news is slow and I can really devote some time to their topic. And while I haven’t had a slow week, I think it’s time to tell this story.
 

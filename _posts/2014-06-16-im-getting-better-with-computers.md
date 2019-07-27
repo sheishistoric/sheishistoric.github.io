@@ -23,6 +23,7 @@ tags:
   - nbwm
   - summer 2014
   - XML
+period: undergraduate
 ---
 Here’s something you may or may not know about me: _I’m not that great with computers._
 

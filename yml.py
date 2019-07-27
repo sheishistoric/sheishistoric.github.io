@@ -45,7 +45,7 @@ if __name__ == '__main__':
             pass
         else:
             tag_page = open(tag_filename, 'w')
-            write_str = '---\nexclude: true\nlayout: taglist\ntitle: \"Tagged: ' + tag + '\"\ntag: ' + tag + '\nrobots: noindex\n---\n'
+            write_str = '---\nexclude: true\nlayout: taglist\ntitle: \"Tagged: ' + tag + '\"\ntagname: ' + tag + '\nrobots: noindex\n---\n'
             tag_page.write(write_str)
             tag_page.close()
     print("Tags generated, count", total_tags.__len__())

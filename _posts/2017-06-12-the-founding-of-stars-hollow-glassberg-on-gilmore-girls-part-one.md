@@ -10,6 +10,7 @@ image: /wp-content/uploads/2017/06/giphy.gif
 tags:
   - Graduate
   - Highlights
+period: graduate
 ---
 From [Stars Hollow Historical Society](https://starshollowhistoricalsociety.wordpress.com/2017/06/10/the-founding-of-stars-hollow-glassberg-on-gilmore-girls-part-one-by-emily-esten/):
 

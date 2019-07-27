@@ -12,6 +12,7 @@ timeline_notification:
 tags:
   - Graduate
   - HASTAC
+period: graduate
 ---
 For <a href="https://www.hastac.org/blogs/sheishistoric/2018/01/15/fantastic-places-unhuman-humans-4-lessons-taing-online" target="_blank" rel="noopener noreferrer">HASTAC</a>:
 

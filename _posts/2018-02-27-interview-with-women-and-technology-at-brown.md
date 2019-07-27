@@ -11,6 +11,7 @@ timeline_notification:
   - "1519691210"
 tags:
   - Highlights
+period: graduate
 ---
 I spoke with Maddie Mott at [Women and Technology at Brown](https://blogs.brown.edu/womenandtech/2018/02/19/interview-emily-esten-digital-humanist-and-public-humanities-graduate-student/) about my experience in digital public humanities & my work as a graduate student in the university.
 

@@ -22,6 +22,7 @@ tags:
   - history buff
   - the history peeps
   - thp
+period: undergraduate
 ---
 Earlier this week, I read <a href="http://andrewpegoda.com/2014/12/03/i-am-many-things-but-a-history-buff-is-not-one-of-them-hidden-power-of-words-series-14/" target="_blank">Andrew Pegoda’s post</a> about the difference between historians and history buffs, a point that I found really fascinating.  This is a debate that is constantly in the back of mind, because for the longest time, I didn’t really know the difference.
 

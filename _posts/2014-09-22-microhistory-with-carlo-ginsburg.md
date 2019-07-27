@@ -20,6 +20,7 @@ categories:
 tags:
   - hist 394ci
   - microhistory
+period: undergraduate
 ---
 In my _Ideas That Changed History_ course, we&rsquo;ve been talking a lot about the history of historians through historiography. (I used _history_ way too many times in that sentence.) That is to say, we&rsquo;ve read about how the discourse of history has changed over time &#8211; how interpretations and presentations have developed, what has been addressed, and what has been studied. This involves questions of method, narrative and analysis, and subjects of history.
 

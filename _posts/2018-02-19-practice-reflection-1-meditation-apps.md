@@ -12,6 +12,7 @@ timeline_notification:
 tags:
   - Digital Media and Virtual Performance
   - Graduate
+period: graduate
 ---
 As someone who fell out of meditative practice, the idea of jumping back into it for class felt intimidating. What I enjoyed about the practice – the communal aspect, the physical grounding in a space, the long, reflective state – would all be gone in working alongside the apps we were tasked with for class. But I dive in with interest, considering our conversations around virtual-physical relationships.
 

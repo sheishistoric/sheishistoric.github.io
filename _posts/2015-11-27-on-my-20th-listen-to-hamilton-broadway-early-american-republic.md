@@ -17,6 +17,7 @@ tags:
   - hamilton
   - lin-manuel miranda
   - public history
+period: undergraduate
 ---
 Okay, I lied. I haven’t listened to _Hamilton_ 20 times. It’s probably much higher than that, considering for the first three weeks I was listening to it 2-3 times a day. And, for the first week, I listened to it for free on NPR, so let’s just go with at least 100 plays through the entire album.
 

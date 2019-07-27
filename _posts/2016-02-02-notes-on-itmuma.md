@@ -23,6 +23,7 @@ tags:
   - social media
   - tweetups
   - twitter
+period: undergraduate
 ---
 Mark Schlemmer came to UMass last night for a public lecture on the #ITweetMuseums initiative. Schlemmer was great and the entire audience was excited and receptive to hear more about his projects.
 

@@ -25,6 +25,7 @@ tags:
   - the elusive whaleman
   - thomas smilie
   - u.s. fish commission
+period: undergraduate
 ---
 _Okay, to start: make sure you have read <a href="http://sheishistoric.tumblr.com/post/77606930479/the-elusive-whaleman" target="_blank"><u>this post</u></a>. If you want more background information, take a moment to read<a href="http://sheishistoric.tumblr.com/post/79054290033/a-funny-thing-happened-on-the-way-to-the-archives" target="_blank"><u> this one</u></a>._
 

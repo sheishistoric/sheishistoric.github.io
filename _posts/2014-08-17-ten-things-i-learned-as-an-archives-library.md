@@ -24,6 +24,7 @@ tags:
   - library
   - nbwm
   - summer 2014
+period: undergraduate
 ---
 This is my last week at the New Bedford Whaling Museum (I can’t believe how quickly that went by!) I have a much longer post planned for next week, but I thought I’d start by sharing the lighthearted pieces of advice I’ve acquired over the summer.<!-- more -->
 

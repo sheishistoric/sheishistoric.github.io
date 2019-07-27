@@ -24,6 +24,7 @@ tags:
   - public history
   - vacation
   - vacations
+period: undergraduate
 ---
 So in my public history a few weeks back, we were discussing how we as students have interacted with public history. The professor encouraged us to share our own experiences with museums &#8211; something fun, something different, something that made history come alive.
 

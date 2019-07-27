@@ -9,6 +9,9 @@ permalink: /highlights/i-only-make-bots-for-the-mountain-goats/
 image: /wp-content/uploads/2018/12/The_Mountain_Goats5.jpg
 tags:
   - Highlights
+category:
+  - graduate
+period: post-grad
 ---
 <section class="section section--body">
 

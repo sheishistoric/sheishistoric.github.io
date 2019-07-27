@@ -11,6 +11,7 @@ original_post_id:
   - "9264"
 categories:
   - English 302
+period: undergraduate
 ---
 [<img class="alignnone size-medium wp-image-3921" src="https://i1.wp.com/blogs.umass.edu/english302-russworm/files/2015/04/TV-is-Dead-300x221.jpg?resize=300%2C221" alt="TV-is-Dead" width="300" height="221" data-recalc-dims="1" />](https://i2.wp.com/blogs.umass.edu/english302-russworm/files/2015/04/TV-is-Dead.jpg)
 

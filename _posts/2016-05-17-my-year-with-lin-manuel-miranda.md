@@ -11,6 +11,7 @@ original_post_id:
   - "9363"
 categories:
   - Highlights
+period: undergraduate
 ---
 [_note: title borrowed from this article _](http://themuse.jezebel.com/my-year-with-lin-manuel-miranda-or-how-to-find-a-hip-1748739548)
 
