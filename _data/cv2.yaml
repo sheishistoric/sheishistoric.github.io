@@ -168,31 +168,31 @@ conference-talks:
     url: ""
 
 conference-other:
-  - title: "#SH1: Feminist Digital Humanities Paper Session"
-    institution: Association for Computers and the Humanities
-    location: Pittsburgh, Pennsylvania
-    date: July 2019
-    type: Paper Session (Chair)
-    event: "ACH 2019"
-    page-tag-tech: digital
-    url: ""
-  - title: "Museum of Forbidden Technologies"
-    institution: Association for Computers and the Humanities
-    location: Pittsburgh, Pennsylvania
-    date: July 2019
-    type: Exhibition
-    event: "ACH 2019"
-    page-tag-tech: digital
-    url: ""
-  - title: "You Can't Handle The Post-Truth"
-    institution: Theorizing the Web
-    location: New York, NY
-    date: Nov. 2018
-    type: Panel (Moderator)
-    page-tag-tech: digital
-    event: "TTW19"
-    page-tag-tech: digital
-    url: "https://theorizingtheweb.org/ny/ny2019/program-9/"
+#  - title: "#SH1: Feminist Digital Humanities Paper Session"
+  #  institution: Association for Computers and the Humanities
+  #  location: Pittsburgh, Pennsylvania
+  #  date: July 2019
+  #  type: Paper Session (Chair)
+  #  event: "ACH 2019"
+  #  page-tag-tech: digital
+  #  url: ""
+#  - title: "Museum of Forbidden Technologies"
+  #  institution: Association for Computers and the Humanities
+  #  location: Pittsburgh, Pennsylvania
+  #  date: July 2019
+  #  type: Exhibition
+  #  event: "ACH 2019"
+  #  page-tag-tech: digital
+  #  url: ""
+#  - title: "You Can't Handle The Post-Truth"
+  #  institution: Theorizing the Web
+  #  location: New York, NY
+  #  date: Nov. 2018
+  #  type: Panel (Moderator)
+  #  page-tag-tech: digital
+  #  event: "TTW19"
+  #  page-tag-tech: digital
+  #  url: "https://theorizingtheweb.org/ny/ny2019/program-9/"
   - title: "Mapping Segregated Histories: Digital Research and Visualizations for the Public"
     institution: American Studies Association
     location: Atlanta, Georgia
@@ -270,15 +270,18 @@ awards:
   - title: MCN Scholar
     date: "2019"
     secondary: "For Museum Computer Network Annual Conference"
+    context:
   - title: Humanities Intensive Learning and Teaching (HILT) Graduate Student Scholarship
     date: "2017"
     secondary: "For attendance at the HILT Institute at University of Pennsylvania"
   - title: New England Museums Association Professional Development Award
     date: "2016"
     secondary: "For attendance at the NEMA 2016 conference"
+    context:
   - title: HASTAC Scholars Fellow
     date: "2016-2018"
     secondary: "The HASTAC Scholars program is a collective of graduate and undergraduate students who are engaged with innovative projects and research at the intersection of digital media & learning, 21st century education, the digital humanities, and technology in the arts, humanities and sciences."
+    context:
 
 ########### Digital ###########
 projects:
@@ -287,6 +290,7 @@ projects:
     url: "https://scribesofthecairogeniza.org"
     date: "2019"
     context: "Scribes of the Cairo Geniza is a project with the ultimate goal of transcribing Cairo Geniza fragments."
+    details:
     page-tag-tech: digital
     page-tag: publichumanities
   - title: "Mapping Violence"
@@ -294,6 +298,7 @@ projects:
     url: "http://mappingviolence.com"
     date: "2017-2018"
     context: "Mapping Violence recovers lost and obscured cases of racial violence in Texas from 1900 to 1930, a period of now largely forgotten bloodshed. Making these histories public is a crucial step towards reckoning with the long legacies of violence."
+    details: I've discussed my work on this project in several venues, including the American Studies Association Annual Meeting (2018).
     page-tag-tech: digital
     page-tag: publichumanities
   - title: "Visualizing the Crystal Palace"

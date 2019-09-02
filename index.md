@@ -5,7 +5,7 @@ title: Home
 
 # Hi, I'm Emily Esten.
 
-<img src="/assets/img/selfie-website.jpg" class="selfie"/>
+![Image of Emily Esten](/assets/img/selfie-website.jpg){:class="selfie"}
 
 Hi, My name is **Emily Esten**, and I’m currently the [Judaica Digital Humanities Coordinator at Penn Libraries](https://judaicadh.github.io) as well as Site Designer for [Contingent Magazine](http://contingentmagazine.org/).
 
