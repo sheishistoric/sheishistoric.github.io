@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: amherst"
-tag: amherst
+tagname: amherst
 robots: noindex
 ---

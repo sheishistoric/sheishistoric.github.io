@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: bdic"
-tag: bdic
+tagname: bdic
 robots: noindex
 ---

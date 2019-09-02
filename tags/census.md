@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: census"
-tag: census
+tagname: census
 robots: noindex
 ---

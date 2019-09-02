@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: thomas smilie"
-tag: thomas smilie
+tagname: thomas smilie
 robots: noindex
 ---

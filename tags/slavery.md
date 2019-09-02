@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: slavery"
-tag: slavery
+tagname: slavery
 robots: noindex
 ---

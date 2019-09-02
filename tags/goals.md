@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: goals"
-tag: goals
+tagname: goals
 robots: noindex
 ---

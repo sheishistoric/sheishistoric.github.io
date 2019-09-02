@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: rhode island"
-tag: rhode island
+tagname: rhode island
 robots: noindex
 ---

@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: ri history"
-tag: ri history
+tagname: ri history
 robots: noindex
 ---

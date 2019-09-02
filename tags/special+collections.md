@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: special collections"
-tag: special collections
+tagname: special collections
 robots: noindex
 ---

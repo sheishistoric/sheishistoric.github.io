@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: walter teller"
-tag: walter teller
+tagname: walter teller
 robots: noindex
 ---

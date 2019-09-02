@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: umass history"
-tag: umass history
+tagname: umass history
 robots: noindex
 ---

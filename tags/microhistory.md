@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: microhistory"
-tag: microhistory
+tagname: microhistory
 robots: noindex
 ---

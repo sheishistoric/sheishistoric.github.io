@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: brad paisley"
-tag: brad paisley
+tagname: brad paisley
 robots: noindex
 ---

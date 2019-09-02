@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: Graduate"
-tag: Graduate
+tagname: Graduate
 robots: noindex
 ---

@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: technology"
-tag: technology
+tagname: technology
 robots: noindex
 ---

@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: photography"
-tag: photography
+tagname: photography
 robots: noindex
 ---

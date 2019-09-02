@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: thesis thoughts"
-tag: thesis thoughts
+tagname: thesis thoughts
 robots: noindex
 ---

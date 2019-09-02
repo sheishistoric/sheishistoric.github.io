@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: new media"
-tag: new media
+tagname: new media
 robots: noindex
 ---

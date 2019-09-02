@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: study abroad"
-tag: study abroad
+tagname: study abroad
 robots: noindex
 ---

@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: legacy"
-tag: legacy
+tagname: legacy
 robots: noindex
 ---

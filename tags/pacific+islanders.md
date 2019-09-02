@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: pacific islanders"
-tag: pacific islanders
+tagname: pacific islanders
 robots: noindex
 ---

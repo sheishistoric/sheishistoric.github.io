@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: old chapel"
-tag: old chapel
+tagname: old chapel
 robots: noindex
 ---

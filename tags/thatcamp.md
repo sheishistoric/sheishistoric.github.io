@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: thatcamp"
-tag: thatcamp
+tagname: thatcamp
 robots: noindex
 ---

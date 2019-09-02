@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: social media"
-tag: social media
+tagname: social media
 robots: noindex
 ---

@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: natural history"
-tag: natural history
+tagname: natural history
 robots: noindex
 ---

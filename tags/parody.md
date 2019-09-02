@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: parody"
-tag: parody
+tagname: parody
 robots: noindex
 ---

@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: personal"
-tag: personal
+tagname: personal
 robots: noindex
 ---

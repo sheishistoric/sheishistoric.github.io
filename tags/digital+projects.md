@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: digital projects"
-tag: digital projects
+tagname: digital projects
 robots: noindex
 ---

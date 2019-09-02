@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: research day"
-tag: research day
+tagname: research day
 robots: noindex
 ---

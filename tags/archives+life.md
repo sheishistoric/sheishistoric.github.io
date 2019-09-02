@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: archives life"
-tag: archives life
+tagname: archives life
 robots: noindex
 ---

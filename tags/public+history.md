@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: public history"
-tag: public history
+tagname: public history
 robots: noindex
 ---

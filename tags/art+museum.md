@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: art museum"
-tag: art museum
+tagname: art museum
 robots: noindex
 ---

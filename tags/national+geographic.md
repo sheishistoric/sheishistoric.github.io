@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: national geographic"
-tag: national geographic
+tagname: national geographic
 robots: noindex
 ---

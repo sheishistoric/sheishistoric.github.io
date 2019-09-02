@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: internships"
-tag: internships
+tagname: internships
 robots: noindex
 ---

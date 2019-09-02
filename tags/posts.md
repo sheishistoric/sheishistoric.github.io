@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: posts"
-tag: posts
+tagname: posts
 robots: noindex
 ---

@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: digital humanities"
-tag: digital humanities
+tagname: digital humanities
 robots: noindex
 ---

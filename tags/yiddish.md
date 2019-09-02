@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: yiddish"
-tag: yiddish
+tagname: yiddish
 robots: noindex
 ---

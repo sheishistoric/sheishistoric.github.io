@@ -1,7 +1,7 @@
 ---
 exclude: true
 layout: taglist
-title: "Tagged: History 298"
-tag: History 298
+title: "Tagged: history 298"
+tagname: history 298
 robots: noindex
 ---

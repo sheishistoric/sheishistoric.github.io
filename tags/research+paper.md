@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: research paper"
-tag: research paper
+tagname: research paper
 robots: noindex
 ---

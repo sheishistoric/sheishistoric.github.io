@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: conferences"
-tag: conferences
+tagname: conferences
 robots: noindex
 ---

@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: smithsonian archives"
-tag: smithsonian archives
+tagname: smithsonian archives
 robots: noindex
 ---

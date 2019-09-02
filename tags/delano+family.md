@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: delano family"
-tag: delano family
+tagname: delano family
 robots: noindex
 ---

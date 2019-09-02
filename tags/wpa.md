@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: wpa"
-tag: wpa
+tagname: wpa
 robots: noindex
 ---

@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: photoscan"
-tag: photoscan
+tagname: photoscan
 robots: noindex
 ---

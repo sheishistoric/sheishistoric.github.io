@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: best of"
-tag: best of
+tagname: best of
 robots: noindex
 ---

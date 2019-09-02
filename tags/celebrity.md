@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: celebrity"
-tag: celebrity
+tagname: celebrity
 robots: noindex
 ---

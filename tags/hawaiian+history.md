@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: hawaiian history"
-tag: hawaiian history
+tagname: hawaiian history
 robots: noindex
 ---

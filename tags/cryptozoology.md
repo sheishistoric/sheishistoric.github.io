@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: cryptozoology"
-tag: cryptozoology
+tagname: cryptozoology
 robots: noindex
 ---

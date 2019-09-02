@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: connecticut river"
-tag: connecticut river
+tagname: connecticut river
 robots: noindex
 ---

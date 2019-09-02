@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: american presidents"
-tag: american presidents
+tagname: american presidents
 robots: noindex
 ---

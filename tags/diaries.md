@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: diaries"
-tag: diaries
+tagname: diaries
 robots: noindex
 ---

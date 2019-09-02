@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: whaling"
-tag: whaling
+tagname: whaling
 robots: noindex
 ---

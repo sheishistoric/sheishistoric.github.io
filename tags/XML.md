@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: XML"
-tag: XML
+tagname: XML
 robots: noindex
 ---

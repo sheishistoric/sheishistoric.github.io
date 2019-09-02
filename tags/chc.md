@@ -2,6 +2,6 @@
 exclude: true
 layout: taglist
 title: "Tagged: chc"
-tag: chc
+tagname: chc
 robots: noindex
 ---
