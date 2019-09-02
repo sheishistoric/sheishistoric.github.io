@@ -17,8 +17,6 @@ title: CV
     <li>
         <a href="#t6">AWARDS + GRANTS</a></li>
     <li>
-        <a href="#t7a">WORKSHOPS LED</a></li>
-    <li>
         <a href="#t8">PROJECTS</a></li>
     <li>
         <a href="#t9">SERVICE</a></li>
@@ -53,12 +51,12 @@ title: CV
 <div class="clear">
 <h2><span id="t3"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> University Employment</h2>
 {% for title in site.data.cv2.employment-university %}
-    <div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
-    <div class="three-fourths column-last column-bottom clear">
-         <b>{{ title.title }}</b> • <a id="showEmployment{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
-         <span class="cv-meta">{{ title.company }}.</span>
-         <div class="context" id="employment{{ forloop.index }}"><p>{{ title.context }}</p></div>
-     </div>
+<div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
+<div class="three-fourths column-last column-bottom clear">
+    <b>{{ title.title }}</b> • <a id="showEmployment{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+    <span class="cv-meta">{{ title.company }}.</span>
+    <div class="context" id="employment{{ forloop.index }}"><p>{{ title.context }}</p></div>
+</div>
 {% endfor %}
 </div>
 <div class="clear">

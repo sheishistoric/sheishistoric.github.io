@@ -1,7 +1,7 @@
 ---
 ########### Meta ###########
 meta:
-  link: "cv-2019-05-04.pdf"
+  link: ""
 
 ########### Contact ###########
 contact:
@@ -69,6 +69,7 @@ employment-publichumanities:
     company: Contingent Magazine
     date: "2019–Present"
     context: "Developed Contingent Magazine Theme for Wordpress and coordinated social media roll-out for launch of Contingent Magazine"
+    url: contingentmagazine.org
     page-tag-tech: digital
     page-tag: publichumanities
   - title: Exhibition Researcher
@@ -270,7 +271,7 @@ awards:
   - title: MCN Scholar
     date: "2019"
     secondary: "For Museum Computer Network Annual Conference"
-    context:
+    context: "Each year, the MCN Scholarship Program awards scholarships to 15 qualified applicants from the cultural sector to attend the MCN Annual Conference."
   - title: Humanities Intensive Learning and Teaching (HILT) Graduate Student Scholarship
     date: "2017"
     secondary: "For attendance at the HILT Institute at University of Pennsylvania"
@@ -314,18 +315,18 @@ projects:
     date: "2016"
     context: "An interactive timeline as a digital companion to his book, Inside the Lost Museum: Curating, Past and Present (July 2017 by Harvard University Press.)"
     page-tag-tech: digital
-  - title: "The Two New Bedfords: Spatial and Social Analysis of the City, 1800-1870 (defunct)"
-    role: PI, supervised by Laura Lovett, Marla Miller, Eric Poehler
-    date: "2015–16"
-    context: "Digital narrative and prototype recreation of a historic building in New Bedford important in the lives of 19th-century sailors. Funded by University of Massachusetts Amherst Department of History"
-    page-tag-tech: digital
-    page-tag: publichumanities
-    url: ""
-  - title: "Night Vale Museum of Forbidden Techologies (defunct)"
-    role: Curator
-    date: "2015"
-    context: "Funded by Five College Digital Humanities."
-    url: ""
+#  - title: "The Two New Bedfords: Spatial and Social Analysis of the City, 1800-1870 (defunct)"
+#    role: PI, supervised by Laura Lovett, Marla Miller, Eric Poehler
+#    date: "2015–16"
+#    context: "Digital narrative and prototype recreation of a historic building in New Bedford important in the lives of 19th-century sailors. Funded by University of Massachusetts Amherst Department of History"
+#    page-tag-tech: digital
+#    page-tag: publichumanities
+#    url: ""
+#  - title: "Night Vale Museum of Forbidden Techologies (defunct)"
+#    role: Curator
+#    date: "2015"
+#    context: "Funded by Five College Digital Humanities."
+#    url: ""
 
 exhibitions:
   - title: "Wheelhouse Technology from Sounding Leads to Satellites"

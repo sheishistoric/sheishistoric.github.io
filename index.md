@@ -11,10 +11,9 @@ Hi, My name is **Emily Esten**, and I’m currently the [Judaica Digital Humanit
 
 I’m interested in digital public humanities, which thinks about audience, content, and methods in relation to the projects we build with technology. Broadly speaking, I borrow from museums, digital humanities, public history, public humanities, and digital culture.
 
-On this corner of the Internet, you can
+Here, you can check out my
 - check out some of my [digital](/digital) work
 - see some of my [public-engaging work](/public)
-- take a look at [exhibitions](/exhibitions) on which I've worked
 - [review my CV](/cv)
 - read some [blog posts](/blog)
 - learn about my non-professional [projects](/projects)
