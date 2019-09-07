@@ -36,13 +36,13 @@ employment-university:
   - title: Judaica Digital Humanities Coordinator
     company: Penn Libraries
     date: "2019–Present"
-    context: "Using digital humanities methods to deepen public and scholarly engagement with Penn's Judiaca materials."
+    context: "Mangaging the research and development of Judaica Digital Humanities at Penn, I deepen public and scholarly engagement with Penn's Judiaca materials."
     page-tag-tech: digital
     page-tag: publichumanities
   - title: Researcher and Collaborator, Mapping Violence
     company: Brown University, Department of American Studies
     date: "2018–2019"
-    context: "As a Researcher and Collaborator on the team, I completed four new entries for the database, built a prototype map in Carto of the first phase of research, and built the foundation for a digital exhibit on the Porvenir Massacre. As the lead digital specialist, I also coordinated with student developers and system administrators to maintain and operate the existing database, and provided strategic direction on the layout, interface, and content for project website. All the code for the digital exhibit can be found on the GitHub repository."
+    context: "As a Researcher and Collaborator on the team, I completed four new entries for the database, built a prototype map in Carto of the first phase of research, and built the foundation for a digital exhibit on the Porvenir Massacre. As the lead digital specialist, I also coordinated with student developers and system administrators to maintain and operate the existing database, and provided strategic direction on the layout, interface, and content for project website. All the code for the draft of the digital exhibit can be found on the GitHub repository."
     page-tag-tech: digital
   - title: Teaching Assistant
     company: Brown University, School of Professional Studies
@@ -142,6 +142,13 @@ other:
 ########### Talks ###########
 
 conference-talks:
+#  - title: "Cultivating Community with the Cairo Geniza"
+#    institution:  Museum Computer Network
+#    location: San Diego, California
+#    date: Nov. 2019
+#    url: ""
+#    page-tag-tech: digital
+#    page-tag: publichumanities
   - title: "Digital Public Humanities for Historians"
     institution:  American Studies Association
     location: Atlanta, Georgia
@@ -286,11 +293,18 @@ awards:
 
 ########### Digital ###########
 projects:
+#  - title: "Judaica Americana"
+#    role: Project Manager/Developer
+#    url: ""
+#    date: "2019-Present"
+#    context: ""
+#    details:
+#    page-tag-tech: digital
   - title: "Scribes of the Cairo Geniza"
     role: Project Manager
     url: "https://scribesofthecairogeniza.org"
-    date: "2019"
-    context: "Scribes of the Cairo Geniza is a project with the ultimate goal of transcribing Cairo Geniza fragments."
+    date: "2019-Present"
+    context: "Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform."
     details:
     page-tag-tech: digital
     page-tag: publichumanities
