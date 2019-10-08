@@ -142,13 +142,6 @@ other:
 ########### Talks ###########
 
 conference-talks:
-#  - title: "Cultivating Community with the Cairo Geniza"
-#    institution:  Museum Computer Network
-#    location: San Diego, California
-#    date: Nov. 2019
-#    url: ""
-#    page-tag-tech: digital
-#    page-tag: publichumanities
   - title: "Digital Public Humanities for Historians"
     institution:  American Studies Association
     location: Atlanta, Georgia
@@ -176,6 +169,24 @@ conference-talks:
     url: ""
 
 conference-other:
+# title: "Interpreting Jewish History in Museums and Public History Settings"
+#    institution: National Council for Public History
+#    location: Atlanta, Georgia
+#    date: March 2020
+#    type: Roundtable
+#    event: "NCPH 2020"
+#    page-tag-tech: "digital"
+#    page-tag: publichumanities
+#    url: ""
+  - title: "Cultivating Community with the Cairo Geniza"
+    institution: Museum Computer Network
+    location: San Diego, California
+    date: Nov. 2019
+    type: Lightning Talk
+    event: "MCN 2019"
+    page-tag-tech: "digital"
+    page-tag: publichumanities
+    url: ""
 #  - title: "#SH1: Feminist Digital Humanities Paper Session"
   #  institution: Association for Computers and the Humanities
   #  location: Pittsburgh, Pennsylvania
@@ -207,7 +218,7 @@ conference-other:
     date: Nov. 2018
     type: Roundtable
     event: "ASA2018"
-    page-tag: "digital"
+    page-tag-tech: "digital"
     page-tag: publichumanities
     url: ""
   - title: "Cataloging History: Revisualizing the 1853 New York Crystal Palace"
