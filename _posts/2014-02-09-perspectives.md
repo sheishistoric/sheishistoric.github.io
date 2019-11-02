@@ -16,7 +16,6 @@ original_post_id:
   - "6736"
   - "6736"
 tags:
-  - Highlights
   - history
   - history 298
   - jewish history

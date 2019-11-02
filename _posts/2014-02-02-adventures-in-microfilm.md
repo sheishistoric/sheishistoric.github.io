@@ -16,7 +16,6 @@ original_post_id:
   - "6784"
   - "6784"
 tags:
-  - Highlights
   - history 298
   - interlibrary loan
   - microfilm
