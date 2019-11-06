@@ -22,6 +22,9 @@ sass:
 # Full URL for indexing
 url: https://emilyesten.com
 
+#Google Services
+google_analytics: UA-151637703-1
+
 # Plugins
 plugins:
   - jekyll-paginate
