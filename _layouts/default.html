@@ -29,7 +29,6 @@
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-{% include analytics.html %}
   </head>
 
   <body class="theme-base-08">
@@ -58,6 +57,8 @@
   {% for js in page.customjs %}
   <script src="{{ js }}"></script>
   {% endfor %}
-
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
   </body>
 </html>
