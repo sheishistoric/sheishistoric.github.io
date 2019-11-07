@@ -24,6 +24,7 @@ def extract_yaml(filename):
 
     yml_string = "".join(yml_lines)
     return yaml.load(yml_string)
+    print(yml_string)
 
 if __name__ == '__main__':
     post_dir = '_posts'
@@ -35,7 +36,9 @@ if __name__ == '__main__':
         post_yaml = extract_yaml(filename)
         if post_yaml is not None:
             tags = post_yaml.get('tags', [])
-            total_tags.extend(tags)
+            list2 = filter(None, tags)
+            print(tags)
+            total_tags.extend(list2)
     total_tags = set(total_tags)
     print(total_tags)
 
