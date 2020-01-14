@@ -94,7 +94,7 @@ employment-publichumanities:
     context: "Led evaluation case studies of institutional use of Smithsonian Learning Lab, a digital collections platform that allows users to discover Smithsonian Institution digital resources, and use them to create and share collections tailored to their needs and that of their target audiences. I conducted and transcribed interviews; developed data collection questionnaires, consent forms, and rubrics; and drafted summaries of case study data for internal and public consumption."
     page-tag-tech: digital
     page-tag: publichumanities
-  - title: Volunteer
+  - title: Park Ambassador (Volunteer)
     company: New Bedford Whaling National Historical Park
     date: "2016–2018"
     context: "Shared stories of New Bedford's community and whaling industry by providing the public with information about the park through formal and informal interpretation"
@@ -138,6 +138,10 @@ web:
     page-tag: publichumanities
 
 other:
+  - title: "Illuminating Iranian tradition: Twelve Gates Arts presents ‘Immanence: Tazhib in America | Behnaz Karjoo’"
+    venue: "Broad Street Review"
+    date: "January 13, 2020"
+    url: "https://www.broadstreetreview.com/art/twelve-gates-arts-presents-immanence-tazhib-in-america-behnaz-karjoo"
   - title: "The Radical Power of Memes: The Center for Media at Risk presents 'Meme Tactics'"
     venue: "Broad Street Review"
     date: "October 29, 2019"
@@ -173,15 +177,15 @@ conference-talks:
     url: ""
 
 conference-other:
-# title: "Interpreting Jewish History in Museums and Public History Settings"
-#    institution: National Council for Public History
-#    location: Atlanta, Georgia
-#    date: March 2020
-#    type: Roundtable
-#    event: "NCPH 2020"
-#    page-tag-tech: "digital"
-#    page-tag: publichumanities
-#    url: ""
+  - title: "Interpreting Jewish History in Museums and Public History Settings"
+    institution: National Council for Public History
+    location: Atlanta, Georgia
+    date: March 2020
+    type: Roundtable
+    event: "NCPH 2020"
+    page-tag-tech: "digital"
+    page-tag: publichumanities
+    url: ""
   - title: "Cultivating Community with the Cairo Geniza"
     institution: Museum Computer Network
     location: San Diego, California
@@ -313,13 +317,21 @@ projects:
     url: "repository.upenn.edu/judaicaamericana"
     date: "2019-Present"
     context: "The digital second edition of Judaica Americana makes searchable the 1990. The first phase of this project released the second edition through University of Pennsylvania's open access repository, Scholarly Commons, available as a PDF and CSV."
-    details: "This project intends to publish a digital second edition of Judaica Americana incorporating the foundation bibliography with the approximately 3,000 supplements the author/compiler Robert Singerman has found, taking into account and removing entries that he has withdrawn from the foundation bibliography, with an explanation for why they were removed. This digital copy will be available as a file, dataset, and searchable database. Through JA2, we expect to provide researchers, book trade specialists, genealogists, and bibliographers with the information they will need to mine this invaluable resource. "
+    details: "This project intends to publish a digital second edition of Judaica Americana incorporating the foundation bibliography with the approximately 3,000 supplements the author/compiler Robert Singerman has found, taking into account and removing entries that he has withdrawn from the foundation bibliography, with an explanation for why they were removed. This digital copy will be available as a file, dataset, and searchable database. Through JA2, we expect to provide researchers, book trade specialists, genealogists, and bibliographers with the information they will need to mine this invaluable resource."
     page-tag-tech: digital
   - title: "Scribes of the Cairo Geniza"
     role: Project Manager
     url: "https://scribesofthecairogeniza.org"
     date: "2019-Present"
     context: "Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform."
+    details:
+    page-tag-tech: digital
+    page-tag: publichumanities
+  - title: "Contingent Magazine"
+    role: Site Designer
+    url: "https://contingentmagazine.org"
+    date: "2018-Present"
+    context: "I developed the custom Contingent Magazine theme for the site."
     details:
     page-tag-tech: digital
     page-tag: publichumanities
@@ -449,6 +461,15 @@ skills:
   - title: "Social Media"
     things: Twitter, Facebook, Instagram, Tumblr, HootSuite, TweetDeck
   - title: "Jack of All Trades"
-    things: "Tableau Public, Garageband, iMovie, Audacity, Photoshop, Illustrator, WordPress, Drupal, Wikia"
+    things: "Tableau Public, Garageband, iMovie, Adobe Audition, Audacity, Adobe Photoshop, Adobe llustrator, WordPress, Drupal, Wikia"
 
----
+training:
+  - title: "Python for Humanists"
+    institution: "HILT (Humanities Intensive Learning & Training)"
+    date: "June 2018"
+  - title: "Introduction to Data Analysis in R for #MusetechRs"
+    institution: "Museum Computer Network"
+    date: "November 2019"
+  - title: "Experimental Sound Design for Podcasting and Video"
+    institution: "AS220 Media Lab"
+    date: "November 2018"

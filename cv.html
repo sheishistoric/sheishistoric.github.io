@@ -23,7 +23,7 @@ title: CV
     <li>
         <a href="#t10">SKILLS</a></li>
     <li id="pdftab">
-        <a href="">PDF</a></li>
+        <a href="/404">PDF</a></li>
 </ul>
 </div>
 
@@ -223,19 +223,22 @@ title: CV
             </div>
 </div>
 
-<div hidden id="resumeJson">
-  {{ site.data.cv2 | jsonify }}
-</div>
-
 <!-- 10: Skills -->
 <div class="clear">
-<h2><span id="t10"></span><a href="#t10"><i class="fa fa-chevron-up"></i></a> Skills</h2>
+<h2><span id="t10"></span><a href="#t10"><i class="fa fa-chevron-up"></i></a> Skills & Training</h2>
 
-    {% for title in site.data.cv2.skills%}
-            <div class="one-fourth column-bottom clear subcat"></div>
-            <div class="three-fourths column-last column-bottom clear">
-            <b>{{ title.title }}</b> • <span class="cv-meta">{{ title.things }}</span>
-            </div>
-    {% endfor %}
+<div class="one-fourth column-bottom clear subcat">Skills</div>
+    <div class="three-fourths column-last column-bottom clear">
+        {% for title in site.data.cv2.skills %}
+            <b>{{ title.title }}</b> • <span class="cv-meta">{{ title.things }}.</span><br/>
+        {% endfor %}
+    </div>
+
+    <div class="one-fourth column-bottom clear subcat">Trainings</div>
+        <div class="three-fourths column-last column-bottom clear">
+            {% for title in site.data.cv2.training%}
+                <b>{{ title.title }}</b> • <span class="cv-meta">{{ title.institution }}. {{ title.date }}.</span><br/>
+            {% endfor %}
+        </div>
 
 </div>
