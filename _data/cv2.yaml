@@ -110,12 +110,12 @@ employment-publichumanities:
     date: "2015"
     context: "Engaged visitors with 18th-19th-century social history of Providence, RI, by developing curriculum packets and leading tours"
     page-tag: publichumanities
-#  - title: Editorial Intern
-#    company: University of Massachusetts Press
-#    date: "2014–2015"
-#    context: "Supported senior editorial staff by sourcing potential authors to produce new materials, creating fact sheets to analyze press growth and success, and starting press blog"
-#    page-tag: notpublic
-#    page-tag-tech: notdigital
+  - title: Editorial Intern
+    company: University of Massachusetts Press
+    date: "2014–2015"
+    context: "Supported senior editorial staff by sourcing potential authors to produce new materials, creating fact sheets to analyze press growth and success, and starting press blog"
+    page-tag: notpublic
+    page-tag-tech: notdigital
   - title: Archival Intern
     company: New Bedford Whaling Museum
     date: "2014"
@@ -131,11 +131,10 @@ journals:
 
 web:
   - title: "Biographical Sketch of Helen Emerson"
-  venue: "Biographical Database of NAWSA Suffragists, 1890-1920"
-  date: "January 2020"
-  url: "https://documents.alexanderstreet.com/d/1010113831"
-  page-tag-tech: digital
-  page-tag: publichumanities
+    venue: "Biographical Database of NAWSA Suffragists, 1890-1920"
+    date: "January 2020"
+    url: "https://documents.alexanderstreet.com/d/1010113831"
+    page-tag: publichumanities
   - title: "Documenting the Use of the Smithsonian Learning Lab Among Smithsonian Museums, Research Centers, and Programmatic Offices"
     venue: "Smithsonian Center for Learning and Digital Access"
     date: "August 2018"

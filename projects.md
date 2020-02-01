@@ -7,9 +7,6 @@ title: Projects
 
 Outside of professional activities, I do some stuff for fun.
 
-## Theatre
-I keep a [theatre blog](/theatre-blog) to document my attendance at performances in the greater Philadelphia area. I see a lot of theatre, read a lot of plays, and sometimes I write about it.
-
 ## Twitter Bots
 I manage some Twitter bots.
 
