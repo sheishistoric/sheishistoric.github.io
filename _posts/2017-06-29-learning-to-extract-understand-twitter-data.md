@@ -11,6 +11,7 @@ tags:
   - Graduate
   - HASTAC
   - Highlights
+  - academic-highlights
 period: graduate
 ---
 From <a href="https://www.hastac.org/blogs/sheishistoric/2017/06/27/twarc-learning-extract-understand-twitter-data" target="_blank" rel="noopener noreferrer">HASTAC</a>:
