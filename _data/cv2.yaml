@@ -130,6 +130,12 @@ edited:
 journals:
 
 web:
+  - title: "Biographical Sketch of Helen Emerson"
+  venue: "Biographical Database of NAWSA Suffragists, 1890-1920"
+  date: "January 2020"
+  url: "https://documents.alexanderstreet.com/d/1010113831"
+  page-tag-tech: digital
+  page-tag: publichumanities
   - title: "Documenting the Use of the Smithsonian Learning Lab Among Smithsonian Museums, Research Centers, and Programmatic Offices"
     venue: "Smithsonian Center for Learning and Digital Access"
     date: "August 2018"
@@ -312,6 +318,12 @@ awards:
 
 ########### Digital ###########
 projects:
+  - title: "Morais Digital Repository"
+    role: Project Manager/Developer
+    url: "morais.exhibits.library.upenn.edu"
+    date: "2019-Present"
+    context: ""
+    details: ""
   - title: "Judaica Americana"
     role: Project Manager/Developer
     url: "repository.upenn.edu/judaicaamericana"
