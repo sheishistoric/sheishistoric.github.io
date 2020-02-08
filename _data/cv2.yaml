@@ -129,18 +129,43 @@ edited:
 
 journals:
 
+datasets:
+  - title: "Dataset: Scribes of the Cairo Geniza, Sorting Phase, August 2017 - February 2019"
+    venue: "Penn Libraries, University of Pennsylvania"
+    date: "January 2020"
+    url: "https://repository.upenn.edu/cairogeniza/1/"
+  - title: "Dataset for Judaica Americana: A Bibliography of Publications to 1900"
+    venue: "Penn Libraries, University of Pennsylvania"
+    date: "October 2019"
+    url: "https://repository.upenn.edu/judaica_americana/2/"
+
 web:
+  - title: "Who are the #GenizaScribes: 2019-2020 Community Survey Report"
+    venue: "Penn Libraries, University of Pennsylvania"
+    date: "February 2020"
+    url: "https://repository.upenn.edu/cairogeniza/3/"
+    page-tag: publichumanities
+    page-tag: digital
+    page-tag: geniza
   - title: "Biographical Sketch of Helen Emerson"
     venue: "Biographical Database of NAWSA Suffragists, 1890-1920"
     date: "January 2020"
     url: "https://documents.alexanderstreet.com/d/1010113831"
+    page-tag:
+  - title: "Scribes of the Cairo Geniza: Reviewing Sorting Phase Data"
+    venue: "Penn Libraries, University of Pennsylvania"
+    date: "April 2019"
+    url: "https://repository.upenn.edu/cairogeniza/2/"
+    page-tag-tech: digital
     page-tag: publichumanities
+    page-tag: geniza
   - title: "Documenting the Use of the Smithsonian Learning Lab Among Smithsonian Museums, Research Centers, and Programmatic Offices"
     venue: "Smithsonian Center for Learning and Digital Access"
     date: "August 2018"
     url: "https://learninglab.si.edu/cabinet/file/edc7e1f0-fc84-40eb-8cd2-cdf51ad7958a/Smithsonian-SCLDA_InternalLearningLabUsage_Report.pdf"
     page-tag-tech: digital
     page-tag: publichumanities
+    page-tag: museums
 
 other:
   - title: "Illuminating Iranian tradition: Twelve Gates Arts presents ‘Immanence: Tazhib in America | Behnaz Karjoo’"
@@ -320,7 +345,7 @@ projects:
   - title: "Morais Digital Repository"
     role: Project Manager/Developer
     url: "morais.exhibits.library.upenn.edu"
-    date: "2019-Present"
+    date: "2020-Present"
     context: ""
     details: ""
   - title: "Judaica Americana"
