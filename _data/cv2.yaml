@@ -168,6 +168,10 @@ web:
     page-tag: museums
 
 other:
+  - title: "The History of Quarantine"
+    venue: "Broad Street Review"
+    date: "March 10, 2020"
+    url: "https://www.broadstreetreview.com/museums/the-philadelphia-city-archives-present-the-history-of-the-lazaretto"
   - title: "Illuminating Iranian tradition: Twelve Gates Arts presents ‘Immanence: Tazhib in America | Behnaz Karjoo’"
     venue: "Broad Street Review"
     date: "January 13, 2020"
@@ -207,11 +211,20 @@ conference-talks:
     url: ""
 
 conference-other:
+  - title: "Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing"
+    institution: Alliance of Digital Humanities Organizations
+    location: Ottawa, Ontario
+    date: July 2020
+    type: Poanel
+    event: "DH2020"
+    url: "https://dh2020.adho.org"
+    page-tag-tech: digital
+    page-tag: "publichumanities"
   - title: "Interpreting Jewish History in Museums and Public History Settings"
     institution: National Council for Public History
-    location: Atlanta, Georgia
+    location: Atlanta, Georgia//Virtual
     date: March 2020
-    type: Roundtable
+    type: Twitter Chat
     event: "NCPH 2020"
     page-tag-tech: "digital"
     page-tag: publichumanities
