@@ -316,6 +316,15 @@ conference-other:
     page-tag: publichumanities
 
 other-talks:
+  - title: "Scribes of the Cairo Geniza Transcribe-a-thon"
+    institution: Columbia University Libraries
+    location: Virtual
+    date: April
+    year: 2020
+    type: Talk
+    page-tag-tech: digital
+    page-tag: publichumanities
+    url: ""
   - title: "Vivero Fellows: Digital Public Humanities"
     institution: Grinnell College, Grinnell, Iowa
     location: Virtual
@@ -355,15 +364,23 @@ awards:
 
 ########### Digital ###########
 projects:
+  - title: "Kislak COVID-19 Resources"
+    role: Collaborator
+    url: "https://kislakcenter.github.io/covid-19-resources/"
+    date: "2019-Present"
+    context: "A custom Penn Libraries Jekyll theme and rapid response site focused on documenting available resources from special collections at University of Pennsylvania Libraries"
+    details: ""
+    page-tag-tech: digital
   - title: "Morais Digital Repository"
     role: Project Manager/Developer
     url: "morais.exhibits.library.upenn.edu"
     date: "2020-Present"
     context: ""
     details: ""
+    page-tag-tech: digital
   - title: "Judaica Americana"
     role: Project Manager/Developer
-    url: "repository.upenn.edu/judaicaamericana"
+    url: "singermanja2.exhibits.library.upenn.edu"
     date: "2019-Present"
     context: "The digital second edition of Judaica Americana makes searchable the 1990. The first phase of this project released the second edition through University of Pennsylvania's open access repository, Scholarly Commons, available as a PDF and CSV."
     details: "This project intends to publish a digital second edition of Judaica Americana incorporating the foundation bibliography with the approximately 3,000 supplements the author/compiler Robert Singerman has found, taking into account and removing entries that he has withdrawn from the foundation bibliography, with an explanation for why they were removed. This digital copy will be available as a file, dataset, and searchable database. Through JA2, we expect to provide researchers, book trade specialists, genealogists, and bibliographers with the information they will need to mine this invaluable resource."
@@ -470,7 +487,7 @@ exhibitions:
 
 ########### Membership and Service ###########
 service:
-  - title: "Organizing Committee Member, KeystoneDH 2020"
+  - title: "Organizing Committee Member, KeystoneDH 2020 (postponed due to COVID-19)"
     institution: "Keystone DH"
     year: "2019–20"
     page-tag-tech: digital
@@ -513,6 +530,12 @@ skills:
     things: "Tableau Public, Garageband, iMovie, Adobe Audition, Audacity, Adobe Photoshop, Adobe llustrator, WordPress, Drupal, Wikia"
 
 training:
+  - title: "Jekyll Working Group"
+    institution: "University of Pennsylvania Libraries"
+    date: "2019-Present"
+  - title: "Python for Humanists Working Group"
+    institution: "University of Pennsylvania Libraries"
+    date: "2019-Present"
   - title: "Python for Humanists"
     institution: "HILT (Humanities Intensive Learning & Training)"
     date: "June 2018"
