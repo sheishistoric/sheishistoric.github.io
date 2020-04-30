@@ -60,4 +60,19 @@ title: Journalism/Criticsm
 		{% endfor %}
 	  </ul>
 	</div>
-</div?
+</div>
+
+{% for post in site.posts %}
+    {% if forloop.first == true %}
+        <div class="one-fourth column-bottom clear subcat"><em>Blog</em></div>
+    {% else %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+    {% endif %}
+        <div class="three-fourths column-last column-bottom clear">
+            {% if post.tags contains "journalism-highlights" %}
+                <a href="{{ post.url }}" target="_blank"><b>&ldquo;{{ post.title }}&rdquo;</b><br/></a>
+            {% endif %}
+            <span class="cv-meta">{{ post.date | date_to_string }} • <i>{{ post.venue }}</i></span>
+        </div>
+{% endfor %}
+</div>
