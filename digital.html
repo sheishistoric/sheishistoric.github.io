@@ -73,7 +73,8 @@ title: Digital
 
 <!-- 3: Employment -->
 <div class="clear">
-<h2><span id="t3"></span><a href="#t3"><i class="fa fa-chevron-up"></i></a> University Employment</h2>
+<h2><span id="t3"></span><a href="#t3"><i class="fa fa-chevron-up"></i></a> Employment</h2>
+<h3><span id="t3"></span> University Employment</h3>
 {% for title in site.data.cv2.employment-university %}
   {% if title.page-tag-tech == 'digital' %}
       <div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
@@ -86,7 +87,7 @@ title: Digital
 {% endfor %}
 </div>
 <div class="clear">
-<h2><span id="t3"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Public Humanities Employment</h2>
+<h3><span id="t3"></span> Public Humanities Employment</h3>
 {% for title in site.data.cv2.employment-publichumanities %}
   {% if title.page-tag-tech == 'digital' %}
     <div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
@@ -184,7 +185,7 @@ title: Digital
 
 <div class="clear">
 <h2><span id="t3"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Employment</h2>
-{% for title in site.data.cv2.employment %}
+{% for title in site.data.cv2.employment-university %}
     <div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
     <div class="three-fourths column-last column-bottom clear">
         <b>{{ title.title }}</b> • <a id="showEmployment{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
