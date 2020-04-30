@@ -43,11 +43,13 @@ title: Public
     {% endif %}
         <div class="three-fourths column-last column-bottom clear">
           {% if title.url !="" %}
-          <a href="{{ title.url }}"><b>{{ title.title }}</b></a> • <a id="showProject{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>{{ title.role }}. {{ title.date }}.</small>
-          <div class="context" id="project{{ forloop.index }}"><p>{{ title.context }}</p></div>
+          <a href="{{ title.url }}"><b>{{ title.title }}</b></a> • <small>{{ title.role }}. {{ title.date }}.</small>
+          <br />
+          <span class="cv-meta">{{ title.context }}.</span>
           {% else %}
-          <b>{{ title.title }}</b> • <a id="showProject{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>{{ title.role }}. {{ title.date }}.</small>
-          <div class="context" id="project{{ forloop.index }}"><p>{{ title.context }}</p></div>
+          <b>{{ title.title }}</b> • <small>{{ title.role }}. {{ title.date }}.</small>
+          <br />
+          <span class="cv-meta">{{ title.context }}.</span>
           {% endif %}
         </div>
   {% endif %}
@@ -66,11 +68,13 @@ title: Public
     {% endif %}
     <div class="three-fourths column-last column-bottom clear">
       {% if title.url !="" %}
-      <a href="{{ title.url }}"><b>{{ title.title }}</b></a> • <a id="showExhibitions{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>{{ title.role }}. {{ title.date }}.</small>
-      <div class="context" id="project{{ forloop.index }}"><p>{{ title.context }}</p></div>
+      <a href="{{ title.url }}"><b>{{ title.title }}</b></a> • <small>{{ title.role }}. {{ title.date }}.</small>
+      <br />
+      <span class="cv-meta">{{ title.context }}.</span>
       {% else %}
-      <b>{{ title.title }}</b> • <a id="showProject{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>{{ title.role }}. {{ title.date }}.</small>
-      <div class="context" id="project{{ forloop.index }}"><p>{{ title.context }}</p></div>
+      <b>{{ title.title }}</b> • <small>{{ title.role }}. {{ title.date }}.</small>
+      <br />
+      <span class="cv-meta">{{ title.context }}.</span>
       {% endif %}
     </div>
   {% endif %}
@@ -84,9 +88,10 @@ title: Public
   {% if title.page-tag == 'publichumanities' %}
       <div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
       <div class="three-fourths column-last column-bottom clear">
-          <b>{{ title.title }}</b> • <a id="showEmployment{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+          <b>{{ title.title }}</b><br/>
           <span class="cv-meta">{{ title.company }}.</span>
-          <div class="context" id="employment{{ forloop.index }}"><p>{{ title.context }}</p></div>
+          <br />
+          <span class="cv-meta">{{ title.context }}.</span>
         </div>
   {% endif %}
 {% endfor %}
@@ -96,9 +101,10 @@ title: Public
 {% for title in site.data.cv2.employment-publichumanities %}
     <div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>{{ title.title }}</b> • <a id="showEmployment{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>{{ title.title }}</b><br/>
         <span class="cv-meta">{{ title.company }}.</span>
-        <div class="context" id="employment{{ forloop.index }}"><p>{{ title.context }}</p></div>
+        <br />
+        <span class="cv-meta">{{ title.context }}.</span>
     </div>
 {% endfor %}
 </div>
