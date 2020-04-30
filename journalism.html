@@ -54,7 +54,7 @@ title: Journalism/Criticsm
         <div class="three-fourths column-last column-bottom clear">
             {% if post.tags contains "journalism-highlights" %}
                 <a href="{{ post.url }}" target="_blank"><b>&ldquo;{{ post.title }}&rdquo;</b><br/></a>
-            <span class="cv-meta">{{ post.date | date_to_string }} • <i>{{ post.venue }}</i></span>
+            <span class="cv-meta">{{ post.date | date_to_string }}</span>
 						{% endif %}
         </div>
 {% endfor %}
