@@ -43,8 +43,8 @@ title: Journalism/Criticsm
 </div>
 
 <div class="clear">
-<h2><span id="t4"></span><a href="#t4"><i class="fa fa-chevron-up"></i></a> Web</h2>
-{% assign my_array = site.posts | where: "tags","journalism" %}
+<h2><span id="t4"></span><a href="#t4"><i class="fa fa-chevron-up"></i></a> Blog</h2>
+{% assign my_array = site.posts | where: "tags","journalism-highlights" %}
 {% for post in my_array %}
     {% if forloop.first == true %}
         <div class="one-fourth column-bottom clear subcat"><em>Blog</em></div>
