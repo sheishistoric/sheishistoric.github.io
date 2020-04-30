@@ -44,23 +44,7 @@ title: Journalism/Criticsm
 
 <div class="clear">
 <h2><span id="t5"></span><a href="#t5"><i class="fa fa-chevron-up"></i></a> Blog</h2>
-{% for post in site.posts | where:"tags","journalism-highlights" %}
-	<div>
-	  <ul class="related-posts">
-	    <li>
-	      <h3>
-	        <a href="{{ post.url }}">
-	          {{ post.title }}
-	          <small>{{ post.date | date_to_string }}</small>
-	        </a>
-	      </h3>
-	    </li>
-		{% endfor %}
-	  </ul>
-	</div>
-</div>
-
-{% for post in site.posts | where:"tags","journalism-highlights" %}
+{% for post in site.posts | where: "tags","journalism-highlights" %}
     {% if forloop.first == true %}
         <div class="one-fourth column-bottom clear subcat"><em>Blog</em></div>
     {% else %}
