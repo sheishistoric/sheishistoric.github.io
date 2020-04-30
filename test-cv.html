@@ -59,6 +59,7 @@ title: CV2
     <div class="three-fourths column-last column-bottom clear">
         <b>{{ title.title }}</b> • <a id="showEmployment{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
         <span class="cv-meta">{{ title.company }}.</span>
+        <span class="cv-meta">{{ title.context }}.</span>
         <div class="context" id="employment{{ forloop.index }}"><p>{{ title.context }}</p></div>
     </div>
 {% endfor %}

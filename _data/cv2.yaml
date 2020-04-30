@@ -33,10 +33,6 @@ education:
 
 ########### University Employment ###########
 employment-university:
-  - title: Graduate Instructor
-    company: University of Maryland
-    date: "2018–Present"
-    context: ""
   - title: Judaica Digital Humanities Coordinator
     company: Penn Libraries
     date: "2019–Present"
@@ -219,7 +215,7 @@ conference-other:
     institution: Alliance of Digital Humanities Organizations
     location: Ottawa, Ontario
     date: July 2020
-    type: Poanel
+    type: Panel
     event: "DH2020"
     url: "https://dh2020.adho.org"
     page-tag-tech: digital
