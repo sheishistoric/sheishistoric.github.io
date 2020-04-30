@@ -29,7 +29,7 @@ title: Digital
 
 <!-- 1: Profile -->
 <div class="clear">
-<h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a>About Me</h2>
+<h2><span id="t1"></span><a href="#t1"><i class="fa fa-chevron-up"></i></a>About Me</h2>
     <div class="column-last column-bottom clear">
         <p>{{ site.data.cv2.profile-digital }}</p>
     </div>
@@ -37,7 +37,7 @@ title: Digital
 
 <!-- 8: Digital Projects -->
 <div class="clear">
-<h2><span id="t8"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Projects</h2>
+<h2><span id="t8"></span><a href="#t8"><i class="fa fa-chevron-up"></i></a> Projects</h2>
 
 {% for title in site.data.cv2.projects %}
   {% if title.page-tag == 'publichumanities' %}
@@ -60,7 +60,7 @@ title: Digital
 
 <!-- 10: Skills -->
 <div class="clear">
-<h2><span id="t10"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Skills</h2>
+<h2><span id="t10"></span><a href="#t10"><i class="fa fa-chevron-up"></i></a> Skills</h2>
 
     {% for title in site.data.cv2.skills%}
             <div class="one-fourth column-bottom clear subcat"></div>
@@ -73,7 +73,7 @@ title: Digital
 
 <!-- 3: Employment -->
 <div class="clear">
-<h2><span id="t3"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> University Employment</h2>
+<h2><span id="t3"></span><a href="#t3"><i class="fa fa-chevron-up"></i></a> University Employment</h2>
 {% for title in site.data.cv2.employment-university %}
   {% if title.page-tag-tech == 'digital' %}
       <div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
@@ -167,7 +167,7 @@ title: Digital
 
 <!-- 9: Membership + Service -->
 <div class="clear">
-<h2><span id="t9"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a>Membership & Service</h2>
+<h2><span id="t9"></span><a href="#t9"><i class="fa fa-chevron-up"></i></a>Membership & Service</h2>
         <div class="one-fourth column-bottom clear subcat">Service</div>
             <div class="three-fourths column-last column-bottom clear">
                 {% for title in site.data.cv2.service %}
@@ -180,4 +180,16 @@ title: Digital
                         <span class="cv-meta">{{ title.title }} • {{ title.institution }}. {{ title.year }}.<br/></span>
                     {% endfor %}
                 </div>
+</div>
+
+<div class="clear">
+<h2><span id="t3"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Employment</h2>
+{% for title in site.data.cv2.employment %}
+    <div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
+    <div class="three-fourths column-last column-bottom clear">
+        <b>{{ title.title }}</b> • <a id="showEmployment{{ forloop.index }}"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <span class="cv-meta">{{ title.company }}.</span>
+        <div class="context" id="employment{{ forloop.index }}"><p>{{ title.context }}</p></div>
+    </div>
+{% endfor %}
 </div>
