@@ -44,7 +44,7 @@ title: Journalism/Criticsm
 
 <div class="clear">
 <h2><span id="t4"></span><a href="#t4"><i class="fa fa-chevron-up"></i></a> Web</h2>
-{% for post in site.posts | where:"tags","journalism-highlights" %}
+{% for post in site.posts | where: "tags","journalism-highlights" %}
     {% if forloop.first == true %}
         <div class="one-fourth column-bottom clear subcat"><em>Blog</em></div>
     {% else %}
@@ -56,7 +56,7 @@ title: Journalism/Criticsm
             {% else %}
                 <b>&ldquo;{{ post.title }}&rdquo;</b><br/>
             {% endif %}
-            <span class="cv-meta">{{ post.date | date: '%B %-d, %Y' }} • <i>{{ title.venue }}</i></span>
+            <span class="cv-meta">{{ post.date | date: '%B %-d, %Y' }}</span>
         </div>
 {% endfor %}
 </div>
