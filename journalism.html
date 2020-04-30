@@ -42,20 +42,19 @@ title: Journalism/Criticsm
 {% endfor %}
 </div>
 
-<div class="clear">
-<h2><span id="t5"></span><a href="#t5"><i class="fa fa-chevron-up"></i></a> Blog</h2>
-{% assign my_array = site.posts | where: "tags","journalism-highlights"}
-{% for post in my_array %}
+{% for post in site.posts | where:"tags","journalism-highlights" %}
     {% if forloop.first == true %}
         <div class="one-fourth column-bottom clear subcat"><em>Blog</em></div>
     {% else %}
         <div class="one-fourth column-bottom clear subcat"></div>
     {% endif %}
         <div class="three-fourths column-last column-bottom clear">
-            {% if post.tags contains "journalism-highlights" %}
+            {% if title.url !="" %}
                 <a href="{{ post.url }}" target="_blank"><b>&ldquo;{{ post.title }}&rdquo;</b><br/></a>
-            <span class="cv-meta">{{ post.date | date_to_string }}</span>
-						{% endif %}
+            {% else %}
+                <b>&ldquo;{{ post.title }}&rdquo;</b><br/>
+            {% endif %}
+            <span class="cv-meta">{{ post.date | date: '%B %-d, %Y' }} • <i>{{ title.venue }}</i></span>
         </div>
 {% endfor %}
 </div>
