@@ -128,8 +128,19 @@ monographs:
 edited:
 
 journals:
-
+#  - title: "Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900."
+#    venue: "Journal of Open Humanities Data"
+#    date: "June 2020"
+#    url: ""
+#  - title: "Union List of Nineteenth-Century Jewish Serials Published in the United States"
+#    venue: "Manuscript Studies: a Journal of Schoenberg Institute for Manuscript Studies"
+#    date: "September 2020"
+#    url: ""
 datasets:
+  - title: "Union List of Nineteenth-Century Jewish Serials Published in the United States"
+    venue: "Penn Libraries, University of Pennsylvania"
+    date: "January 2020"
+    url: "https://repository.upenn.edu/cairogeniza/1/"
   - title: "Dataset: Scribes of the Cairo Geniza, Sorting Phase, August 2017 - February 2019"
     venue: "Penn Libraries, University of Pennsylvania"
     date: "January 2020"
@@ -180,6 +191,14 @@ other:
     venue: "Broad Street Review"
     date: "October 29, 2019"
     url: "https://www.broadstreetreview.com/cross-cultural/the-center-for-media-at-risk-presents-meme-tactics"
+  - title: "Revisualizing the Crystal Palace (Cataloging History, Part 4)"
+    venue: "Medium"
+    date: "January 5, 2018"
+    url: "https://medium.com/@lubar/revisualizing-the-crystal-palace-d239e50d9e12"
+  - title: "Catalog as Book, File, and Database (Cataloging History, Part 3)"
+    venue: "Medium"
+    date: "May 1, 2017"
+    url: "https://medium.com/@lubar/catalog-as-book-file-and-database-ac954096152e"
 
 ########### Talks ###########
 
@@ -211,9 +230,18 @@ conference-talks:
     url: ""
 
 conference-other:
+  - title: "Digital Projects in Jewish Studies"
+    institution: Association of Jewish Libraries
+    location: Virtual
+    date: July 2020
+    type: Panel
+    event: "AJL2020"
+    url: "https://dh2020.adho.org"
+    page-tag-tech: digital
+    page-tag: "publichumanities"
   - title: "Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing"
     institution: Alliance of Digital Humanities Organizations
-    location: Ottawa, Ontario
+    location: Ottawa, Ontario//Virtual
     date: July 2020
     type: Panel
     event: "DH2020"
@@ -371,7 +399,7 @@ projects:
     context: "A custom Penn Libraries Jekyll theme and rapid response site focused on documenting available resources from special collections at University of Pennsylvania Libraries"
     details: ""
     page-tag-tech: digital
-  - title: "Morais Digital Repository"
+  - title: "Sabato Morais Digital Repository"
     role: Project Manager/Developer
     url: "morais.exhibits.library.upenn.edu"
     date: "2020-Present"
