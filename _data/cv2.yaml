@@ -570,8 +570,8 @@ training:
 
 ########### Courses and Workshops ###########
 workshop:
-  - title: "Data "
-    organizer: "The Penn Libraries Digital Showcase"
+  - title: "Omeka Orientation: How to Use This Web Publishing Platform"
+    organizer: "Back to School Workshops"
     location: "University of Pennsylvania Libraries"
     date: "September 2020"
     url: ""
