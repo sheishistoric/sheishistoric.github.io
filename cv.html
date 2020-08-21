@@ -170,7 +170,7 @@ title: CV
 
 <!-- 7a: Workshops Led -->
 <div class="clear">
-<h2><span id="t7a"></span><a href="#t7"><i class="fa fa-chevron-up"></i></a> Workshops Led</h2>
+<h2><span id="t7a"></span><a href="#t7a"><i class="fa fa-chevron-up"></i></a> Workshops Led</h2>
 
 {% for title in site.data.cv2.workshop %}
         <div class="one-fourth column-bottom clear subcat"></div>
@@ -186,9 +186,6 @@ title: CV
 </div>
 
 <!-- 8: Projects -->
-<div class="clear">
-<h2><span id="t8"></span><a href="#t8"><i class="fa fa-chevron-up"></i></a> Digital Projects</h2>
-
 <div class="clear">
 <h2><span id="t8"></span><a href="#t8"><i class="fa fa-chevron-up"></i></a> Projects</h2>
 
@@ -206,11 +203,13 @@ title: CV
           {% else %}
           <b>{{ title.title }}</b> • <small>{{ title.role }}. {{ title.date }}.</small>
           <br />
+          <span class="cv-meta">{{ title.context }}.</span>
           {% endif %}
         </div>
-  {% endif %}
 {% endfor %}
 
+<div class="clear">
+<h2><span id="t11"></span><a href="#t11"><i class="fa fa-chevron-up"></i></a> Exhibitions</h2>
 {% for title in site.data.exhibitions %}
     {% if forloop.first == true %}
         <div class="one-fourth column-bottom clear subcat"><em>Exhibitions</em></div>
