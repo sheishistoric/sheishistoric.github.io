@@ -7,6 +7,10 @@ title: Projects
 
 Outside of professional activities, I do some stuff for fun.
 
+## Writing
+
+I am a contributor to the [*Broad Street Review*](https://www.broadstreetreview.com/), a non-profit online arts and culture publication for the greater Philadelphia area. You can read my work [here](https://emilyesten.com/tags/broad+street+review/). 
+
 ## Twitter Bots
 I manage some Twitter bots.
 

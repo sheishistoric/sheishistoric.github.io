@@ -17,7 +17,7 @@ contact:
 ########### Profile ###########
 profile: "I am a digital scholar, a public humanities practitioner, and public historian. I’m currently the Judaica Digital Humanities Project Coordinator for Penn Libraries and assist with Contingent Magazine."
 
-profile-public: I practice digital public humanities, bringing my love for museums and my interest in digital tools together. I think about how community building, engagement, and development in relation to the humanities can be augmented or transformed for the better with technology. My passion is for collaborating on public projects that think critically about audience, content, and method. I'm an ardent supporter of <a href="">#MuseumsAreNotNeutral</a>, a campaign that urges museum professionals to acknowledge and address social realities, and believe museums are most responsive when we bring people ad collections together to benefit our communities.
+profile-public: I practice digital public humanities, bringing my love for museums and my interest in digital tools together. I think about how community building, engagement, and development in relation to the humanities can be augmented or transformed for the better with technology. My passion is for collaborating on public projects that think critically about audience, content, and method. I'm an ardent supporter of <a href="https://www.museumsarenotneutral.com/">#MuseumsAreNotNeutral</a>, a campaign that urges museum professionals to acknowledge and address social realities, and believe museums are most responsive when we bring people ad collections together to benefit our communities.
 
 profile-digital: With universities and cultural institutions, I build innovative digital projects to engage audiences with objects, stories, and ideas. My philosophy for collaborating on digital projects comes from Allison Parrish's <a href="http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/">"Hacker Questions"</a>.
 
@@ -36,32 +36,24 @@ employment-university:
   - title: Judaica Digital Humanities Coordinator
     company: Penn Libraries
     date: "2019–Present"
-    context: "Mangaging the research and development of various projects associated with Judaica Digital Humanities at Penn Libraries, I deepen public and scholarly engagement with Penn's Judiaca materials."
+    context: "Managing the research and development of various projects associated with Judaica Digital Humanities at Penn Libraries, I deepen public and scholarly engagement with Penn's Judiaca materials"
     page-tag-tech: digital
     page-tag: publichumanities
   - title: Researcher and Collaborator, Mapping Violence
     company: Brown University, Department of American Studies
     date: "2018–2019"
-    context: "As a Researcher and Collaborator on the team, I coordinated with student developers and system administrators to maintain and operate the existing database, and provided strategic direction on the layout, interface, and content for project website."
+    context: "As a Researcher and Collaborator on the team, I coordinated with student developers and system administrators to maintain and operate the existing database, and provided strategic direction on the layout, interface, and content for project website"
     page-tag-tech: digital
   - title: Teaching Assistant
     company: Brown University, School of Professional Studies
     date: "2017"
-    context: "Introduced students to critical reading & literary theory in online English course <i>Fantastic Places and Unhuman Humans</i>."
+    context: "Introduced students to critical reading & literary theory in online English course <i>Fantastic Places and Unhuman Humans</i>"
     page-tag-tech: digital
   - title: Digital Projects Assistant
     company: Brown University, Department of American Studies
     date: "2016-2017"
-    context: "Explored museum history and catalog history by designing two digital projects using Tiki-Toki, Google Sheets, and Tableau Public visualizations."
+    context: "Explored museum history and catalog history by designing two digital projects using Tiki-Toki, Google Sheets, and Tableau Public visualizations"
     page-tag-tech: digital
-#  - title: Research Intern
-#    company: University of Massachusetts Amherst, Department of History
-#    date: "2013–2016"
-#    context: "Researched Pacific Islander and Jewish communities' involvement in the whaling industry for NPS report"
-#  - title: Academic Intern
-#    company: University of Massachusetts Amherst, Department of History
-#    date: "2014"
-#    context: ""
 
 ########### Public History Employment ###########
 employment-publichumanities:
@@ -75,23 +67,23 @@ employment-publichumanities:
   - title: Exhibition Researcher
     company: New Bedford Fishing Heritage Center
     date: "2018"
-    context: "I volunteered at the New Bedford Fishing Heritage Center on an upcoming exhibition exploring the evolution of wheelhouse technology and vessel design in the fishing industry from 1900-present, and the impact of these changes on fishermen, their families, and their communities."
+    context: "I volunteered at the New Bedford Fishing Heritage Center on an upcoming exhibition exploring the evolution of wheelhouse technology and vessel design in the fishing industry from 1900-present, and the impact of these changes on fishermen, their families, and their communities"
     page-tag: publichumanities
   - title: Humanities Scholar
     company: New Bedford Ballet Foundation
     date: "2018"
-    context: "Served as Humanities Scholar on Mass Humanities-funded initiative with New Bedford Ballet to introduce fifth grade students to local history story of exploration, travel, and cultural exchange in 19th-century Massachusetts. Read coverage of the ballet performance and program at {{http://www.southcoasttoday.com/news/20180323/from-japan-to-southcoast-enduring-bond |SouthCoast Today}}"
+    context: "Served as Humanities Scholar on Mass Humanities-funded initiative with New Bedford Ballet to introduce fifth grade students to local history story of exploration, travel, and cultural exchange in 19th-century Massachusetts"
     page-tag: publichumanities
   - title: Digital Humanities Fellow
     company: Edward M. Kennedy Institute for the United States Senate
     date: "2018"
-    context: "I considered how technology could amplify narratives about the Kennedy family, the Senator’s work in the Senate, and current issues in the US government. In addition to planning out future experiences in VR, AR, and digital exhibit content, I develped two iPad applications and one digital projection/web display regarding the 2018 U.S. Senate elections."
+    context: "I considered how technology could amplify narratives about the Kennedy family, the Senator’s work in the Senate, and current issues in the US government. In addition to planning out future experiences in VR, AR, and digital exhibit content, I developed two iPad applications and one digital projection/web display regarding the 2018 U.S. Senate elections"
     page-tag: publichumanities
     page-tag-tech: digital
   - title: Smithsonian Center for Learning and Digital Access
     company: Evaluation Assistant
     date: "2016"
-    context: "Led evaluation case studies of institutional use of Smithsonian Learning Lab, a digital collections platform that allows users to discover Smithsonian Institution digital resources, and use them to create and share collections tailored to their needs and that of their target audiences."
+    context: "Led evaluation case studies of institutional use of Smithsonian Learning Lab, a digital collections platform that allows users to discover Smithsonian Institution digital resources, and use them to create and share collections tailored to their needs and that of their target audiences"
     page-tag-tech: digital
     page-tag: publichumanities
   - title: Park Ambassador (Volunteer)
@@ -128,14 +120,14 @@ monographs:
 edited:
 
 journals:
-#  - title: "Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900."
-#    venue: "Journal of Open Humanities Data"
-#    date: "June 2020"
-#    url: ""
-#  - title: "Union List of Nineteenth-Century Jewish Serials Published in the United States"
-#    venue: "Manuscript Studies: a Journal of Schoenberg Institute for Manuscript Studies"
-#    date: "September 2020"
-#    url: ""
+  - title: "Scribes, Scholars, and Scripts: Reviewing Data from <i>Scribes of the Cairo Geniza</i>"
+    venue: "Manuscript Studies: a Journal of Schoenberg Institute for Manuscript Studies"
+    date: "(forthcoming)"
+    url: ""
+  - title: "Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900."
+    venue: "Journal of Open Humanities Data"
+    date: "July 2020"
+    url: "https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.15/"
 datasets:
   - title: "Union List of Nineteenth-Century Jewish Serials Published in the United States"
     venue: "Penn Libraries, University of Pennsylvania"
@@ -236,7 +228,7 @@ conference-other:
     date: July 2020
     type: Panel
     event: "AJL2020"
-    url: "https://dh2020.adho.org"
+    url: "https://judaicadh.library.upenn.edu/blog/ajl2020/"
     page-tag-tech: digital
     page-tag: "publichumanities"
   - title: "Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing"
@@ -377,7 +369,7 @@ awards:
   - title: MCN Scholar
     date: "2019"
     secondary: "For Museum Computer Network Annual Conference"
-    context: "Each year, the MCN Scholarship Program awards scholarships to 15 qualified applicants from the cultural sector to attend the MCN Annual Conference."
+    context: "Each year, the MCN Scholarship Program awards scholarships to 15 qualified applicants from the cultural sector to attend the MCN Annual Conference"
   - title: Humanities Intensive Learning and Teaching (HILT) Graduate Student Scholarship
     date: "2017"
     secondary: "For attendance at the HILT Institute at University of Pennsylvania"
@@ -387,7 +379,7 @@ awards:
     context:
   - title: HASTAC Scholars Fellow
     date: "2016-2018"
-    secondary: "The HASTAC Scholars program is a collective of graduate and undergraduate students who are engaged with innovative projects and research at the intersection of digital media & learning, 21st century education, the digital humanities, and technology in the arts, humanities and sciences."
+    secondary: "The HASTAC Scholars program is a collective of graduate and undergraduate students who are engaged with innovative projects and research at the intersection of digital media & learning, 21st century education, the digital humanities, and technology in the arts, humanities and sciences"
     context:
 
 ########### Digital ###########
@@ -411,13 +403,13 @@ projects:
     url: "singermanja2.exhibits.library.upenn.edu"
     date: "2019-Present"
     context: "The digital second edition of Judaica Americana makes searchable the 9,000 entries in the print edition. Taken as a whole, Singerman’s bibliography provides extensive and authoritative documentation of American Jewish communal activity and growth before 1901."
-    details: "This project intends to publish a digital second edition of Judaica Americana incorporating the foundation bibliography with the approximately 3,000 supplements the author/compiler Robert Singerman has found, taking into account and removing entries that he has withdrawn from the foundation bibliography, with an explanation for why they were removed. This digital copy will be available as a file, dataset, and searchable database. Through JA2, we expect to provide researchers, book trade specialists, genealogists, and bibliographers with the information they will need to mine this invaluable resource."
+    details: "This project intends to publish a digital second edition of Judaica Americana incorporating the foundation bibliography with the approximately 3,000 supplements the author/compiler Robert Singerman has found, taking into account and removing entries that he has withdrawn from the foundation bibliography, with an explanation for why they were removed. This digital copy will be available as a file, dataset, and searchable database. Through JA2, we expect to provide researchers, book trade specialists, genealogists, and bibliographers with the information they will need to mine this invaluable resource"
     page-tag-tech: digital
   - title: "Scribes of the Cairo Geniza"
     role: Project Manager
     url: "https://scribesofthecairogeniza.org"
     date: "2019-Present"
-    context: "Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform."
+    context: "Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform"
     details:
     page-tag-tech: digital
     page-tag: publichumanities
@@ -425,7 +417,7 @@ projects:
     role: Site Designer
     url: "https://contingentmagazine.org"
     date: "2018-Present"
-    context: "At Contingent Magazine, we believe that history is for everyone, that every kind of history is worthwhile, and that historians should be paid for their work."
+    context: "At Contingent Magazine, we believe that history is for everyone, that every kind of history is worthwhile, and that historians should be paid for their work"
     details:
     page-tag-tech: digital
     page-tag: publichumanities
@@ -433,7 +425,7 @@ projects:
     role: Researcher & Collaborator
     url: "http://mappingviolence.com"
     date: "2017-2018"
-    context: "Mapping Violence recovers lost and obscured cases of racial violence in Texas from 1900 to 1930, a period of now largely forgotten bloodshed. Making these histories public is a crucial step towards reckoning with the long legacies of violence."
+    context: "Mapping Violence recovers lost and obscured cases of racial violence in Texas from 1900 to 1930, a period of now largely forgotten bloodshed. Making these histories public is a crucial step towards reckoning with the long legacies of violence"
     details: I've discussed my work on this project in several venues, including the American Studies Association Annual Meeting (2018).
     page-tag-tech: digital
     page-tag: publichumanities
@@ -441,14 +433,14 @@ projects:
     role: PI with Steven Lubar, Steffani Gomez, Brian Croxall, Patrick Rashleigh
     url: "http://cds.library.brown.edu/projects/crystalpalace/"
     date: "2017–18"
-    context: "Geographic visualizations in Tableau, Google Maps, and D3 to discuss historical significance of museum catalogs, supplemented by two co-authored Medium posts with Steven Lubar. Data hosted on GitHub."
+    context: "Geographic visualizations in Tableau, Google Maps, and D3 to discuss historical significance of museum catalogs, supplemented by two co-authored Medium posts with Steven Lubar. Data hosted on GitHub"
     page-tag-tech: digital
     page-tag: publichumanities
   - title: Inside the Lost Museum
     role: PI with Steven Lubar
     url: "https://www.tiki-toki.com/timeline/entry/690396/Inside-the-Lost-Museum/"
     date: "2016"
-    context: "An interactive timeline as a digital companion to his book, Inside the Lost Museum: Curating, Past and Present (July 2017 by Harvard University Press.)"
+    context: "An interactive timeline as a digital companion to his book, Inside the Lost Museum: Curating, Past and Present (July 2017 by Harvard University Press)"
     page-tag-tech: digital
 #  - title: "The Two New Bedfords: Spatial and Social Analysis of the City, 1800-1870 (defunct)"
 #    role: PI, supervised by Laura Lovett, Marla Miller, Eric Poehler
@@ -554,8 +546,10 @@ skills:
     things: "HTML, CSS, Jekyll + Liquid templating (reading), Python (reading), Swift (reading)"
   - title: "Social Media"
     things: Twitter, Facebook, Instagram, Tumblr, HootSuite, TweetDeck
+  - title: "Content Management"
+    things: "WordPress, Drupal, Wikia, Omeka"
   - title: "Jack of All Trades"
-    things: "Tableau Public, Garageband, iMovie, Adobe Audition, Audacity, Adobe Photoshop, Adobe llustrator, WordPress, Drupal, Wikia"
+    things: "Tableau Public, Garageband, iMovie, Adobe Audition, Audacity, Adobe Photoshop, Adobe Illustrator"
 
 training:
   - title: "Jekyll Working Group"
@@ -573,3 +567,16 @@ training:
   - title: "Experimental Sound Design for Podcasting and Video"
     institution: "AS220 Media Lab"
     date: "November 2018"
+
+########### Courses and Workshops ###########
+workshop:
+  - title: "Data "
+    organizer: "The Penn Libraries Digital Showcase"
+    location: "University of Pennsylvania Libraries"
+    date: "September 2020"
+    url: ""
+  - title: "Data Wrangling with Google Sheets"
+    organizer: "Digital Scholarship Bootcamp"
+    location: "University of Pennsylvania Libraries "
+    date: "July 2020"
+    url: "https://judaicadh.library.upenn.edu/blog/2020-07-06-digital-scholarship-bootcamp/"
