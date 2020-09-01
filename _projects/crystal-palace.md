@@ -13,12 +13,7 @@ end-year: 2017
 status: legacy
 ---
 
-Our third Jesselson-Kaplan American Genizah Project, The Sabato Morais Papers, resulted in the digitization and TEI encoding of the Sabato Morais Papers. We are in the process of building a searchable database that performs full-text searching of almost every document in the Sabato Morais Papers and displays the images of retrieved documents alongside their encoded transcription. This project is of interest to scholars of American, Italian and Sephardic Jewish history, religious studies, immigration and ethnic studies, Hebrew language and the history of Biblical interpretation, and the history of scholarship. By making these writings and correspondence of Sabato Morais digitally available, researchers have access to primary sources that document the development of observant Jewish life in the broad context of Victorian culture on both sides of the Atlantic during the nineteenth century. 
-
-As the project manager...
-
 ## Resources  
-- [Contingent Theme]()
-- [Twitter]()
-- [Instagram]()
-- [Facebook]()
+- [Revisualizing the Crystal Palace](https://medium.com/@lubar/revisualizing-the-crystal-palace-d239e50d9e12): Coauthored with Steve Lubar, this blog post applies the tools of the digital humanities to explore the Crystal Palace catalogs as digital object. What can we do when we turn the catalog into a database?
+- [Catalog as Book, File, and Database](https://medium.com/@lubar/catalog-as-book-file-and-database-ac954096152e): Coauthored with Steve Lubar, this blog post considers the catalog as physical and digital object examining the affordances of each of these forms, what it encouraged and allowed.
+- [Cataloging History: Revisualizing the 1853 New York Crystal Palace](https://dh2018.adho.org/en/cataloging-history-revisualizing-the-1853-new-york-crystal-palace/): Poster presented at DH2018 (Alliance of Digital Humanities Organizations)

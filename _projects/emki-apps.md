@@ -1,5 +1,5 @@
 ---
-link: 
+link: https://www.emkinstitute.org/explore-the-institute/exhibits/senate-staff-office
 layout: work
 slug: emki-apps
 location: Edward M. Kennedy Institute for the United States Senate
@@ -18,6 +18,6 @@ As the Digital Humanities Fellow at the Edward M. Kennedy Institute for the Unit
 I also developed two iPad applications as in-gallery interactives. For each application, I led a prototyping team from two departments to discuss visitor needs, design interests, and technological concerns for future updates to the applications. Finally, I started internal conversations about the use of virtual and augmented realities at the Institute. I performed an environmental scan of the uses of these technologies in museum spaces and provided a series of questions regarding sustainability, accessibility, and development of any virtual experiences for educational potential.  In all of these projects, I worked with the visitor experience team to establish a foundation of talking about technology with the IT department, and addressing how technology could transform educational experiences for a variety of audiences.
 
 ## Resources 
-- [Exhibit]()
-- [Temporary Exhibit]()
-- [Video]()
+- [Senate Staff Office Exhibit](https://www.emkinstitute.org/explore-the-institute/exhibits/senate-staff-office)
+- [2018 Senate Election Wall](https://www.emkinstitute.org/explore-the-institute/exhibits/senate-election-wall-2018)
+- [EMKI Video](https://www.youtube.com/watch?v=QRyigmuF-pU&feature=youtu.be): This video, made with iMovie and QuickTime player, discusses an iPad application I designed during my fellowship.
