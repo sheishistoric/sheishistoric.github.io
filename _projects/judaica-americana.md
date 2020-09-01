@@ -17,7 +17,7 @@ The [**Digital Second Edition of Judaica Americana**](https://singermanja2.exhib
 
 I was responsible for the data preparation and project methodology. As the developer and designer, I designed the look and feel of the site, editing the Omeka theme that is used for the navigation and user interaction with the site. 
 
-### Resources 
+## Resources 
 
 -   Esten, Emily. “Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900” Journal of Open Humanities Data 6, no. 4, (2020). DOI: https://doi.org/10.5334/johd.15
 
