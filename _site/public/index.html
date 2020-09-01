@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Other</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -111,7 +185,7 @@
 <div class="clear">
 <h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a>About Me</h2>
     <div class="column-last column-bottom clear">
-        <p>I practice digital public humanities, bringing my love for museums and my interest in digital tools together. I think about how community building, engagement, and development in relation to the humanities can be augmented or transformed for the better with technology. My passion is for collaborating on public projects that think critically about audience, content, and method. I'm an ardent supporter of <a href="">#MuseumsAreNotNeutral</a>, a campaign that urges museum professionals to acknowledge and address social realities, and believe museums are most responsive when we bring people ad collections together to benefit our communities.</p>
+        <p>I practice digital public humanities, bringing my love for museums and my interest in digital tools together. I think about how community building, engagement, and development in relation to the humanities can be augmented or transformed for the better with technology. My passion is for collaborating on public projects that think critically about audience, content, and method. I'm an ardent supporter of <a href="https://www.museumsarenotneutral.com/">#MuseumsAreNotNeutral</a>, a campaign that urges museum professionals to acknowledge and address social realities, and believe museums are most responsive when we bring people ad collections together to benefit our communities.</p>
     </div>
 </div>
 
@@ -124,13 +198,18 @@
   
 
   
+
+  
+
+  
     
         <div class="one-fourth column-bottom clear subcat"></div>
     
         <div class="three-fourths column-last column-bottom clear">
           
-          <a href="https://scribesofthecairogeniza.org"><b>Scribes of the Cairo Geniza</b></a> • <a id="showProject2"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>Project Manager. 2019-Present.</small>
-          <div class="context" id="project2"><p>Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform.</p></div>
+          <a href="https://scribesofthecairogeniza.org"><b>Scribes of the Cairo Geniza</b></a> • <small>Project Manager. 2019-Present.</small>
+          <br />
+          <span class="cv-meta">Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform.</span>
           
         </div>
   
@@ -141,8 +220,9 @@
     
         <div class="three-fourths column-last column-bottom clear">
           
-          <a href="https://contingentmagazine.org"><b>Contingent Magazine</b></a> • <a id="showProject3"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>Site Designer. 2018-Present.</small>
-          <div class="context" id="project3"><p>I developed the custom Contingent Magazine theme for the site.</p></div>
+          <a href="https://contingentmagazine.org"><b>Contingent Magazine</b></a> • <small>Site Designer. 2018-Present.</small>
+          <br />
+          <span class="cv-meta">At Contingent Magazine, we believe that history is for everyone, that every kind of history is worthwhile, and that historians should be paid for their work.</span>
           
         </div>
   
@@ -153,8 +233,9 @@
     
         <div class="three-fourths column-last column-bottom clear">
           
-          <a href="http://mappingviolence.com"><b>Mapping Violence</b></a> • <a id="showProject4"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>Researcher & Collaborator. 2017-2018.</small>
-          <div class="context" id="project4"><p>Mapping Violence recovers lost and obscured cases of racial violence in Texas from 1900 to 1930, a period of now largely forgotten bloodshed. Making these histories public is a crucial step towards reckoning with the long legacies of violence.</p></div>
+          <a href="http://mappingviolence.com"><b>Mapping Violence</b></a> • <small>Researcher & Collaborator. 2017-2018.</small>
+          <br />
+          <span class="cv-meta">Mapping Violence recovers lost and obscured cases of racial violence in Texas from 1900 to 1930, a period of now largely forgotten bloodshed. Making these histories public is a crucial step towards reckoning with the long legacies of violence.</span>
           
         </div>
   
@@ -165,8 +246,9 @@
     
         <div class="three-fourths column-last column-bottom clear">
           
-          <a href="http://cds.library.brown.edu/projects/crystalpalace/"><b>Visualizing the Crystal Palace</b></a> • <a id="showProject5"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>PI with Steven Lubar, Steffani Gomez, Brian Croxall, Patrick Rashleigh. 2017–18.</small>
-          <div class="context" id="project5"><p>Geographic visualizations in Tableau, Google Maps, and D3 to discuss historical significance of museum catalogs, supplemented by two co-authored Medium posts with Steven Lubar. Data hosted on GitHub.</p></div>
+          <a href="http://cds.library.brown.edu/projects/crystalpalace/"><b>Visualizing the Crystal Palace</b></a> • <small>PI with Steven Lubar, Steffani Gomez, Brian Croxall, Patrick Rashleigh. 2017–18.</small>
+          <br />
+          <span class="cv-meta">Geographic visualizations in Tableau, Google Maps, and D3 to discuss historical significance of museum catalogs, supplemented by two co-authored Medium posts with Steven Lubar. Data hosted on GitHub.</span>
           
         </div>
   
@@ -185,8 +267,9 @@
     
     <div class="three-fourths column-last column-bottom clear">
       
-      <b>Wheelhouse Technology from Sounding Leads to Satellites</b> • <a id="showProject1"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>Researcher. 2019.</small>
-      <div class="context" id="project1"><p>Over the past century, new technologies have allowed New Bedford’s fleet to arrive on the grounds faster, fish safer, and communicate more easily. But at what cost? This exhibit considers the evolution and impact of technological change on the industry, the community, and the fish. In addition to considering the science behind devices such as EPIRB, SONAR, and LORAN, the exhibit and programs will consider topics such as Technology & Privacy, Dependence on Technology, and Technology & Sustainability.</p></div>
+      <b>Wheelhouse Technology from Sounding Leads to Satellites</b> • <small>Researcher. 2019.</small>
+      <br />
+      <span class="cv-meta">Over the past century, new technologies have allowed New Bedford’s fleet to arrive on the grounds faster, fish safer, and communicate more easily. But at what cost? This exhibit considers the evolution and impact of technological change on the industry, the community, and the fish. In addition to considering the science behind devices such as EPIRB, SONAR, and LORAN, the exhibit and programs will consider topics such as Technology & Privacy, Dependence on Technology, and Technology & Sustainability..</span>
       
     </div>
   
@@ -197,8 +280,9 @@
     
     <div class="three-fourths column-last column-bottom clear">
       
-      <b>2018 U.S. Senate Election Map</b> • <a id="showProject2"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>Technical Lead. 2018.</small>
-      <div class="context" id="project2"><p>This technology-driven projected display immersed visitors in the 2018 U.S. Senate Elections, where at total of 35 seats are up for election. Of the 35 seats up for election, 23 are held by Democrats, 8 by Republicans, and 2 by Independents. Projected onto the institute’s exhibit hall walls and available on tablets, visitors explore the races allowing the candidates and races in each of the 33 states, and learned about how the balance of power shifts between political parties each election.</p></div>
+      <b>2018 U.S. Senate Election Map</b> • <small>Technical Lead. 2018.</small>
+      <br />
+      <span class="cv-meta">This technology-driven projected display immersed visitors in the 2018 U.S. Senate Elections, where at total of 35 seats are up for election. Of the 35 seats up for election, 23 are held by Democrats, 8 by Republicans, and 2 by Independents. Projected onto the institute’s exhibit hall walls and available on tablets, visitors explore the races allowing the candidates and races in each of the 33 states, and learned about how the balance of power shifts between political parties each election..</span>
       
     </div>
   
@@ -209,8 +293,9 @@
     
     <div class="three-fourths column-last column-bottom clear">
       
-      <b>Senate Staff Office</b> • <a id="showProject3"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>Technical Lead. 2018.</small>
-      <div class="context" id="project3"><p>The Senate Staff Office exhibit features the exemplary work of Senator Kennedy’s staff, and what is involved in working in a United States Senator’s office. Through a mixture of hands-on activities, video features, and office artifacts, visitors have the opportunity to hear firsthand stories from Senator Edward M. Kennedy’s staff and take on the role of those assigned with completing daily Senate office responsibilities. The interactive exhibit highlights some of the key roles in the Washington, D.C. office and the home state office, including the jobs of scheduler, chief of staff, legislative assistant, and press secretary.</p></div>
+      <b>Senate Staff Office</b> • <small>Technical Lead. 2018.</small>
+      <br />
+      <span class="cv-meta">The Senate Staff Office exhibit features the exemplary work of Senator Kennedy’s staff, and what is involved in working in a United States Senator’s office. Through a mixture of hands-on activities, video features, and office artifacts, visitors have the opportunity to hear firsthand stories from Senator Edward M. Kennedy’s staff and take on the role of those assigned with completing daily Senate office responsibilities. The interactive exhibit highlights some of the key roles in the Washington, D.C. office and the home state office, including the jobs of scheduler, chief of staff, legislative assistant, and press secretary..</span>
       
     </div>
   
@@ -224,14 +309,11 @@
   
       <div class="one-fourth column-bottom clear subcat">2019–Present</div>
       <div class="three-fourths column-last column-bottom clear">
-          <b>Judaica Digital Humanities Coordinator</b> • <a id="showEmployment1"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+          <b>Judaica Digital Humanities Coordinator</b><br/>
           <span class="cv-meta">Penn Libraries.</span>
-          <div class="context" id="employment1"><p>Mangaging the research and development of Judaica Digital Humanities at Penn, I deepen public and scholarly engagement with Penn's Judiaca materials.</p></div>
+          <br />
+          <span class="cv-meta">Managing the research and development of various projects associated with Judaica Digital Humanities at Penn Libraries, I deepen public and scholarly engagement with Penn's Judiaca materials.</span>
         </div>
-  
-
-  
-
   
 
   
@@ -246,65 +328,66 @@
 
     <div class="one-fourth column-bottom clear subcat">2019–Present</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Site Designer</b> • <a id="showEmployment1"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Web Manager</b><br/>
         <span class="cv-meta">Contingent Magazine.</span>
-        <div class="context" id="employment1"><p>Developed Contingent Magazine Theme for Wordpress and coordinated social media roll-out for launch of Contingent Magazine</p></div>
+        <br />
+        <span class="cv-meta">Developed Contingent Magazine Theme for Wordpress and coordinated social media roll-out for launch of Contingent Magazine.</span>
     </div>
 
     <div class="one-fourth column-bottom clear subcat">2018</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Exhibition Researcher</b> • <a id="showEmployment2"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Exhibition Researcher</b><br/>
         <span class="cv-meta">New Bedford Fishing Heritage Center.</span>
-        <div class="context" id="employment2"><p>I volunteered at the New Bedford Fishing Heritage Center on an upcoming exhibition exploring the evolution of wheelhouse technology and vessel design in the fishing industry from 1900-present, and the impact of these changes on fishermen, their families, and their communities. I researched the Center’s extensive oral history collection to find references to uses and changes in wheelhouse technology, providing a foundation for initial exhibition research. I also selected key segments oral history segments and clipped/converted them for use in digital exhibits and audio stations throughout the Center.</p></div>
+        <br />
+        <span class="cv-meta">I volunteered at the New Bedford Fishing Heritage Center on an upcoming exhibition exploring the evolution of wheelhouse technology and vessel design in the fishing industry from 1900-present, and the impact of these changes on fishermen, their families, and their communities.</span>
     </div>
 
     <div class="one-fourth column-bottom clear subcat">2018</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Humanities Scholar</b> • <a id="showEmployment3"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Humanities Scholar</b><br/>
         <span class="cv-meta">New Bedford Ballet Foundation.</span>
-        <div class="context" id="employment3"><p>Served as Humanities Scholar on Mass Humanities-funded initiative with New Bedford Ballet to introduce fifth grade students to local history story of exploration, travel, and cultural exchange in 19th-century Massachusetts. Read coverage of the ballet performance and program at {{http://www.southcoasttoday.com/news/20180323/from-japan-to-southcoast-enduring-bond |SouthCoast Today}}</p></div>
+        <br />
+        <span class="cv-meta">Served as Humanities Scholar on Mass Humanities-funded initiative with New Bedford Ballet to introduce fifth grade students to local history story of exploration, travel, and cultural exchange in 19th-century Massachusetts.</span>
     </div>
 
     <div class="one-fourth column-bottom clear subcat">2018</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Digital Humanities Fellow</b> • <a id="showEmployment4"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Digital Humanities Fellow</b><br/>
         <span class="cv-meta">Edward M. Kennedy Institute for the United States Senate.</span>
-        <div class="context" id="employment4"><p>As the Digital Humanities Fellow at the Edward M. Kennedy Institute for the United States Senate, I consider how technology could amplify narratives about the Kennedy family, the Senator’s work in the Senate, and current issues in the US government. In addition to planning out future experiences in VR, AR, and digital exhibit content, I develped two iPad applications and one digital projection/web display regarding the 2018 U.S. Senate elections.</p></div>
+        <br />
+        <span class="cv-meta">I considered how technology could amplify narratives about the Kennedy family, the Senator’s work in the Senate, and current issues in the US government. In addition to planning out future experiences in VR, AR, and digital exhibit content, I developed two iPad applications and one digital projection/web display regarding the 2018 U.S. Senate elections.</span>
     </div>
 
     <div class="one-fourth column-bottom clear subcat">2016</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Smithsonian Center for Learning and Digital Access</b> • <a id="showEmployment5"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Smithsonian Center for Learning and Digital Access</b><br/>
         <span class="cv-meta">Evaluation Assistant.</span>
-        <div class="context" id="employment5"><p>Led evaluation case studies of institutional use of Smithsonian Learning Lab, a digital collections platform that allows users to discover Smithsonian Institution digital resources, and use them to create and share collections tailored to their needs and that of their target audiences. I conducted and transcribed interviews; developed data collection questionnaires, consent forms, and rubrics; and drafted summaries of case study data for internal and public consumption.</p></div>
+        <br />
+        <span class="cv-meta">Led evaluation case studies of institutional use of Smithsonian Learning Lab, a digital collections platform that allows users to discover Smithsonian Institution digital resources, and use them to create and share collections tailored to their needs and that of their target audiences.</span>
     </div>
 
     <div class="one-fourth column-bottom clear subcat">2016–2018</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Park Ambassador (Volunteer)</b> • <a id="showEmployment6"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Park Ambassador (Volunteer)</b><br/>
         <span class="cv-meta">New Bedford Whaling National Historical Park.</span>
-        <div class="context" id="employment6"><p>Shared stories of New Bedford's community and whaling industry by providing the public with information about the park through formal and informal interpretation</p></div>
+        <br />
+        <span class="cv-meta">Shared stories of New Bedford's community and whaling industry by providing the public with information about the park through formal and informal interpretation.</span>
     </div>
 
     <div class="one-fourth column-bottom clear subcat">2016</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Collections and Curation Management Intern</b> • <a id="showEmployment7"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Collections and Curation Management Intern</b><br/>
         <span class="cv-meta">Edward M. Kennedy Institute for the United States Senate.</span>
-        <div class="context" id="employment7"><p>Processed clothing and archival collections</p></div>
+        <br />
+        <span class="cv-meta">Processed clothing and archival collections.</span>
     </div>
 
     <div class="one-fourth column-bottom clear subcat">2015</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Visitor Services Intern</b> • <a id="showEmployment8"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Visitor Services Intern</b><br/>
         <span class="cv-meta">Rhode Island Historical Society.</span>
-        <div class="context" id="employment8"><p>Engaged visitors with 18th-19th-century social history of Providence, RI, by developing curriculum packets and leading tours</p></div>
-    </div>
-
-    <div class="one-fourth column-bottom clear subcat">2014</div>
-    <div class="three-fourths column-last column-bottom clear">
-        <b>Archival Intern</b> • <a id="showEmployment9"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
-        <span class="cv-meta">New Bedford Whaling Museum.</span>
-        <div class="context" id="employment9"><p>Updated identification of archival collections by creating and coding six manuscript collection inventories and finding aids</p></div>
+        <br />
+        <span class="cv-meta">Engaged visitors with 18th-19th-century social history of Providence, RI, by developing curriculum packets and leading tours.</span>
     </div>
 
 </div>
@@ -315,15 +398,11 @@
 
 
   
-    
-        <div class="one-fourth column-bottom clear subcat"><em>Web</em></div>
-    
-        <div class="three-fourths column-last column-bottom clear">
-            
-                <a href="https://learninglab.si.edu/cabinet/file/edc7e1f0-fc84-40eb-8cd2-cdf51ad7958a/Smithsonian-SCLDA_InternalLearningLabUsage_Report.pdf" target="_blank"><b>&ldquo;Documenting the Use of the Smithsonian Learning Lab Among Smithsonian Museums, Research Centers, and Programmatic Offices&rdquo;</b><br/></a>
-            
-            <span class="cv-meta">August 2018 • <i>Smithsonian Center for Learning and Digital Access</i></span>
-        </div>
+
+  
+
+  
+
   
 
 
@@ -331,7 +410,7 @@
 
 <!-- 5: Talks -->
 <div class="clear">
-<h2><span id="t6"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> In Public</h2>
+<h2><span id="t6"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Conferences</h2>
 
 
   
@@ -370,9 +449,33 @@
     
         <div class="three-fourths column-last column-bottom clear">
             
+                <a href="https://judaicadh.library.upenn.edu/blog/ajl2020/" target="_blank"><b>&ldquo;Digital Projects in Jewish Studies&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">July 2020 • Association of Jewish Libraries • Virtual, Panel, <i>AJL2020</i></span>
+        </div>
+  
+
+  
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://dh2020.adho.org" target="_blank"><b>&ldquo;Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">July 2020 • Alliance of Digital Humanities Organizations • Ottawa, Ontario//Virtual, Panel, <i>DH2020</i></span>
+        </div>
+  
+
+  
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
                 <b>&ldquo;Interpreting Jewish History in Museums and Public History Settings&rdquo;</b><br/>
             
-            <span class="cv-meta">March 2020 • National Council for Public History • Atlanta, Georgia, Roundtable, <i>NCPH 2020</i></span>
+            <span class="cv-meta">March 2020 • National Council for Public History • Atlanta, Georgia//Virtual, Twitter Chat, <i>NCPH 2020</i></span>
         </div>
   
 

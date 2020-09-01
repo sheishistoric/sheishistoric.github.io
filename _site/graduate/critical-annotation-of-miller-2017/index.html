@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Other</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -105,27 +179,27 @@
     
       <li>
         <h3>
-          <a href="/blog/highlights/exhibit-review/2019-10-03-meme-tactics/">
-            The Radical Power of Memes (Broad Street Review)
-            <small>03 Oct 2019</small>
+          <a href="/blog/judaicadh/2020-06-30-singermanja2/">
+            Digital Second Edition of Judaica Americana
+            <small>30 Jun 2020</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/highlights/i-only-make-bots-for-the-mountain-goats/">
-            i only make bots for the mountain goats
-            <small>16 Dec 2018</small>
+          <a href="/blog/highlights/exhibit-review/2020-03-10-history-of-quarantine/">
+            The History of Quarantine (Broad Street Review)
+            <small>10 Mar 2020</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/graduate/readings-from-18-spring-semester/">
-            Readings from &#8217;18 Spring Semester
-            <small>19 May 2018</small>
+          <a href="/blog/highlights/exhibit-review/2020-01-13-illuminating-iranian-tradition/">
+            Illuminating Iranian Tradition (Broad Street Review)
+            <small>13 Jan 2020</small>
           </a>
         </h3>
       </li>

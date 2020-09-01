@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Other</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -88,6 +162,63 @@
       <h1 class="page-title">Blog</h1>
 <hr/>
 <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/wrapping-up-spring-semester/">
+        Wrapping Up Spring Semester
+      </a>
+    </h1>
+
+    <span class="post-date">31 May 2015 <em><small>tagged in <a href="/tags/umass+amherst/">umass amherst</a></em></small></span>
+
+    <p>So I’ve been home for a few weeks and I haven’t been writing for my blog. But that’s not for lack of information – it’s just taking me a bit longer to settle down and get my words on screen. </p>
+
+
+
+    <span class="post-date"><a href="/highlights/wrapping-up-spring-semester/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/hist-397vw-mill-river-greenway-initiative/">
+        HIST 397VW: Mill River Greenway Initiative
+      </a>
+    </h1>
+
+    <span class="post-date">10 May 2015 <em><small>tagged in <a href="/tags/connecticut+river/">connecticut river</a>, <a href="/tags/hist+397vw/">hist 397vw</a>, <a href="/tags/mill+river/">mill river</a>, <a href="/tags/mill+river+greenway+initiative/">mill river greenway initiative</a>, <a href="/tags/northampton/">northampton</a>, <a href="/tags/pioneer+valley/">pioneer valley</a>, <a href="/tags/smith+college/">smith college</a>, <a href="/tags/umass+amherst/">umass amherst</a></em></small></span>
+
+    <p>In my studies, I find it extremely<br />
+important for my understanding of a particular topic to be able to connect with<br />
+something tangible.  This semester, my<br />
+Public History Workshop worked with a local organization, the <strong><a href="http://millrivergreenway.org" target="_blank">Mill<br /> River Greenway Initiative (MRGI),</a></strong> to develop interpretive panels for an<br />
+exhibit. The balance of environmental history lectures and working directly in<br />
+the field allowed me to understand and interpret the local history of<br />
+Northampton.  </p>
+
+
+
+    <span class="post-date"><a href="/highlights/hist-397vw-mill-river-greenway-initiative/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/5-steps-to-a-successful-researchday/">
+        5 Steps to a Successful #ResearchDay
+      </a>
+    </h1>
+
+    <span class="post-date">19 Apr 2015 <em><small>tagged in <a href="/tags/history+major+problems/">history major problems</a>, <a href="/tags/research+day/">research day</a>, <a href="/tags/researchday/">researchday</a></em></small></span>
+
+    <p>One of the perks of being a humanities major is the NO FINAL EXAM notice I see on every syllabus. However, that perk comes at a price – the independent research project, of which I currently have three to finish. </p>
+
+
+
+    <span class="post-date"><a href="/highlights/5-steps-to-a-successful-researchday/">Read more...</a></span>
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -205,63 +336,6 @@
 
 
     <span class="post-date"><a href="/highlights/the-humanity-factor-of-platforms/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/undergraduate/english-302/youtube-is-about-community/">
-        YouTube Is About Community
-      </a>
-    </h1>
-
-    <span class="post-date">18 Feb 2015 <em><small>tagged in </em></small></span>
-
-    <!--YouTube Error: bad URL entered-->
-
-
-
-    <span class="post-date"><a href="/undergraduate/english-302/youtube-is-about-community/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/undergraduate/english-302/a-conditional-love-letter-to-google/">
-        A Conditional Love Letter to Google
-      </a>
-    </h1>
-
-    <span class="post-date">18 Feb 2015 <em><small>tagged in </em></small></span>
-
-    <p>My beloved Google,</p>
-
-
-
-    <span class="post-date"><a href="/undergraduate/english-302/a-conditional-love-letter-to-google/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/to-the-libraries/">
-        To The Libraries!
-      </a>
-    </h1>
-
-    <span class="post-date">15 Feb 2015 <em><small>tagged in <a href="/tags/dubois+library/">dubois library</a>, <a href="/tags/forbes+library/">forbes library</a>, <a href="/tags/frost+library/">frost library</a>, <a href="/tags/ma+history/">ma history</a>, <a href="/tags/mill+river/">mill river</a>, <a href="/tags/northampton/">northampton</a></em></small></span>
-
-    <p>This week, I was back in a library<br />
-– three of them, in fact! I had almost forgotten how much I love being<br />
-surrounded by archival materials. I like looking at the stacks and nimbly<br />
-making my way through the folders to find what I’m looking for. There’s something<br />
-about holding important documents in my arms and the fresh smell of opening an<br />
-old book that pulls me in. And then, once I’m in, there’s no holding back – I’m<br />
-absorbed into something and somewhere and I’m absolutely thrilled.</p>
-
-
-
-    <span class="post-date"><a href="/highlights/to-the-libraries/">Read more...</a></span>
 
   </div>
   

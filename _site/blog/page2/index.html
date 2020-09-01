@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Other</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -88,6 +162,57 @@
       <h1 class="page-title">Blog</h1>
 <hr/>
 <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/graduate/critical-annotation-of-foster/">
+        Critical Annotation of Foster
+      </a>
+    </h1>
+
+    <span class="post-date">19 Mar 2018 <em><small>tagged in <a href="/tags/Digital+Media+and+Virtual+Performance/">Digital Media and Virtual Performance</a>, <a href="/tags/Graduate/">Graduate</a></em></small></span>
+
+    <figure id="attachment_10067" aria-describedby="caption-attachment-10067" style="width: 2448px" class="wp-caption alignnone"><img class="alignnone size-full wp-image-10067" src="https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?resize=700%2C933" alt="IMG_0853" width="700" height="933" srcset="https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?w=2448&amp;ssl=1 2448w, https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?resize=225%2C300&amp;ssl=1 225w, https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?resize=768%2C1024&amp;ssl=1 768w, https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?w=1400&amp;ssl=1 1400w, https://i1.wp.com/emilyesten.com/wp-content/uploads/2018/03/img_0853.jpg?w=2100&amp;ssl=1 2100w" sizes="(max-width: 700px) 100vw, 700px" data-recalc-dims="1" /><figcaption id="caption-attachment-10067" class="wp-caption-text">Susan Leigh Foster, _Choreographing Empathy: Kinesthesia in Performance_ (London: Routledge, 2011), 2._ _</figcaption></figure>
+
+
+
+    <span class="post-date"><a href="/graduate/critical-annotation-of-foster/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/graduate/critical-annotation-of-miller/">
+        Critical Annotation of Miller
+      </a>
+    </h1>
+
+    <span class="post-date">26 Feb 2018 <em><small>tagged in <a href="/tags/Digital+Media+and+Virtual+Performance/">Digital Media and Virtual Performance</a>, <a href="/tags/Graduate/">Graduate</a></em></small></span>
+
+    <p><img class="alignnone size-full wp-image-10064" src="https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?resize=700%2C933" alt="IMG_0631" width="700" height="933" srcset="https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?w=2448&amp;ssl=1 2448w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?resize=225%2C300&amp;ssl=1 225w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?resize=768%2C1024&amp;ssl=1 768w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?w=1400&amp;ssl=1 1400w, https://i2.wp.com/emilyesten.com/wp-content/uploads/2018/02/img_0631.jpg?w=2100&amp;ssl=1 2100w" sizes="(max-width: 700px) 100vw, 700px" data-recalc-dims="1" /></p>
+
+
+
+    <span class="post-date"><a href="/graduate/critical-annotation-of-miller/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/interview-with-women-and-technology-at-brown/">
+        Interview with Women and Technology at Brown
+      </a>
+    </h1>
+
+    <span class="post-date">26 Feb 2018 <em><small>tagged in <a href="/tags/Highlights/">Highlights</a></em></small></span>
+
+    <p>I spoke with Maddie Mott at <a href="https://blogs.brown.edu/womenandtech/2018/02/19/interview-emily-esten-digital-humanist-and-public-humanities-graduate-student/">Women and Technology at Brown</a> about my experience in digital public humanities &amp; my work as a graduate student in the university.</p>
+
+
+
+    <span class="post-date"><a href="/highlights/interview-with-women-and-technology-at-brown/">Read more...</a></span>
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -130,7 +255,7 @@
       </a>
     </h1>
 
-    <span class="post-date">17 Jan 2018 <em><small>tagged in <a href="/tags/Highlights/">Highlights</a></em></small></span>
+    <span class="post-date">17 Jan 2018 <em><small>tagged in <a href="/tags/Highlights/">Highlights</a>, <a href="/tags/journalism-highlights/">journalism-highlights</a></em></small></span>
 
     <p>On <a href="https://medium.com/@sheishistoric/beartoursbyemily-rating-the-public-art-of-brown-universitys-mascot-f4fa7ecdbce2">Medium</a>:</p>
 
@@ -205,57 +330,6 @@
 
 
     <span class="post-date"><a href="/graduate/readings-from-fall-17-semester/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/graduate/twitter-chat-public-humanities-and-public-scholarship/">
-        Twitter Chat: Public Humanities and Public Scholarship
-      </a>
-    </h1>
-
-    <span class="post-date">03 Nov 2017 <em><small>tagged in <a href="/tags/Graduate/">Graduate</a>, <a href="/tags/HASTAC/">HASTAC</a></em></small></span>
-
-    <p>From <a href="https://www.hastac.org/opportunities/twitter-chat-public-humanities-and-public-scholarship" target="_blank" rel="noopener noreferrer">HASTAC</a>:</p>
-
-
-
-    <span class="post-date"><a href="/graduate/twitter-chat-public-humanities-and-public-scholarship/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/the-degrassi-franchise-on-the-teenage-experience/">
-        The Degrassi Franchise on the Teenage Experience
-      </a>
-    </h1>
-
-    <span class="post-date">01 Nov 2017 <em><small>tagged in <a href="/tags/Highlights/">Highlights</a></em></small></span>
-
-    <p>__</p>
-
-
-
-    <span class="post-date"><a href="/highlights/the-degrassi-franchise-on-the-teenage-experience/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/graduate/what-i-learned-during-my-summer-practicum-on-escape-reevaluation-and-being-a-public-human/">
-        What I Learned During My Summer Practicum: On Escape, Reevaluation, and Being a Public Human
-      </a>
-    </h1>
-
-    <span class="post-date">16 Oct 2017 <em><small>tagged in <a href="/tags/DC+Practicum+2017/">DC Practicum 2017</a>, <a href="/tags/Graduate/">Graduate</a>, <a href="/tags/Highlights/">Highlights</a></em></small></span>
-
-    <p>To finish off my summer practicum, I had to put together a presentation of five things I learned. As I was doing this, I realized that the most important things I learned were the things that I already knew. And more importantly, I realized that <strong>I am a public human.</strong></p>
-
-
-
-    <span class="post-date"><a href="/graduate/what-i-learned-during-my-summer-practicum-on-escape-reevaluation-and-being-a-public-human/">Read more...</a></span>
 
   </div>
   
