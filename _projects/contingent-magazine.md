@@ -1,6 +1,6 @@
 ---
 location: Independent Contractor
-link: https://morais.exhibits.library.upenn.edu/
+link: https://contingentmagazine.org/
 layout: work
 slug: contingent-magazine 
 title: Contingent Magazine
@@ -20,7 +20,7 @@ status: current
 Everything at *Contingent Magazine* is rooted in these three principles. When the editors approached me about their idea for the website, I was thrilled to join *Contingent* in building their online presence. 
 
 ## Resources  
-- [Contingent Theme]
+- [Contingent Theme]()
 - [Twitter]()
 - [Instagram]()
 - [Facebook]()
