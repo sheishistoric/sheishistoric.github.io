@@ -199,11 +199,11 @@ title: CV
           {% if title.url !="" %}
           <a href="{{ title.url }}"><b>{{ title.title }}</b></a> • <small>{{ title.role }}. {{ title.date }}.</small>
           <br />
-          <span class="cv-meta">{{ title.context }}</span>
+    <!--       <span class="cv-meta">{{ title.context }}</span>  -->
           {% else %}
           <b>{{ title.title }}</b> • <small>{{ title.role }}. {{ title.date }}.</small>
           <br />
-          <span class="cv-meta">{{ title.context }}.</span>
+        <!--   <span class="cv-meta">{{ title.context }}.</span>  -->
           {% endif %}
         </div>
 {% endfor %}
