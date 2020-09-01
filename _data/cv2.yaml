@@ -17,11 +17,9 @@ contact:
 ########### Profile ###########
 profile: "I am a digital scholar, a public humanities practitioner, and public historian. I’m currently the Judaica Digital Humanities Project Coordinator for Penn Libraries and assist with Contingent Magazine."
 
-profile-public: "Over five years of working in higher education and cultural institutions, I have explored different approaches to developing effective digital content. I practice digital public humanities, bringing my love for museums and my interest in digital tools together to give audiences agency in their participation and engagement. My passion is for collaborating on public projects that think critically about audience, content, and method. Being an emerging museum professional today requires means building solidarity and knowledge exchange across the museum sector. I'm an ardent supporter of <a href="https://www.museumsarenotneutral.com/">#MuseumsAreNotNeutral</a>, a campaign that urges museum professionals to acknowledge and address social realities, and believe museums are most responsive when we bring people and collections together to benefit our communities."
+profile-public: I practice digital public humanities, bringing my love for museums and my interest in digital tools together. I think about how community building, engagement, and development in relation to the humanities can be augmented or transformed for the better with technology. My passion is for collaborating on public projects that think critically about audience, content, and method. I'm an ardent supporter of <a href="https://www.museumsarenotneutral.com/">#MuseumsAreNotNeutral</a>, a campaign that urges museum professionals to acknowledge and address social realities, and believe museums are most responsive when we bring people ad collections together to benefit our communities.
 
-profile-digital: "Within universities and cultural institutions, I build innovative digital projects to engage audiences with objects, stories, and ideas. My philosophy for collaborating on digital projects comes from Allison Parrish's <a href="http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/">"Hacker Questions"</a>."
-
-profile-writing: "I am a contributor to the <a href="https://www.broadstreetreview.com/">Broad Street Review</a>, a non-profit online arts and culture publication for the greater Philadelphia area. You can read my work <a href="https://emilyesten.com/tags/broad+street+review/">here</a>". "
+profile-digital: With universities and cultural institutions, I build innovative digital projects to engage audiences with objects, stories, and ideas. My philosophy for collaborating on digital projects comes from Allison Parrish's <a href="http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/">"Hacker Questions"</a>.
 
 ########### Education ###########
 education:
@@ -473,6 +471,7 @@ exhibitions:
     context: "This technology-driven projected display immersed visitors in the 2018 U.S. Senate Elections, where at total of 35 seats are up for election. Of the 35 seats up for election, 23 are held by Democrats, 8 by Republicans, and 2 by Independents. Projected onto the institute’s exhibit hall walls and available on tablets, visitors explore the races allowing the candidates and races in each of the 33 states, and learned about how the balance of power shifts between political parties each election."
     page-tag-tech: digital
     page-tag: publichumanities
+    url: ""
   - title: "Senate Staff Office"
     role: Technical Lead
     location: Edward M. Kennedy Institute for the United States Senate
@@ -481,6 +480,7 @@ exhibitions:
     context: "The Senate Staff Office exhibit features the exemplary work of Senator Kennedy’s staff, and what is involved in working in a United States Senator’s office. Through a mixture of hands-on activities, video features, and office artifacts, visitors have the opportunity to hear firsthand stories from Senator Edward M. Kennedy’s staff and take on the role of those assigned with completing daily Senate office responsibilities. The interactive exhibit highlights some of the key roles in the Washington, D.C. office and the home state office, including the jobs of scheduler, chief of staff, legislative assistant, and press secretary."
     page-tag-tech: digital
     page-tag: publichumanities
+    url: ""
 #  - title: "Office House: Professor Mary Sheldon Barnes"
   #  role: Curator
   #  location: Sophia Smith Archives, Smith College
@@ -507,10 +507,6 @@ exhibitions:
 
 ########### Membership and Service ###########
 service:
-  - title: "Board Member"
-    institution: "Simpatico Theatre Company"
-    year: "2019-present"
-      page-tag: publichumanities
   - title: "Organizing Committee Member, KeystoneDH 2020 (postponed due to COVID-19)"
     institution: "Keystone DH"
     year: "2019–20"
@@ -553,7 +549,7 @@ skills:
   - title: "Content Management"
     things: "WordPress, Drupal, Wikia, Omeka"
   - title: "Jack of All Trades"
-    things: "Tableau Public, Garageband, iMovie, Audacity, Adobe Photoshop, Adobe Illustrator"
+    things: "Tableau Public, Garageband, iMovie, Adobe Audition, Audacity, Adobe Photoshop, Adobe Illustrator"
 
 training:
   - title: "Jekyll Working Group"
@@ -578,7 +574,7 @@ workshop:
     organizer: "Back to School Workshops"
     location: "University of Pennsylvania Libraries"
     date: "September 2020"
-    url: "http://www.kaltura.com/tiny/6cw0m"
+    url: ""
   - title: "Data Wrangling with Google Sheets"
     organizer: "Digital Scholarship Bootcamp"
     location: "University of Pennsylvania Libraries "
