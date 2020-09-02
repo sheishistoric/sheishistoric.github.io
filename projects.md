@@ -2,21 +2,41 @@
 layout: default
 title: Projects
 ---
+# Portfolio
 
-# Other Projects
+<div class="tabsWrapper clear" id="t0">
+<ul class="tabs">
+    <li>
+        <a href="#current-projects">CURRENT PROJECTS</a></li>
+    <li>
+        <a href="#past-projects">PAST PROJECTS</a></li>
+</ul>
+</div>
 
-Outside of professional activities, I do some stuff for fun.
+Over the past five years in higher education, museums, and cultural institutions, I have helped produce a variety of projects to deepen public and scholarly engagement with digital materials. This portfolio shares a sampling of my current and past projects, from tools to exhibitions.
 
-## Writing
+## Current Projects 
 
-I am a contributor to the [*Broad Street Review*](https://www.broadstreetreview.com/), a non-profit online arts and culture publication for the greater Philadelphia area. You can read my work [here](https://emilyesten.com/tags/broad+street+review/). 
+{% assign sorted_posts = site.work | sort:"start-year" | reverse %}
+{% for post in sorted_posts %}
+{% if post.status == "current" %}
+### [{{ post.title }}]({{ site.url }}/work/{{ post.slug }}) 
+*{{ post.role }} • {{ post.location }} • {{ post.start-year }}-{{ post.end-year }}*
 
-## Twitter Bots
-I manage some Twitter bots.
+{{ post.context }}
 
-- @[UMass_Horoscope](https://twitter.com/UMass_Horoscope): A spreadsheet-powered Twitter bot to share the @[MDCollegian](https://twitter.com/MDCollegian) horoscopes. Built by @[zachwhalen](https://twitter.com/zachwhalen), modified by @[storybench](https://twitter.com/storybench), implemented by @[sheishistoric](https://twitter.com/sheishistoric).
-- @[onlylistentoTMG](https://twitter.com/onlylistentoTMG): I only listen to @[mountain_goats](https://twitter.com/mountain_goats) – can recommend any song for any mood. [source code](https://github.com/sheishistoric/onlylistentotmg)
-- @[tmgdnd](https://twitter.com/tmgdnd): A bot that mashes @[mountain_goats](https://twitter.com/mountain_goats) lyrics with situations from Dungeons & Dragons. [source code](https://github.com/sheishistoric/tmgdnd)
-- @[faketmglyrics](https://twitter.com/faketmglyrics): a Markov chain bot for @[mountain_goats](https://twitter.com/mountain_goats) lyrics. [source code](https://github.com/sheishistoric/faketmglyrics)
 
-I've written about my interest in making Twitter bots and my love for the Mountain Goats [here](https://emilyesten.com/highlights/i-only-make-bots-for-the-mountain-goats/).
+{% endif %}
+{% endfor %}
+
+## Past Projects
+
+{% for post in sorted_posts %}
+{% if post.status == "legacy" %}
+### [{{ post.title }}]({{ site.url }}/work/{{ post.slug }}) 
+*{{ post.role }} • {{ post.location }} • {{ post.start-year }}-{{ post.end-year }}*
+
+{{ post.context }}
+
+{% endif %}
+{% endfor %}

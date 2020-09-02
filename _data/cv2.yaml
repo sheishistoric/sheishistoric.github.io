@@ -17,11 +17,11 @@ contact:
 ########### Profile ###########
 profile: "I am a digital scholar, a public humanities practitioner, and public historian. I’m currently the Judaica Digital Humanities Project Coordinator for Penn Libraries and assist with Contingent Magazine."
 
-profile-public: "Over five years of working in higher education and cultural institutions, I have explored different approaches to developing effective digital content. I practice digital public humanities, bringing my love for museums and my interest in digital tools together to give audiences agency in their participation and engagement. <br /> <br />Being an emerging museum professional today requires means building solidarity and knowledge exchange across the museum sector. I'm an ardent supporter of <a href="https://www.museumsarenotneutral.com/">#MuseumsAreNotNeutral</a>, a campaign that urges museum professionals to acknowledge and address social realities, and believe museums are most responsive when we bring people ad collections together to benefit our communities."
+profile-public: Over five years of working in higher education and cultural institutions, I have explored different approaches to developing effective digital content. I practice digital public humanities, bringing my love for museums and my interest in digital tools together to give audiences agency in their participation and engagement. <br /> <br /> Being an emerging museum professional today requires means building solidarity and knowledge exchange across the museum sector. I'm an ardent supporter of <a href="https://www.museumsarenotneutral.com/">#MuseumsAreNotNeutral</a>, a campaign that urges museum professionals to acknowledge and address social realities, and believe museums are most responsive when we bring people ad collections together to benefit our communities.
 
-profile-digital: "With universities and cultural institutions, I build innovative digital projects to engage audiences with objects, stories, and ideas. My philosophy for collaborating on digital projects comes from Allison Parrish's <a href="http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/">"Hacker Questions"</a>."
+profile-digital: With universities and cultural institutions, I build innovative digital projects to engage audiences with objects, stories, and ideas. My philosophy for collaborating on digital projects comes from Allison Parrish's <a href="http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/">"Hacker Questions"</a>.
 
-profile-writing: "I am a freelance writer on arts, pop culture, and public history. Most of my work has been as a contributor to the <a href="https://www.broadstreetreview.com/">Broad Street Review</a>, a non-profit online arts and culture publication for the greater Philadelphia area. You can read my work <a href="https://emilyesten.com/tags/broad+street+review/">here</a>."
+profile-writing: I am a freelance writer on arts, pop culture, and public history. Most of my work has been as a contributor to the <a href="https://www.broadstreetreview.com/">Broad Street Review</a>, a non-profit online arts and culture publication for the greater Philadelphia area. You can read my work <a href="https://emilyesten.com/tags/broad+street+review/">here</a>.
 
 ########### Education ###########
 education:
@@ -171,6 +171,20 @@ web:
     page-tag-tech: digital
     page-tag: publichumanities
     page-tag: museums
+  - title: "Revisualizing the Crystal Palace (Cataloging History, Part 4)"
+    venue: "Medium"
+    date: "January 5, 2018"
+    url: "https://medium.com/@lubar/revisualizing-the-crystal-palace-d239e50d9e12"
+    page-tag-tech: digital
+    page-tag: publichumanities
+    page-tag: museums
+  - title: "Catalog as Book, File, and Database (Cataloging History, Part 3)"
+    venue: "Medium"
+    date: "May 1, 2017"
+    url: "https://medium.com/@lubar/catalog-as-book-file-and-database-ac954096152e"
+    page-tag-tech: digital
+    page-tag: publichumanities
+    page-tag: museums
 
 other:
   - title: "The History of Quarantine"
@@ -185,14 +199,6 @@ other:
     venue: "Broad Street Review"
     date: "October 29, 2019"
     url: "https://www.broadstreetreview.com/cross-cultural/the-center-for-media-at-risk-presents-meme-tactics"
-  - title: "Revisualizing the Crystal Palace (Cataloging History, Part 4)"
-    venue: "Medium"
-    date: "January 5, 2018"
-    url: "https://medium.com/@lubar/revisualizing-the-crystal-palace-d239e50d9e12"
-  - title: "Catalog as Book, File, and Database (Cataloging History, Part 3)"
-    venue: "Medium"
-    date: "May 1, 2017"
-    url: "https://medium.com/@lubar/catalog-as-book-file-and-database-ac954096152e"
 
 ########### Talks ###########
 
@@ -411,7 +417,7 @@ projects:
     role: Project Manager
     url: "https://scribesofthecairogeniza.org"
     date: "2019-Present"
-    context: "Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform"
+    context: "Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform."
     details:
     page-tag-tech: digital
     page-tag: publichumanities
@@ -576,7 +582,7 @@ workshop:
     organizer: "Back to School Workshops"
     location: "University of Pennsylvania Libraries"
     date: "September 2020"
-    url: "http://www.kaltura.com/tiny/6cw0m"
+    url: ""
   - title: "Data Wrangling with Google Sheets"
     organizer: "Digital Scholarship Bootcamp"
     location: "University of Pennsylvania Libraries "

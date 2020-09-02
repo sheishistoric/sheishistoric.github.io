@@ -6,11 +6,14 @@ slug: cairo-geniza
 title: Scribes of the Cairo Geniza 
 thumb-img: genizathumbnail.jpg
 banner-img: geniza.jpg
-img-source: 'Baraita De-Melekhet Ha-Mishkan, VI-X. 1r. Halper 03. Cairo Genizah Collection, University of Pennsylvania Center for Advanced Judaic Studies. Accessed November 30, 2016.'
-img-source-url: https://www.flickr.com/photos/arts_at_penn/14018331445/
+img-source: 
+img-source-url: 
 status: current
 start-year: 2019
 end-year: present
+context: "Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform."
+role: Project Manager
+
 ---
 
 Scribes of the Cairo Geniza is a multilingual crowdsourcing project to classify & transcribe fragments of medieval and premodern manuscripts from the Cairo Geniza. With an in-kind grant from the Zooniverse, the largest crowdsourcing platform in the world, along with institutional and image partners from The University of Pennsylvania Libraries, The Princeton Geniza Lab, The e-Lijah Lab and the Centre for Interdisciplinary Research of the Cairo Genizah at the University of Haifa, the Library of the Jewish Theological Seminary, the Genizah Research Unit at Cambridge University Library, The University of Manchester Library, and The Bodleian Libraries at University of Oxford, we are harnessing the power of technology to decipher some of the most difficult to read fragments in the world. We see this project as a way for people with shared interests and different skill levels from around the world to meet in a common endeavor. We see this as a way to develop new tools for the public to learn to read a variety of scribal hands and to open texts accessible only to a handful of specialists to millions of people.

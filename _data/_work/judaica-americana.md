@@ -12,6 +12,7 @@ research-category:
 start-year: 2019
 end-year: 2020
 status: current
+context: "The digital second edition of Judaica Americana makes searchable the 9,000 entries in the print edition. Taken as a whole, Singerman’s bibliography provides extensive and authoritative documentation of American Jewish communal activity and growth before 1901."
 ---
 The [**Digital Second Edition of Judaica Americana**](https://singermanja2.exhibits.library.upenn.edu/), an Omeka bibliographic database, draws from Robert Singerman’s Judaica Americana, a bibliography chronicling American Jewish book production until 1900. Visitors can search the [database’s](https://singermanja2.exhibits.library.upenn.edu/) 9,600+ bibliographic entries for author, language, holding institution, and various tags, as well as find open-access links to digitized Jewish monographs, serials, and periodicals. *Judaica Americana* authoritatively chronicles American Jewish book production from the seventeenth century to the beginning of the twentieth century. The second edition contains an additional 3,000 entries. Taken as a whole, Singerman’s bibliography provides extensive documentation of American Jewish communal activity and growth before 1901.
 

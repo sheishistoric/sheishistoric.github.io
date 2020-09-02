@@ -1,16 +1,19 @@
 ---
-location: Independent Contractor
+location: Contingent Magazine
 link: https://contingentmagazine.org/
 layout: work
 slug: contingent-magazine 
 title: Contingent Magazine
-thumb-img: moraisthumbnail.jpg
-banner-img: morais.jpg
-img-source: 
+thumb-img: contingentthumbnail.jpg
+banner-img: contingent.jpg
+img-source: Contingent Magazine
 img-source-url: 
 start-year: 2019
 end-year: 
 status: current 
+context: "At Contingent Magazine, we believe that history is for everyone, that every kind of history is worthwhile, and that historians should be paid for their work."
+role: Site Manager
+num: 1
 ---
 
 **History is for everyone.**
