@@ -5,7 +5,7 @@ author: admin
 layout: post
 categories:
   - Highlights
-  - Theatre-Review
+  - Theatre
 tags:
   - broad street review
   - theatre
