@@ -128,14 +128,11 @@ monographs:
 edited:
 
 journals:
-#  - title: "Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900."
-#    venue: "Journal of Open Humanities Data"
-#    date: "June 2020"
-#    url: ""
-#  - title: "Union List of Nineteenth-Century Jewish Serials Published in the United States"
-#    venue: "Manuscript Studies: a Journal of Schoenberg Institute for Manuscript Studies"
-#    date: "September 2020"
-#    url: ""
+  - title: "Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900."
+    venue: "Journal of Open Humanities Data"
+    date: "June 2020"
+    url: "https://doi.org/10.5334/johd.15"
+
 datasets:
   - title: "Union List of Nineteenth-Century Jewish Serials Published in the United States"
     venue: "Penn Libraries, University of Pennsylvania"
@@ -179,6 +176,14 @@ web:
     page-tag: museums
 
 other:
+  - title: "Living alongside grief"
+    venue: "Broad Street Review"
+    date: "September 12, 2020"
+    url: "https://www.broadstreetreview.com/theater/philly-fringe-2020-benjamin-behrend-and-logan-gabriel-schulmans-welcome-to#"
+    - title: "Pixies in Powelton"
+    venue: "Broad Street Review"
+    date: "September 12", 2020"
+    url: "https://www.broadstreetreview.com/theater/fringe-festival-2020-lupine-performance-cooperatives-field-calls"
   - title: "The History of Quarantine"
     venue: "Broad Street Review"
     date: "March 10, 2020"
@@ -230,13 +235,13 @@ conference-talks:
     url: ""
 
 conference-other:
-  - title: "Digital Projects in Jewish Studies"
+  - title: "Judaica Digital Humanities at the Penn Libraries Overview"
     institution: Association of Jewish Libraries
     location: Virtual
     date: July 2020
     type: Panel
     event: "AJL2020"
-    url: "https://dh2020.adho.org"
+    url: "https://judaicadh.library.upenn.edu/blog/ajl2020/"
     page-tag-tech: digital
     page-tag: "publichumanities"
   - title: "Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing"
