@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Portfolio</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -88,6 +162,56 @@
       <h1 class="page-title">Blog</h1>
 <hr/>
 <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/thatcampne-2014/">
+        THATCampNE 2014
+      </a>
+    </h1>
+
+    <span class="post-date">01 Jun 2014 <em><small>tagged in <a href="/tags/boston+university/">boston university</a>, <a href="/tags/dh/">dh</a>, <a href="/tags/digital+humanities/">digital humanities</a>, <a href="/tags/summer+2014/">summer 2014</a>, <a href="/tags/thatcamp/">thatcamp</a>, <a href="/tags/thatcampne/">thatcampne</a></em></small></span>
+
+    <p>So this past weekend, I attended THATCamp (The Humanities And Technology) New England at Boston University. When I signed up for THATCamp back in January, I had little to no idea what digital humanities. I had signed up for a course on it, it sounded pretty cool, and I figured by the time May 30<sup>th</sup> rolled around I would have a better idea of what this buzzword meant.</p>
+
+
+
+    <span class="post-date"><a href="/highlights/thatcampne-2014/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/archives-and-moby-dick/">
+        Archives and Moby Dick
+      </a>
+    </h1>
+
+    <span class="post-date">01 Jun 2014 <em><small>tagged in <a href="/tags/archival+research/">archival research</a>, <a href="/tags/archives/">archives</a>, <a href="/tags/herman+melville/">herman melville</a>, <a href="/tags/joshua+slocum/">joshua slocum</a>, <a href="/tags/moby+dick/">moby dick</a>, <a href="/tags/new+bedford/">new bedford</a>, <a href="/tags/new+bedford+whaling+museum/">new bedford whaling museum</a>, <a href="/tags/summer+2014/">summer 2014</a>, <a href="/tags/walter+teller/">walter teller</a></em></small></span>
+
+    <p>Since entering my hiatus from weekly blog posts, I’ve returned home for the summer to enjoy the weather, catch up on reading, and relax. Well, not so much relax – that lasted about a week before I needed to get back to work.</p>
+
+
+
+    <span class="post-date"><a href="/highlights/archives-and-moby-dick/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/today-i-visited-the-annual-memorial-day-weekend/">
+        Today I Visited The Annual Memorial Day Weekend
+      </a>
+    </h1>
+
+    <span class="post-date">24 May 2014 <em><small>tagged in <a href="/tags/fairhaven/">fairhaven</a>, <a href="/tags/fairhaven+ma/">fairhaven ma</a>, <a href="/tags/fort+phoenix/">fort phoenix</a>, <a href="/tags/revolutionary+war/">revolutionary war</a></em></small></span>
+
+    <p>Today, I visited the annual Memorial Day weekend Revolutionary War Encampment at Fort Phoenix, hosted by the Fairhaven Village Militia. </p>
+
+
+    <span class="post-date"><a href="/highlights/today-i-visited-the-annual-memorial-day-weekend/">Read more...</a></span>
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -212,57 +336,6 @@
 
 
     <span class="post-date"><a href="/highlights/where-in-the-world-is-the-whaleman/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/32614-the-power-of-the-image/">
-        3/26/14: The Power of the Image
-      </a>
-    </h1>
-
-    <span class="post-date">28 Mar 2014 <em><small>tagged in <a href="/tags/digital+humanities/">digital humanities</a>, <a href="/tags/honors+391/">honors 391</a>, <a href="/tags/honors+391a/">honors 391a</a>, <a href="/tags/hons391/">hons391</a>, <a href="/tags/hons391a/">hons391a</a>, <a href="/tags/photoscan/">photoscan</a>, <a href="/tags/sketchup/">sketchup</a></em></small></span>
-
-    <p>This week in the Digital Humanities Lab, we were presented with two new programs that allow people to create 3D models. At first, it was slightly harder to understand their applications to <em>humanities</em> – they seemed more like engineering tools than programs designed for history majors. Both Sketchup and PhotoScan look a lot more complicated than many of their previous programs we discussed. (It might just have been me though – I’m not the most adept person when it comes to manipulating image programs.) But in their increased level of difficulty, they provide greater opportunities for entertainment and research.</p>
-
-
-
-    <span class="post-date"><a href="/highlights/32614-the-power-of-the-image/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/one-short-day-in-the-archives/">
-        One Short Day in the Archives
-      </a>
-    </h1>
-
-    <span class="post-date">23 Mar 2014 <em><small>tagged in <a href="/tags/american+history/">american history</a>, <a href="/tags/archival+research/">archival research</a>, <a href="/tags/archives/">archives</a>, <a href="/tags/history+298/">history 298</a>, <a href="/tags/nmah/">nmah</a>, <a href="/tags/us+fish+commission/">us fish commission</a>, <a href="/tags/us+history/">us history</a></em></small></span>
-
-    <p>Ah, spring break – the time when college students put aside their studies to relax, have fun, and maybe even travel to some warm destination. Well, I guess I <em>tried</em> to do all three of those – unfortunately, the weather didn’t quite cooperate for that last one, and I ended up in Washington D.C. with a couple inches of snow on the ground.</p>
-
-
-
-    <span class="post-date"><a href="/highlights/one-short-day-in-the-archives/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/the-not-so-elusive-whaleman/">
-        The (Not-So) Elusive Whaleman
-      </a>
-    </h1>
-
-    <span class="post-date">15 Mar 2014 <em><small>tagged in <a href="/tags/history+298/">history 298</a>, <a href="/tags/national+museum+of+american+history/">national museum of american history</a>, <a href="/tags/nmah/">nmah</a>, <a href="/tags/smithsonian+archives/">smithsonian archives</a>, <a href="/tags/the+elusive+whaleman/">the elusive whaleman</a>, <a href="/tags/thomas+smilie/">thomas smilie</a>, <a href="/tags/u.s.+fish+commission/">u.s. fish commission</a></em></small></span>
-
-    <p><em>Okay, to start: make sure you have read <a href="http://sheishistoric.tumblr.com/post/77606930479/the-elusive-whaleman" target="_blank"><u>this post</u></a>. If you want more background information, take a moment to read<a href="http://sheishistoric.tumblr.com/post/79054290033/a-funny-thing-happened-on-the-way-to-the-archives" target="_blank"><u> this one</u></a>.</em></p>
-
-
-
-    <span class="post-date"><a href="/highlights/the-not-so-elusive-whaleman/">Read more...</a></span>
 
   </div>
   

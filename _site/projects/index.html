@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Portfolio</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,31 +152,70 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
 
 
     <div class="content container">
-      <h1 id="other-projects">Other Projects</h1>
+      <h1 id="portfolio">Portfolio</h1>
 
-<p>Outside of professional activities, I do some stuff for fun.</p>
-
-<h2 id="theatre">Theatre</h2>
-<p>I keep a <a href="/theatre-blog">theatre blog</a> to document my attendance at performances in the greater Philadelphia area. I see a lot of theatre, read a lot of plays, and sometimes I write about it.</p>
-
-<h2 id="twitter-bots">Twitter Bots</h2>
-<p>I manage some Twitter bots.</p>
-
-<ul>
-  <li>@<a href="https://twitter.com/UMass_Horoscope">UMass_Horoscope</a>: A spreadsheet-powered Twitter bot to share the @<a href="https://twitter.com/MDCollegian">MDCollegian</a> horoscopes. Built by @<a href="https://twitter.com/zachwhalen">zachwhalen</a>, modified by @<a href="https://twitter.com/storybench">storybench</a>, implemented by @<a href="https://twitter.com/sheishistoric">sheishistoric</a>.</li>
-  <li>@<a href="https://twitter.com/onlylistentoTMG">onlylistentoTMG</a>: I only listen to @<a href="https://twitter.com/mountain_goats">mountain_goats</a> – can recommend any song for any mood. <a href="https://github.com/sheishistoric/onlylistentotmg">source code</a></li>
-  <li>@<a href="https://twitter.com/tmgdnd">tmgdnd</a>: A bot that mashes @<a href="https://twitter.com/mountain_goats">mountain_goats</a> lyrics with situations from Dungeons &amp; Dragons. <a href="https://github.com/sheishistoric/tmgdnd">source code</a></li>
-  <li>@<a href="https://twitter.com/faketmglyrics">faketmglyrics</a>: a Markov chain bot for @<a href="https://twitter.com/mountain_goats">mountain_goats</a> lyrics. <a href="https://github.com/sheishistoric/faketmglyrics">source code</a></li>
+<div class="tabsWrapper clear" id="t0">
+<ul class="tabs">
+    <li>
+        <a href="#current-projects">CURRENT PROJECTS</a></li>
+    <li>
+        <a href="#past-projects">PAST PROJECTS</a></li>
 </ul>
+</div>
 
-<p>I’ve written about my interest in making Twitter bots and my love for the Mountain Goats <a href="https://emilyesten.com/highlights/i-only-make-bots-for-the-mountain-goats/">here</a>.</p>
+<p>Over the past five years in higher education, museums, and cultural institutions, I have helped produce a variety of projects to deepen public and scholarly engagement with digital materials. This portfolio shares a sampling of my current and past projects, from tools to exhibitions.</p>
+
+<h2 id="current-projects">Current Projects</h2>
+
+<h3 id="contingent-magazine"><a href="http://localhost:4000/work/contingent-magazine">Contingent Magazine</a></h3>
+<p><em>Site Manager • Contingent Magazine • 2019-</em></p>
+
+<p>At Contingent Magazine, we believe that history is for everyone, that every kind of history is worthwhile, and that historians should be paid for their work.</p>
+
+<h3 id="digital-second-edition-of-judaica-americana"><a href="http://localhost:4000/work/judaica-americana">Digital Second Edition of Judaica Americana</a></h3>
+<p><em>Project Manager/Project Developer • University of Pennsylvania Libraries • 2019-2020</em></p>
+
+<p>The digital second edition of Judaica Americana makes searchable the 9,000 entries in the print edition. Taken as a whole, Singerman’s bibliography provides extensive and authoritative documentation of American Jewish communal activity and growth before 1901.</p>
+
+<h3 id="sabato-morais-digital-repository"><a href="http://localhost:4000/work/morais-repository">Sabato Morais Digital Repository</a></h3>
+<p><em>Project Manager/Developer • University of Pennsylvania Libraries • 2019-</em></p>
+
+<p>The Sabato Morais Digital Repository is a searchable database that performs full-text searching of correspondence and other papers in the Sabato Morais Papers, displaying the images of retrieved documents alongside their encoded transcription.</p>
+
+<h3 id="scribes-of-the-cairo-geniza"><a href="http://localhost:4000/work/cairo-geniza">Scribes of the Cairo Geniza</a></h3>
+<p><em>Project Manager • University of Pennsylvania Libraries • 2019-present</em></p>
+
+<p>Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform.</p>
+
+<h3 id="twitter-bots"><a href="http://localhost:4000/work/twitter-bots">Twitter Bots</a></h3>
+<p><em>Botmaker • Independent • 2016-</em></p>
+
+<p>I manage some Twitter bots, several related to the Mountain Goats, an American band formed in Claremont, California, by singer-songwriter John Darnielle.</p>
+
+<h2 id="past-projects">Past Projects</h2>
+
+<h3 id="senate-staff-office-exhibition-apps"><a href="http://localhost:4000/work/emki-apps">Senate Staff Office Exhibition Apps</a></h3>
+<p><em>Technical Lead • Edward M. Kennedy Institute for the United States Senate • 2019-2019</em></p>
+
+<p>I considered how technology could amplify narratives about the Kennedy family, the Senator’s work in the Senate, and current issues in the US government.</p>
+
+<h3 id="mapping-violence"><a href="http://localhost:4000/work/mapping-violence">Mapping Violence</a></h3>
+<p><em>Researcher and Collaborator • Brown University • 2017-2018</em></p>
+
+<p>Mapping Violence recovers lost and obscured cases of racial violence in Texas from 1900 to 1930, a period of now largely forgotten bloodshed. Making these histories public is a crucial step towards reckoning with the long legacies of violence.</p>
+
+<h3 id="visualizing-the-crystal-palace"><a href="http://localhost:4000/work/crystal-palace">Visualizing the Crystal Palace</a></h3>
+<p><em>Project Assistant • University of Pennsylvania Libraries • 2016-2017</em></p>
+
+<p>The New York Crystal Palace exposition was America’s first world’s fair. Exhibitors from around the world showed off their latest machinery, consumer products, and raw materials. This tool allows you to list the items on display based on their country of origin, and item type (called a “class” in the catalog).</p>
+
 
 
       <div class="revision">

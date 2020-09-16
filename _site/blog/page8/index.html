@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Portfolio</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -88,6 +162,57 @@
       <h1 class="page-title">Blog</h1>
 <hr/>
 <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/a-moral-voyage-proposal-part-2-the-syllabus/">
+        A Moral Voyage: Proposal, Part 2 &#8211; The Syllabus
+      </a>
+    </h1>
+
+    <span class="post-date">22 Nov 2015 <em><small>tagged in <a href="/tags/a+moral+voyage/">a moral voyage</a>, <a href="/tags/commonwealth+honors+college/">commonwealth honors college</a></em></small></span>
+
+    <p>From Honors Student Blog:</p>
+
+
+
+    <span class="post-date"><a href="/highlights/a-moral-voyage-proposal-part-2-the-syllabus/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/undergraduate/thesis/how-to-talk-to-people-who-arent-your-advisor-about-your-thesis/">
+        How To Talk To People Who Aren&#8217;t Your Advisor About Your Thesis
+      </a>
+    </h1>
+
+    <span class="post-date">22 Nov 2015 <em><small>tagged in </em></small></span>
+
+    <p>By “who aren’t your advisor,” I really mean “people who have no idea about academia.” I’m still trying to nail down the best way to sum up my research without sounding like a walking thesaurus. I feel like each week there’s some new element I want to add or a new source takes me in a totally direction. I also feel like I have to give each person the background on my topic before I actually explain what it is.</p>
+
+
+
+    <span class="post-date"><a href="/undergraduate/thesis/how-to-talk-to-people-who-arent-your-advisor-about-your-thesis/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/a-moral-voyage-the-proposal-part-i-the-literature-review/">
+        A Moral Voyage: The Proposal, Part I &#8211; The Literature Review
+      </a>
+    </h1>
+
+    <span class="post-date">16 Nov 2015 <em><small>tagged in <a href="/tags/a+moral+voyage/">a moral voyage</a>, <a href="/tags/commonwealth+honors+college/">commonwealth honors college</a></em></small></span>
+
+    <p>From Honors Student Blog:</p>
+
+
+
+    <span class="post-date"><a href="/highlights/a-moral-voyage-the-proposal-part-i-the-literature-review/">Read more...</a></span>
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -205,63 +330,6 @@
 
 
     <span class="post-date"><a href="/undergraduate/closing-the-gap-frequently-asked-questions-at-the-john-brown-house-museum/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/wrapping-up-spring-semester/">
-        Wrapping Up Spring Semester
-      </a>
-    </h1>
-
-    <span class="post-date">31 May 2015 <em><small>tagged in <a href="/tags/umass+amherst/">umass amherst</a></em></small></span>
-
-    <p>So I’ve been home for a few weeks and I haven’t been writing for my blog. But that’s not for lack of information – it’s just taking me a bit longer to settle down and get my words on screen. </p>
-
-
-
-    <span class="post-date"><a href="/highlights/wrapping-up-spring-semester/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/hist-397vw-mill-river-greenway-initiative/">
-        HIST 397VW: Mill River Greenway Initiative
-      </a>
-    </h1>
-
-    <span class="post-date">10 May 2015 <em><small>tagged in <a href="/tags/connecticut+river/">connecticut river</a>, <a href="/tags/hist+397vw/">hist 397vw</a>, <a href="/tags/mill+river/">mill river</a>, <a href="/tags/mill+river+greenway+initiative/">mill river greenway initiative</a>, <a href="/tags/northampton/">northampton</a>, <a href="/tags/pioneer+valley/">pioneer valley</a>, <a href="/tags/smith+college/">smith college</a>, <a href="/tags/umass+amherst/">umass amherst</a></em></small></span>
-
-    <p>In my studies, I find it extremely<br />
-important for my understanding of a particular topic to be able to connect with<br />
-something tangible.  This semester, my<br />
-Public History Workshop worked with a local organization, the <strong><a href="http://millrivergreenway.org" target="_blank">Mill<br /> River Greenway Initiative (MRGI),</a></strong> to develop interpretive panels for an<br />
-exhibit. The balance of environmental history lectures and working directly in<br />
-the field allowed me to understand and interpret the local history of<br />
-Northampton.  </p>
-
-
-
-    <span class="post-date"><a href="/highlights/hist-397vw-mill-river-greenway-initiative/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/5-steps-to-a-successful-researchday/">
-        5 Steps to a Successful #ResearchDay
-      </a>
-    </h1>
-
-    <span class="post-date">19 Apr 2015 <em><small>tagged in <a href="/tags/history+major+problems/">history major problems</a>, <a href="/tags/research+day/">research day</a>, <a href="/tags/researchday/">researchday</a></em></small></span>
-
-    <p>One of the perks of being a humanities major is the NO FINAL EXAM notice I see on every syllabus. However, that perk comes at a price – the independent research project, of which I currently have three to finish. </p>
-
-
-
-    <span class="post-date"><a href="/highlights/5-steps-to-a-successful-researchday/">Read more...</a></span>
 
   </div>
   

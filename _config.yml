@@ -45,12 +45,12 @@ kramdown:
 
 # Collections
 collections:
-  research:
-    output: true
-    permalink: research/:path/
-  teaching:
-    output: true
-    permalink: teaching/:path/
+  work:
+    output: true 
+    permalink: work/:path/
+  tags:
+    output: true 
+    permalink: tag/:path/
 
 # Excludes
 exclude:

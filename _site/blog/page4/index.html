@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Portfolio</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -88,6 +162,57 @@
       <h1 class="page-title">Blog</h1>
 <hr/>
 <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/graduate/catalog-as-book-file-and-database-cataloging-history-part-3/">
+        Catalog as Book, File, and Database: Cataloging History, Part 3
+      </a>
+    </h1>
+
+    <span class="post-date">02 May 2017 <em><small>tagged in <a href="/tags/Graduate/">Graduate</a></em></small></span>
+
+    <p>Co-written with Steven Lubar on <a href="https://medium.com/@lubar/catalog-as-book-file-and-database-ac954096152e" target="_blank" rel="noopener noreferrer">Medium</a>:</p>
+
+
+
+    <span class="post-date"><a href="/graduate/catalog-as-book-file-and-database-cataloging-history-part-3/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/graduate/calling-something-a-dataset-visualizing-the-crystal-palace/">
+        Calling Something a Dataset: Visualizing the Crystal Palace
+      </a>
+    </h1>
+
+    <span class="post-date">01 May 2017 <em><small>tagged in <a href="/tags/Digital+Storytelling/">Digital Storytelling</a>, <a href="/tags/Graduate/">Graduate</a></em></small></span>
+
+    <p>From <a href="https://digitalstorytelling.jimmcgrath.us/uncategorized/calling-something-a-dataset-visualizing-the-crystal-palace/#more-140" target="_blank" rel="noopener noreferrer">Digital Storytelling</a>:</p>
+
+
+
+    <span class="post-date"><a href="/graduate/calling-something-a-dataset-visualizing-the-crystal-palace/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/graduate/meeting-in-the-middle-a-report-on-the-2017-meeting-of-the-national-council-on-public-history/">
+        “Meeting in the Middle”: A Report on the 2017 Meeting of the National Council on Public History
+      </a>
+    </h1>
+
+    <span class="post-date">25 Apr 2017 <em><small>tagged in <a href="/tags/Conferences+&amp;+Lectures/">Conferences &amp; Lectures</a>, <a href="/tags/Graduate/">Graduate</a>, <a href="/tags/academic-highlights/">academic-highlights</a></em></small></span>
+
+    <p>From <a href="https://thewayofimprovement.com">the way of improvement leads home</a>:</p>
+
+
+
+    <span class="post-date"><a href="/graduate/meeting-in-the-middle-a-report-on-the-2017-meeting-of-the-national-council-on-public-history/">Read more...</a></span>
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -205,57 +330,6 @@
 
 
     <span class="post-date"><a href="/graduate/amst-2650-memorial-mania-on-college-campuses/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/graduate/amst-2650-ramblings-re-hamilton-founding-fathers-fandom-and-myth-as-a-framework/">
-        AMST 2650: Ramblings Re: HAMILTON, Founding Fathers Fandom, and Myth as a Framework(?)
-      </a>
-    </h1>
-
-    <span class="post-date">28 Feb 2017 <em><small>tagged in <a href="/tags/AMST+2650/">AMST 2650</a>, <a href="/tags/Graduate/">Graduate</a></em></small></span>
-
-    <p>From <a href="http://blogs.brown.edu/amst-2650-s01-spring-2017/">AMST 2650</a>:</p>
-
-
-
-    <span class="post-date"><a href="/graduate/amst-2650-ramblings-re-hamilton-founding-fathers-fandom-and-myth-as-a-framework/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/graduate/amst-2650-making-museums-public-vs-making-museum-publics/">
-        AMST 2650: Making Museums Public vs. Making Museum Publics
-      </a>
-    </h1>
-
-    <span class="post-date">14 Feb 2017 <em><small>tagged in <a href="/tags/AMST+2650/">AMST 2650</a>, <a href="/tags/Graduate/">Graduate</a></em></small></span>
-
-    <p>From <a href="http://blogs.brown.edu/amst-2650-s01-spring-2017/">AMST 2650</a>:</p>
-
-
-
-    <span class="post-date"><a href="/graduate/amst-2650-making-museums-public-vs-making-museum-publics/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/graduate/amst-2650-providence-the-creative-capital-its-creative-capital/">
-        AMST 2650: Providence: The Creative Capital &#038; its Creative Capital
-      </a>
-    </h1>
-
-    <span class="post-date">08 Feb 2017 <em><small>tagged in <a href="/tags/AMST+2650/">AMST 2650</a>, <a href="/tags/Graduate/">Graduate</a></em></small></span>
-
-    <p>From <a href="http://blogs.brown.edu/amst-2650-s01-spring-2017/">AMST 2650</a>:</p>
-
-
-
-    <span class="post-date"><a href="/graduate/amst-2650-providence-the-creative-capital-its-creative-capital/">Read more...</a></span>
 
   </div>
   

@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Portfolio</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -93,29 +167,25 @@
     <li>
         <a href="#t1">ABOUT ME</a></li>
     <li>
-        <a href="#t2">EDUCATION</a></li>
-    <li>
         <a href="#t3">EMPLOYMENT</a></li>
     <li>
-        <a href="#t4">WRITING</a></li>
+        <a href="#t4">PUBLICATIONS</a></li>
+    <li>
+        <a href="#t7a">WORKSHOPS LED</a></li>
     <li>
         <a href="#t5">CONFERENCES</a></li>
-    <li>
-        <a href="#t6">AWARDS</a></li>
     <li>
         <a href="#t8">PROJECTS</a></li>
     <li>
         <a href="#t9">SERVICE</a></li>
     <li>
         <a href="#t10">SKILLS</a></li>
-    <li id="pdftab">
-        <a href="/assets/files/">PDF</a></li>
 </ul>
 </div>
 
 <!-- 1: Profile -->
 <div class="clear">
-<h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a>About Me</h2>
+<h2><span id="t1"></span><a href="#t1"><i class="fa fa-chevron-up"></i></a>About Me</h2>
     <div class="column-last column-bottom clear">
         <p>With universities and cultural institutions, I build innovative digital projects to engage audiences with objects, stories, and ideas. My philosophy for collaborating on digital projects comes from Allison Parrish's <a href="http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/">"Hacker Questions"</a>.</p>
     </div>
@@ -123,8 +193,12 @@
 
 <!-- 8: Digital Projects -->
 <div class="clear">
-<h2><span id="t8"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Projects</h2>
+<h2><span id="t8"></span><a href="#t8"><i class="fa fa-chevron-up"></i></a> Projects</h2>
 
+
+  
+
+  
 
   
 
@@ -134,8 +208,9 @@
     
         <div class="three-fourths column-last column-bottom clear">
           
-          <a href="https://scribesofthecairogeniza.org"><b>Scribes of the Cairo Geniza</b></a> • <a id="showProject2"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>Project Manager. 2019-Present.</small>
-          <div class="context" id="project2"><p>Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform.</p></div>
+          <a href="https://scribesofthecairogeniza.org"><b>Scribes of the Cairo Geniza</b></a> • <small>Project Manager. 2019-Present.</small>
+          <br />
+          <span class="cv-meta">Scribes of the Cairo Geniza aims to sort and transcribe Cairo Geniza fragments using new technological approaches in partnership with a community of citizen humanists using the Zooniverse platform.</span>
           
         </div>
   
@@ -146,8 +221,9 @@
     
         <div class="three-fourths column-last column-bottom clear">
           
-          <a href="https://contingentmagazine.org"><b>Contingent Magazine</b></a> • <a id="showProject3"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>Site Designer. 2018-Present.</small>
-          <div class="context" id="project3"><p>I developed the custom Contingent Magazine theme for the site.</p></div>
+          <a href="https://contingentmagazine.org"><b>Contingent Magazine</b></a> • <small>Site Designer. 2018-Present.</small>
+          <br />
+          <span class="cv-meta">At Contingent Magazine, we believe that history is for everyone, that every kind of history is worthwhile, and that historians should be paid for their work</span>
           
         </div>
   
@@ -158,8 +234,9 @@
     
         <div class="three-fourths column-last column-bottom clear">
           
-          <a href="http://mappingviolence.com"><b>Mapping Violence</b></a> • <a id="showProject4"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>Researcher & Collaborator. 2017-2018.</small>
-          <div class="context" id="project4"><p>Mapping Violence recovers lost and obscured cases of racial violence in Texas from 1900 to 1930, a period of now largely forgotten bloodshed. Making these histories public is a crucial step towards reckoning with the long legacies of violence.</p></div>
+          <a href="http://mappingviolence.com"><b>Mapping Violence</b></a> • <small>Researcher & Collaborator. 2017-2018.</small>
+          <br />
+          <span class="cv-meta">Mapping Violence recovers lost and obscured cases of racial violence in Texas from 1900 to 1930, a period of now largely forgotten bloodshed. Making these histories public is a crucial step towards reckoning with the long legacies of violence</span>
           
         </div>
   
@@ -170,8 +247,9 @@
     
         <div class="three-fourths column-last column-bottom clear">
           
-          <a href="http://cds.library.brown.edu/projects/crystalpalace/"><b>Visualizing the Crystal Palace</b></a> • <a id="showProject5"><i class="fa fa-info-circle" aria-hidden="true"></i></a> • <small>PI with Steven Lubar, Steffani Gomez, Brian Croxall, Patrick Rashleigh. 2017–18.</small>
-          <div class="context" id="project5"><p>Geographic visualizations in Tableau, Google Maps, and D3 to discuss historical significance of museum catalogs, supplemented by two co-authored Medium posts with Steven Lubar. Data hosted on GitHub.</p></div>
+          <a href="http://cds.library.brown.edu/projects/crystalpalace/"><b>Visualizing the Crystal Palace</b></a> • <small>PI with Steven Lubar, Steffani Gomez, Brian Croxall, Patrick Rashleigh. 2017–18.</small>
+          <br />
+          <span class="cv-meta">Geographic visualizations in Tableau, Google Maps, and D3 to discuss historical significance of museum catalogs, supplemented by two co-authored Medium posts with Steven Lubar. Data hosted on GitHub</span>
           
         </div>
   
@@ -181,7 +259,7 @@
 
 <!-- 10: Skills -->
 <div class="clear">
-<h2><span id="t10"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Skills</h2>
+<h2><span id="t10"></span><a href="#t10"><i class="fa fa-chevron-up"></i></a> Skills</h2>
 
     
             <div class="one-fourth column-bottom clear subcat"></div>
@@ -201,7 +279,12 @@
     
             <div class="one-fourth column-bottom clear subcat"></div>
             <div class="three-fourths column-last column-bottom clear">
-            <b>Jack of All Trades</b> • <span class="cv-meta">Tableau Public, Garageband, iMovie, Adobe Audition, Audacity, Adobe Photoshop, Adobe llustrator, WordPress, Drupal, Wikia</span>
+            <b>Content Management</b> • <span class="cv-meta">WordPress, Drupal, Wikia, Omeka</span>
+            </div>
+    
+            <div class="one-fourth column-bottom clear subcat"></div>
+            <div class="three-fourths column-last column-bottom clear">
+            <b>Jack of All Trades</b> • <span class="cv-meta">Tableau Public, Garageband, iMovie, Adobe Audition, Audacity, Adobe Photoshop, Adobe Illustrator</span>
             </div>
     
 
@@ -209,58 +292,60 @@
 
 <!-- 3: Employment -->
 <div class="clear">
-<h2><span id="t3"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> University Employment</h2>
+<h2><span id="t3"></span><a href="#t3"><i class="fa fa-chevron-up"></i></a> Employment</h2>
+<h3><span id="t3"></span> University Employment</h3>
 
   
       <div class="one-fourth column-bottom clear subcat">2019–Present</div>
       <div class="three-fourths column-last column-bottom clear">
-          <b>Judaica Digital Humanities Coordinator</b> • <a id="showEmployment1"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+          <b>Judaica Digital Humanities Coordinator</b><br/>
           <span class="cv-meta">Penn Libraries.</span>
-          <div class="context" id="employment1"><p>Mangaging the research and development of Judaica Digital Humanities at Penn, I deepen public and scholarly engagement with Penn's Judiaca materials.</p></div>
+          <br />
+          <span class="cv-meta">Managing the research and development of various projects associated with Judaica Digital Humanities at Penn Libraries, I deepen public and scholarly engagement with Penn's Judiaca materials</span>
         </div>
   
 
   
       <div class="one-fourth column-bottom clear subcat">2018–2019</div>
       <div class="three-fourths column-last column-bottom clear">
-          <b>Researcher and Collaborator, Mapping Violence</b> • <a id="showEmployment2"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+          <b>Researcher and Collaborator, Mapping Violence</b><br/>
           <span class="cv-meta">Brown University, Department of American Studies.</span>
-          <div class="context" id="employment2"><p>As a Researcher and Collaborator on the team, I completed four new entries for the database, built a prototype map in Carto of the first phase of research, and built the foundation for a digital exhibit on the Porvenir Massacre. As the lead digital specialist, I also coordinated with student developers and system administrators to maintain and operate the existing database, and provided strategic direction on the layout, interface, and content for project website. All the code for the draft of the digital exhibit can be found on the GitHub repository.</p></div>
+          <br />
+          <span class="cv-meta">As a Researcher and Collaborator on the team, I coordinated with student developers and system administrators to maintain and operate the existing database, and provided strategic direction on the layout, interface, and content for project website</span>
         </div>
   
 
   
       <div class="one-fourth column-bottom clear subcat">2017</div>
       <div class="three-fourths column-last column-bottom clear">
-          <b>Teaching Assistant</b> • <a id="showEmployment3"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+          <b>Teaching Assistant</b><br/>
           <span class="cv-meta">Brown University, School of Professional Studies.</span>
-          <div class="context" id="employment3"><p>Introduced students to critical reading & literary theory in online English course <i>Fantastic Places and Unhuman Humans</i></p></div>
+          <br />
+          <span class="cv-meta">Introduced students to critical reading & literary theory in online English course <i>Fantastic Places and Unhuman Humans</i></span>
         </div>
   
 
   
       <div class="one-fourth column-bottom clear subcat">2016-2017</div>
       <div class="three-fourths column-last column-bottom clear">
-          <b>Digital Projects Assistant</b> • <a id="showEmployment4"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+          <b>Digital Projects Assistant</b><br/>
           <span class="cv-meta">Brown University, Department of American Studies.</span>
-          <div class="context" id="employment4"><p>Explored museum history and catalog history by designing two digital projects using Tiki-Toki, Google Sheets, and Tableau Public visualizations</p></div>
+          <br />
+          <span class="cv-meta">Explored museum history and catalog history by designing two digital projects using Tiki-Toki, Google Sheets, and Tableau Public visualizations</span>
         </div>
-  
-
-  
-
   
 
 </div>
 <div class="clear">
-<h2><span id="t3"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Public Humanities Employment</h2>
+<h3><span id="t3"></span> Public Humanities Employment</h3>
 
   
     <div class="one-fourth column-bottom clear subcat">2019–Present</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Site Designer</b> • <a id="showEmployment1"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Web Manager</b><br/>
         <span class="cv-meta">Contingent Magazine.</span>
-        <div class="context" id="employment1"><p>Developed Contingent Magazine Theme for Wordpress and coordinated social media roll-out for launch of Contingent Magazine</p></div>
+        <br />
+        <span class="cv-meta">Developed Contingent Magazine Theme for Wordpress and coordinated social media roll-out for launch of Contingent Magazine.</span>
     </div>
   
 
@@ -271,21 +356,21 @@
   
     <div class="one-fourth column-bottom clear subcat">2018</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Digital Humanities Fellow</b> • <a id="showEmployment4"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Digital Humanities Fellow</b><br/>
         <span class="cv-meta">Edward M. Kennedy Institute for the United States Senate.</span>
-        <div class="context" id="employment4"><p>As the Digital Humanities Fellow at the Edward M. Kennedy Institute for the United States Senate, I consider how technology could amplify narratives about the Kennedy family, the Senator’s work in the Senate, and current issues in the US government. In addition to planning out future experiences in VR, AR, and digital exhibit content, I develped two iPad applications and one digital projection/web display regarding the 2018 U.S. Senate elections.</p></div>
+        <br />
+        <span class="cv-meta">I considered how technology could amplify narratives about the Kennedy family, the Senator’s work in the Senate, and current issues in the US government. In addition to planning out future experiences in VR, AR, and digital exhibit content, I developed two iPad applications and one digital projection/web display regarding the 2018 U.S. Senate elections.</span>
     </div>
   
 
   
     <div class="one-fourth column-bottom clear subcat">2016</div>
     <div class="three-fourths column-last column-bottom clear">
-        <b>Smithsonian Center for Learning and Digital Access</b> • <a id="showEmployment5"><i class="fa fa-info-circle" aria-hidden="true"></i></a><br/>
+        <b>Smithsonian Center for Learning and Digital Access</b><br/>
         <span class="cv-meta">Evaluation Assistant.</span>
-        <div class="context" id="employment5"><p>Led evaluation case studies of institutional use of Smithsonian Learning Lab, a digital collections platform that allows users to discover Smithsonian Institution digital resources, and use them to create and share collections tailored to their needs and that of their target audiences. I conducted and transcribed interviews; developed data collection questionnaires, consent forms, and rubrics; and drafted summaries of case study data for internal and public consumption.</p></div>
+        <br />
+        <span class="cv-meta">Led evaluation case studies of institutional use of Smithsonian Learning Lab, a digital collections platform that allows users to discover Smithsonian Institution digital resources, and use them to create and share collections tailored to their needs and that of their target audiences.</span>
     </div>
-  
-
   
 
   
@@ -298,27 +383,104 @@
 
 <!-- 4: Writing -->
 <div class="clear">
-<h2><span id="t4"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Writing</h2>
+<h2><span id="t4"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Publications</h2>
 
 
-  
     
-        <div class="one-fourth column-bottom clear subcat"><em>Web</em></div>
+        <div class="one-fourth column-bottom clear subcat"><em>Journals</em></div>
     
         <div class="three-fourths column-last column-bottom clear">
             
-                <a href="https://learninglab.si.edu/cabinet/file/edc7e1f0-fc84-40eb-8cd2-cdf51ad7958a/Smithsonian-SCLDA_InternalLearningLabUsage_Report.pdf" target="_blank"><b>&ldquo;Documenting the Use of the Smithsonian Learning Lab Among Smithsonian Museums, Research Centers, and Programmatic Offices&rdquo;</b><br/></a>
+                <b>&ldquo;Scribes, Scholars, and Scripts: Reviewing Data from <i>Scribes of the Cairo Geniza</i>&rdquo;</b><br/>
             
-            <span class="cv-meta">August 2018 • <i>Smithsonian Center for Learning and Digital Access</i></span>
+            <span class="cv-meta">(forthcoming) • <i>Manuscript Studies: a Journal of Schoenberg Institute for Manuscript Studies</i></span>
         </div>
-  
 
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.15/" target="_blank"><b>&ldquo;Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900.&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">July 2020 • <i>Journal of Open Humanities Data</i></span>
+        </div>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+        <div class="one-fourth column-bottom clear subcat"><em>Datasets</em></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://repository.upenn.edu/cairogeniza/1/" target="_blank"><b>&ldquo;Union List of Nineteenth-Century Jewish Serials Published in the United States&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">January 2020 • <i>Penn Libraries, University of Pennsylvania</i></span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://repository.upenn.edu/cairogeniza/1/" target="_blank"><b>&ldquo;Dataset: Scribes of the Cairo Geniza, Sorting Phase, August 2017 - February 2019&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">January 2020 • <i>Penn Libraries, University of Pennsylvania</i></span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://repository.upenn.edu/judaica_americana/2/" target="_blank"><b>&ldquo;Dataset for Judaica Americana: A Bibliography of Publications to 1900&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">October 2019 • <i>Penn Libraries, University of Pennsylvania</i></span>
+        </div>
+
+
+</div>
+
+<!-- 7a: Workshops Led -->
+<div class="clear">
+<h2><span id="t7a"></span><a href="#t7a"><i class="fa fa-chevron-up"></i></a> Workshops Led</h2>
+
+
+        <div class="one-fourth column-bottom clear subcat"></div>
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <b>Omeka Orientation: How to Use This Web Publishing Platform</b>
+             <br/>
+            <span class="cv-meta">University of Pennsylvania Libraries. September 2020.</span>
+        </div>
+
+        <div class="one-fourth column-bottom clear subcat"></div>
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://judaicadh.library.upenn.edu/blog/2020-07-06-digital-scholarship-bootcamp/" target="_blank"><b>Data Wrangling with Google Sheets</b></a>
+             <br/>
+            <span class="cv-meta">University of Pennsylvania Libraries . July 2020.</span>
+        </div>
 
 </div>
 
 <!-- 5: Talks -->
 <div class="clear">
-<h2><span id="t5"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> In Public</h2>
+<h2><span id="t5"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a> Conferences</h2>
 
 
     
@@ -357,9 +519,33 @@
     
         <div class="three-fourths column-last column-bottom clear">
             
+                <a href="https://judaicadh.library.upenn.edu/blog/ajl2020/" target="_blank"><b>&ldquo;Digital Projects in Jewish Studies&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">July 2020 • Association of Jewish Libraries • Virtual, Panel, <i>AJL2020</i></span>
+        </div>
+  
+
+  
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://dh2020.adho.org" target="_blank"><b>&ldquo;Scribes, Scholars, & Scripts: Creating a Digital Humanities Community Through Crowdsourcing&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">July 2020 • Alliance of Digital Humanities Organizations • Ottawa, Ontario//Virtual, Panel, <i>DH2020</i></span>
+        </div>
+  
+
+  
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
                 <b>&ldquo;Interpreting Jewish History in Museums and Public History Settings&rdquo;</b><br/>
             
-            <span class="cv-meta">March 2020 • National Council for Public History • Atlanta, Georgia, Roundtable, <i>NCPH 2020</i></span>
+            <span class="cv-meta">March 2020 • National Council for Public History • Atlanta, Georgia//Virtual, Twitter Chat, <i>NCPH 2020</i></span>
         </div>
   
 
@@ -452,11 +638,11 @@
 
 <!-- 9: Membership + Service -->
 <div class="clear">
-<h2><span id="t9"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a>Membership & Service</h2>
+<h2><span id="t9"></span><a href="#t9"><i class="fa fa-chevron-up"></i></a>Membership & Service</h2>
         <div class="one-fourth column-bottom clear subcat">Service</div>
             <div class="three-fourths column-last column-bottom clear">
                 
-                    <span class="cv-meta"><b>Organizing Committee Member, KeystoneDH 2020</b> • Keystone DH. 2019–20.</span><br/>
+                    <span class="cv-meta"><b>Organizing Committee Member, KeystoneDH 2020 (postponed due to COVID-19)</b> • Keystone DH. 2019–20.</span><br/>
                 
                     <span class="cv-meta"><b>Programming and Scholarship Committee Member, ACH 2019</b> • Association for Computers and the Humanities. 2018–19.</span><br/>
                 

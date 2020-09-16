@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Portfolio</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -94,16 +168,104 @@
       <!--  <a href="#t1">MONOGRAPHS</a></li> -->
   <!--  <li> -->
       <!--  <a href="#t2">EDITED</a></li> -->
-  <!--  <li> -->
-      <!--  <a href="#t3">JOURNALS</a></li> -->
+<li>
+				<a href="#t3">JOURNALISM</a></li>
 		<li>
 		    <a href="#t4">REPORTS</a></li>
+	  <!--  	<li>
+<a href="#t5">WEB</a></li>-->
 		<li>
-				<a href="#t5">WEB</a></li>
-		<li>
-				<a href="#t6">BLOG</a></li>
+				<a href="#t6">ACADEMIA</a></li>
 </ul>
 </div>
+
+<!-- Profile -->
+<div class="clear">
+<h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a>About Me</h2>
+    <div class="column-last column-bottom clear">
+        <p>I am a freelance writer on arts, pop culture, and public history. Most of my work has been as a contributor to the <a href="https://www.broadstreetreview.com/">Broad Street Review</a>, a non-profit online arts and culture publication for the greater Philadelphia area. You can read my work <a href="https://emilyesten.com/tags/broad+street+review/">here</a>.</p>
+    </div>
+</div>
+
+<div class="clear">
+<h2><span id="t3"></span><a href="#t3"><i class="fa fa-chevron-up"></i></a> Journalism</h2>
+
+
+    
+        <div class="one-fourth column-bottom clear subcat"><em>Web</em></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://www.broadstreetreview.com/museums/the-philadelphia-city-archives-present-the-history-of-the-lazaretto" target="_blank"><b>&ldquo;The History of Quarantine&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">March 10, 2020 • <i>Broad Street Review</i></span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://www.broadstreetreview.com/art/twelve-gates-arts-presents-immanence-tazhib-in-america-behnaz-karjoo" target="_blank"><b>&ldquo;Illuminating Iranian tradition: Twelve Gates Arts presents ‘Immanence: Tazhib in America | Behnaz Karjoo’&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">January 13, 2020 • <i>Broad Street Review</i></span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://www.broadstreetreview.com/cross-cultural/the-center-for-media-at-risk-presents-meme-tactics" target="_blank"><b>&ldquo;The Radical Power of Memes: The Center for Media at Risk presents 'Meme Tactics'&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">October 29, 2019 • <i>Broad Street Review</i></span>
+        </div>
+
+
+
+
+    
+        <div class="one-fourth column-bottom clear subcat"><em>Blog</em></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="/highlights/i-only-make-bots-for-the-mountain-goats/" target="_blank"><b>&ldquo;i only make bots for the mountain goats&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">December 16, 2018</span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="/highlights/beartoursbyemily-rating-the-public-art-of-brown-universitys-mascot/" target="_blank"><b>&ldquo;#BearToursByEmily: Rating the Public Art of Brown University’s Mascot&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">January 17, 2018</span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="/highlights/the-degrassi-franchise-on-the-teenage-experience/" target="_blank"><b>&ldquo;The Degrassi Franchise on the Teenage Experience&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">November 1, 2017</span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="/graduate/the-founding-of-stars-hollow-glassberg-on-gilmore-girls-part-one/" target="_blank"><b>&ldquo;The Founding of Stars Hollow: Glassberg on Gilmore Girls (Part One)&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">June 11, 2017</span>
+        </div>
+
+</div>
+
 
 <div class="clear">
 <h2><span id="t4"></span><a href="#t4"><i class="fa fa-chevron-up"></i></a> Reports</h2>
@@ -114,412 +276,132 @@
     
         <div class="three-fourths column-last column-bottom clear">
             
+                <a href="https://repository.upenn.edu/cairogeniza/3/" target="_blank"><b>&ldquo;Who are the #GenizaScribes: 2019-2020 Community Survey Report&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">February 2020 • <i>Penn Libraries, University of Pennsylvania</i></span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://documents.alexanderstreet.com/d/1010113831" target="_blank"><b>&ldquo;Biographical Sketch of Helen Emerson&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">January 2020 • <i>Biographical Database of NAWSA Suffragists, 1890-1920</i></span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://repository.upenn.edu/cairogeniza/2/" target="_blank"><b>&ldquo;Scribes of the Cairo Geniza: Reviewing Sorting Phase Data&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">April 2019 • <i>Penn Libraries, University of Pennsylvania</i></span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
                 <a href="https://learninglab.si.edu/cabinet/file/edc7e1f0-fc84-40eb-8cd2-cdf51ad7958a/Smithsonian-SCLDA_InternalLearningLabUsage_Report.pdf" target="_blank"><b>&ldquo;Documenting the Use of the Smithsonian Learning Lab Among Smithsonian Museums, Research Centers, and Programmatic Offices&rdquo;</b><br/></a>
             
             <span class="cv-meta">August 2018 • <i>Smithsonian Center for Learning and Digital Access</i></span>
         </div>
 
-
-</div>
-
-<div class="clear">
-<h2><span id="t4"></span><a href="#t4"><i class="fa fa-chevron-up"></i></a> Web</h2>
-
-
     
-        <div class="one-fourth column-bottom clear subcat"><em>Web</em></div>
+        <div class="one-fourth column-bottom clear subcat"></div>
     
         <div class="three-fourths column-last column-bottom clear">
             
-                <a href="https://www.broadstreetreview.com/cross-cultural/the-center-for-media-at-risk-presents-meme-tactics" target="_blank"><b>&ldquo;The Radical Power of Memes: The Center for Media at Risk presents 'Meme Tactics'&rdquo;</b><br/></a>
+                <a href="https://medium.com/@lubar/revisualizing-the-crystal-palace-d239e50d9e12" target="_blank"><b>&ldquo;Revisualizing the Crystal Palace (Cataloging History, Part 4)&rdquo;</b><br/></a>
             
-            <span class="cv-meta">October 29, 2019 • <i>Broad Street Review</i></span>
+            <span class="cv-meta">January 5, 2018 • <i>Medium</i></span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://medium.com/@lubar/catalog-as-book-file-and-database-ac954096152e" target="_blank"><b>&ldquo;Catalog as Book, File, and Database (Cataloging History, Part 3)&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">May 1, 2017 • <i>Medium</i></span>
         </div>
 
 
 </div>
 
-
 <div class="clear">
-<h2><span id="t5"></span><a href="#t5"><i class="fa fa-chevron-up"></i></a> Blog</h2>
-
-
-		
-
-	<div>
-	  <ul class="related-posts">
-	    <li>
-	      <h3>
-	        <a href="/highlights/i-only-make-bots-for-the-mountain-goats/">
-	          i only make bots for the mountain goats
-	          <small>16 Dec 2018</small>
-	        </a>
-	      </h3>
-	    </li>
-	    
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-	<div>
-	  <ul class="related-posts">
-	    <li>
-	      <h3>
-	        <a href="/highlights/interview-with-women-and-technology-at-brown/">
-	          Interview with Women and Technology at Brown
-	          <small>26 Feb 2018</small>
-	        </a>
-	      </h3>
-	    </li>
-	    
-		
-
-		
-
-		
-
-	<div>
-	  <ul class="related-posts">
-	    <li>
-	      <h3>
-	        <a href="/highlights/beartoursbyemily-rating-the-public-art-of-brown-universitys-mascot/">
-	          #BearToursByEmily: Rating the Public Art of Brown University’s Mascot
-	          <small>17 Jan 2018</small>
-	        </a>
-	      </h3>
-	    </li>
-	    
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-	<div>
-	  <ul class="related-posts">
-	    <li>
-	      <h3>
-	        <a href="/highlights/the-degrassi-franchise-on-the-teenage-experience/">
-	          The Degrassi Franchise on the Teenage Experience
-	          <small>01 Nov 2017</small>
-	        </a>
-	      </h3>
-	    </li>
-	    
-		
-
-	<div>
-	  <ul class="related-posts">
-	    <li>
-	      <h3>
-	        <a href="/graduate/what-i-learned-during-my-summer-practicum-on-escape-reevaluation-and-being-a-public-human/">
-	          What I Learned During My Summer Practicum: On Escape, Reevaluation, and Being a Public Human
-	          <small>16 Oct 2017</small>
-	        </a>
-	      </h3>
-	    </li>
-	    
-		
-
-		
-
-	<div>
-	  <ul class="related-posts">
-	    <li>
-	      <h3>
-	        <a href="/graduate/learning-to-extract-understand-twitter-data/">
-	          Learning to Extract &#038; Understand Twitter Data
-	          <small>28 Jun 2017</small>
-	        </a>
-	      </h3>
-	    </li>
-	    
-		
-
-	<div>
-	  <ul class="related-posts">
-	    <li>
-	      <h3>
-	        <a href="/graduate/the-founding-of-stars-hollow-glassberg-on-gilmore-girls-part-one/">
-	          The Founding of Stars Hollow: Glassberg on Gilmore Girls (Part One)
-	          <small>11 Jun 2017</small>
-	        </a>
-	      </h3>
-	    </li>
-	    
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-	<div>
-	  <ul class="related-posts">
-	    <li>
-	      <h3>
-	        <a href="/graduate/hastac-talking-through-ncph-2017/">
-	          HASTAC: Talking through NCPH 2017
-	          <small>02 Feb 2017</small>
-	        </a>
-	      </h3>
-	    </li>
-	    
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-	  </ul>
-	</div>
-</div?
+<h2><span id="t6"></span><a href="#t6"><i class="fa fa-chevron-up"></i></a>Academia</h2>
+
+
+    
+        <div class="one-fourth column-bottom clear subcat"><em>Journals</em></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <b>&ldquo;Scribes, Scholars, and Scripts: Reviewing Data from <i>Scribes of the Cairo Geniza</i>&rdquo;</b><br/>
+            
+            <span class="cv-meta">(forthcoming) • <i>Manuscript Studies: a Journal of Schoenberg Institute for Manuscript Studies</i></span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.15/" target="_blank"><b>&ldquo;Digital Second Edition of Judaica Americana: A Bibliography of Publications to 1900.&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">July 2020 • <i>Journal of Open Humanities Data</i></span>
+        </div>
+
+
+
+
+    
+        <div class="one-fourth column-bottom clear subcat"><em>Blog</em></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="/graduate/learning-to-extract-understand-twitter-data/" target="_blank"><b>&ldquo;Learning to Extract &#038; Understand Twitter Data&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">June 28, 2017</span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="/graduate/the-founding-of-stars-hollow-glassberg-on-gilmore-girls-part-one/" target="_blank"><b>&ldquo;The Founding of Stars Hollow: Glassberg on Gilmore Girls (Part One)&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">June 11, 2017</span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="/graduate/meeting-in-the-middle-a-report-on-the-2017-meeting-of-the-national-council-on-public-history/" target="_blank"><b>&ldquo;“Meeting in the Middle”: A Report on the 2017 Meeting of the National Council on Public History&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">April 25, 2017</span>
+        </div>
+
+    
+        <div class="one-fourth column-bottom clear subcat"></div>
+    
+        <div class="three-fourths column-last column-bottom clear">
+            
+                <a href="/graduate/hastac-talking-through-ncph-2017/" target="_blank"><b>&ldquo;HASTAC: Talking through NCPH 2017&rdquo;</b><br/></a>
+            
+            <span class="cv-meta">February 2, 2017</span>
+        </div>
+
+</div>
 
 
       <div class="revision">

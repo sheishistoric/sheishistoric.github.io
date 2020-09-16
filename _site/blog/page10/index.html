@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Portfolio</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -88,6 +162,63 @@
       <h1 class="page-title">Blog</h1>
 <hr/>
 <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/undergraduate/english-302/youtube-is-about-community/">
+        YouTube Is About Community
+      </a>
+    </h1>
+
+    <span class="post-date">18 Feb 2015 <em><small>tagged in </em></small></span>
+
+    <!--YouTube Error: bad URL entered-->
+
+
+
+    <span class="post-date"><a href="/undergraduate/english-302/youtube-is-about-community/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/undergraduate/english-302/a-conditional-love-letter-to-google/">
+        A Conditional Love Letter to Google
+      </a>
+    </h1>
+
+    <span class="post-date">18 Feb 2015 <em><small>tagged in </em></small></span>
+
+    <p>My beloved Google,</p>
+
+
+
+    <span class="post-date"><a href="/undergraduate/english-302/a-conditional-love-letter-to-google/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/to-the-libraries/">
+        To The Libraries!
+      </a>
+    </h1>
+
+    <span class="post-date">15 Feb 2015 <em><small>tagged in <a href="/tags/dubois+library/">dubois library</a>, <a href="/tags/forbes+library/">forbes library</a>, <a href="/tags/frost+library/">frost library</a>, <a href="/tags/ma+history/">ma history</a>, <a href="/tags/mill+river/">mill river</a>, <a href="/tags/northampton/">northampton</a></em></small></span>
+
+    <p>This week, I was back in a library<br />
+– three of them, in fact! I had almost forgotten how much I love being<br />
+surrounded by archival materials. I like looking at the stacks and nimbly<br />
+making my way through the folders to find what I’m looking for. There’s something<br />
+about holding important documents in my arms and the fresh smell of opening an<br />
+old book that pulls me in. And then, once I’m in, there’s no holding back – I’m<br />
+absorbed into something and somewhere and I’m absolutely thrilled.</p>
+
+
+
+    <span class="post-date"><a href="/highlights/to-the-libraries/">Read more...</a></span>
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -205,57 +336,6 @@
 
 
     <span class="post-date"><a href="/highlights/website-review-a-look-at-the-national-womens/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/recap-of-askanarchivist/">
-        Recap of #AskAnArchivist
-      </a>
-    </h1>
-
-    <span class="post-date">02 Nov 2014 <em><small>tagged in <a href="/tags/archives/">archives</a>, <a href="/tags/archives+life/">archives life</a>, <a href="/tags/archivist/">archivist</a>, <a href="/tags/askanarchivist/">askanarchivist</a>, <a href="/tags/twitter/">twitter</a></em></small></span>
-
-    <p>Thursday was #AskAnArchivist on Twitter, so I took advantage of the opportunity to get in contact with archivists across the nation.  Here are some of the questions I asked:</p>
-
-
-
-    <span class="post-date"><a href="/highlights/recap-of-askanarchivist/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/living-new-deal/">
-        Living New Deal
-      </a>
-    </h1>
-
-    <span class="post-date">26 Oct 2014 <em><small>tagged in <a href="/tags/hist+397Z/">hist 397Z</a>, <a href="/tags/living+new+deal/">living new deal</a>, <a href="/tags/ma+history/">ma history</a>, <a href="/tags/new+bedford/">new bedford</a>, <a href="/tags/new+bedford+ma/">new bedford ma</a>, <a href="/tags/new+bedford+regional+airport/">new bedford regional airport</a>, <a href="/tags/new+deal/">new deal</a>, <a href="/tags/uc+berkley/">uc berkley</a>, <a href="/tags/us+history/">us history</a>, <a href="/tags/works+progress+administration/">works progress administration</a>, <a href="/tags/world+war+ii/">world war ii</a>, <a href="/tags/wpa/">wpa</a>, <a href="/tags/wwii/">wwii</a></em></small></span>
-
-    <p>So for HIST 397Z, we had to make a digital history contribution in one of three ways: 1) by investigating a building or memorial for <strong>Lost UMass</strong>; 2) contribute to <strong>Living New Deal</strong> by updating or creating a new entry; or 3) create a <strong>Document Deep Dive</strong> with a primary source found in the Five College archives. I chose the middle one, hoping to make an adventure out of finding one of these locations.</p>
-
-
-
-    <span class="post-date"><a href="/highlights/living-new-deal/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/visit-to-umca/">
-        Visit to UMCA
-      </a>
-    </h1>
-
-    <span class="post-date">19 Oct 2014 <em><small>tagged in <a href="/tags/art+assignment/">art assignment</a>, <a href="/tags/art+history/">art history</a>, <a href="/tags/art+museum/">art museum</a>, <a href="/tags/art+museums/">art museums</a>, <a href="/tags/contemporary+art/">contemporary art</a>, <a href="/tags/umass+amherst/">umass amherst</a>, <a href="/tags/university+museum+of+contemporary+art/">university museum of contemporary art</a></em></small></span>
-
-    <p>So on Friday afternoon, my friend and I made our way over to the University Museum of Contemporary Art (UMCA) here at UMass. It’s been on our to-do lists for awhile, and so when the opportunity arose after lunch, we made our way over to the Fine Arts Center (FAC) to stop in.</p>
-
-
-
-    <span class="post-date"><a href="/highlights/visit-to-umca/">Read more...</a></span>
 
   </div>
   

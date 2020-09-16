@@ -15,15 +15,23 @@ title: Writing
 				<a href="#t3">JOURNALISM</a></li>
 		<li>
 		    <a href="#t4">REPORTS</a></li>
+	  <!--  	<li>
+<a href="#t5">WEB</a></li>-->
 		<li>
-				<a href="#t5">WEB</a></li>
-		<li>
-				<a href="#t6">BLOG</a></li>
+				<a href="#t6">ACADEMIA</a></li>
 </ul>
 </div>
 
+<!-- Profile -->
 <div class="clear">
-<h2><span id="t3"></span><a href="#t4"><i class="fa fa-chevron-up"></i></a>Journalism</h2>
+<h2><span id="t1"></span><a href="#t0"><i class="fa fa-chevron-up"></i></a>About Me</h2>
+    <div class="column-last column-bottom clear">
+        <p>{{ site.data.cv2.profile-writing }}</p>
+    </div>
+</div>
+
+<div class="clear">
+<h2><span id="t3"></span><a href="#t3"><i class="fa fa-chevron-up"></i></a> Journalism</h2>
 
 {% for title in site.data.cv2.other %}
     {% if forloop.first == true %}
@@ -82,7 +90,24 @@ title: Writing
 </div>
 
 <div class="clear">
-<h2><span id="t5"></span><a href="#t4"><i class="fa fa-chevron-up"></i></a> Academic Blog Posts</h2>
+<h2><span id="t6"></span><a href="#t6"><i class="fa fa-chevron-up"></i></a>Academia</h2>
+
+{% for title in site.data.cv2.journals %}
+    {% if forloop.first == true %}
+        <div class="one-fourth column-bottom clear subcat"><em>Journals</em></div>
+    {% else %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+    {% endif %}
+        <div class="three-fourths column-last column-bottom clear">
+            {% if title.url !="" %}
+                <a href="{{ title.url }}" target="_blank"><b>&ldquo;{{ title.title }}&rdquo;</b><br/></a>
+            {% else %}
+                <b>&ldquo;{{ title.title }}&rdquo;</b><br/>
+            {% endif %}
+            <span class="cv-meta">{{ title.date }} • <i>{{ title.venue }}</i></span>
+        </div>
+{% endfor %}
+
 {% assign my_array = site.posts | where: "tags","academic-highlights" %}
 {% for post in my_array %}
     {% if forloop.first == true %}

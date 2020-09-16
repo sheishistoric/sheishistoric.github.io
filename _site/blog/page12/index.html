@@ -18,8 +18,82 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/more-info-style.scss">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .wrap-collabsible {
+      margin-bottom: 1.2rem 0;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+
+    .lbl-toggle {
+      display: inline-block;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16.6667px;
+      text-transform: uppercase;
+      text-align: center;
+
+      padding: .5rem;
+
+      color: #FFFFFF;
+      background: #ac4142;;
+
+      cursor: pointer;
+
+      border-radius: 7px;
+      transition: all 0.25s ease-out;
+    }
+
+    .lbl-toggle:hover {
+      color: #7C5A0B;
+    }
+
+    .lbl-toggle::before {
+      content: ' ';
+      display: inline-block;
+
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid currentColor;
+      vertical-align: middle;
+      margin-right: .7rem;
+      transform: translateY(-2px);
+
+      transition: transform .2s ease-out;
+    }
+
+    .toggle:checked + .lbl-toggle::before {
+      transform: rotate(90deg) translateX(-3px);
+    }
+
+    .collapsible-content {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height .25s ease-in-out;
+    }
+
+    .toggle:checked + .lbl-toggle + .collapsible-content {
+      max-height: 100vh;
+    }
+
+    .toggle:checked + .lbl-toggle {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content .content-inner {
+      background: rgba(250, 224, 66, .2);
+      border-bottom: 1px solid rgba(250, 224, 66, .45);
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: .5rem 1rem;
+    }
+</style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
@@ -49,7 +123,7 @@
       <a class="sidebar-nav-item" href="/public">Public</a>
       <a class="sidebar-nav-item" href="/writing">Writing</a>
       <!-- a class="sidebar-nav-item" href="/exhibits">Exhibitions</a> -->
-      <a class="sidebar-nav-item" href="/projects">Other Projects</a>
+      <a class="sidebar-nav-item" href="/projects">Portfolio</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
@@ -78,7 +152,7 @@
         </div>-->
     </div>
     <div class="credit">
-      <p>&copy; 2019 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
+      <p>&copy; 2020 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro/jeffreymoro-dot-com" target="_blank">@jeffreymoro</a></p>
     </div>
   </div>
 </div>
@@ -88,6 +162,56 @@
       <h1 class="page-title">Blog</h1>
 <hr/>
 <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/went-to-revolutionary-war-weekend-at-fort/">
+        Went To Revolutionary War Weekend At Fort
+      </a>
+    </h1>
+
+    <span class="post-date">24 Aug 2014 <em><small>tagged in <a href="/tags/american+revolution/">american revolution</a>, <a href="/tags/fort+rodman/">fort rodman</a>, <a href="/tags/fort+taber/">fort taber</a>, <a href="/tags/ma+history/">ma history</a>, <a href="/tags/new+bedford/">new bedford</a>, <a href="/tags/reenactment/">reenactment</a>, <a href="/tags/rev+war/">rev war</a>, <a href="/tags/revolutionary+war/">revolutionary war</a>, <a href="/tags/summer+2014/">summer 2014</a></em></small></span>
+
+    <p>Went to Revolutionary War Weekend at Fort Taber/Rodman in New Bedford! I loved their battle reenactment – it was nice that they had a historian explaining the details of the process alongside the presentation.</p>
+
+
+    <span class="post-date"><a href="/highlights/went-to-revolutionary-war-weekend-at-fort/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/ten-things-i-learned-as-an-archives-library/">
+        Ten Things I Learned As An Archives &#038; Library Intern
+      </a>
+    </h1>
+
+    <span class="post-date">17 Aug 2014 <em><small>tagged in <a href="/tags/archives/">archives</a>, <a href="/tags/archives+life/">archives life</a>, <a href="/tags/intern/">intern</a>, <a href="/tags/library/">library</a>, <a href="/tags/nbwm/">nbwm</a>, <a href="/tags/summer+2014/">summer 2014</a></em></small></span>
+
+    <p>This is my last week at the New Bedford Whaling Museum (I can’t believe how quickly that went by!) I have a much longer post planned for next week, but I thought I’d start by sharing the lighthearted pieces of advice I’ve acquired over the summer.<!-- more --></p>
+
+
+
+    <span class="post-date"><a href="/highlights/ten-things-i-learned-as-an-archives-library/">Read more...</a></span>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/highlights/portland-with-pictures/">
+        Portland (With Pictures!)
+      </a>
+    </h1>
+
+    <span class="post-date">27 Jul 2014 <em><small>tagged in <a href="/tags/cryptozoology/">cryptozoology</a>, <a href="/tags/henry+wadsworth+longfellow/">henry wadsworth longfellow</a>, <a href="/tags/national+puzzlers'+league/">national puzzlers' league</a>, <a href="/tags/new+england/">new england</a>, <a href="/tags/nplcon/">nplcon</a>, <a href="/tags/portland/">portland</a>, <a href="/tags/portland+museum+of+art/">portland museum of art</a>, <a href="/tags/portlane+me/">portlane me</a>, <a href="/tags/summer+2014/">summer 2014</a></em></small></span>
+
+    <p>This year, my family and I went to Portland, Maine, on our summer vacation for the National Puzzlers’ League Convention.</p>
+
+
+
+    <span class="post-date"><a href="/highlights/portland-with-pictures/">Read more...</a></span>
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -206,56 +330,6 @@
 
 
     <span class="post-date"><a href="/highlights/im-getting-better-with-computers/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/thatcampne-2014/">
-        THATCampNE 2014
-      </a>
-    </h1>
-
-    <span class="post-date">01 Jun 2014 <em><small>tagged in <a href="/tags/boston+university/">boston university</a>, <a href="/tags/dh/">dh</a>, <a href="/tags/digital+humanities/">digital humanities</a>, <a href="/tags/summer+2014/">summer 2014</a>, <a href="/tags/thatcamp/">thatcamp</a>, <a href="/tags/thatcampne/">thatcampne</a></em></small></span>
-
-    <p>So this past weekend, I attended THATCamp (The Humanities And Technology) New England at Boston University. When I signed up for THATCamp back in January, I had little to no idea what digital humanities. I had signed up for a course on it, it sounded pretty cool, and I figured by the time May 30<sup>th</sup> rolled around I would have a better idea of what this buzzword meant.</p>
-
-
-
-    <span class="post-date"><a href="/highlights/thatcampne-2014/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/archives-and-moby-dick/">
-        Archives and Moby Dick
-      </a>
-    </h1>
-
-    <span class="post-date">01 Jun 2014 <em><small>tagged in <a href="/tags/archival+research/">archival research</a>, <a href="/tags/archives/">archives</a>, <a href="/tags/herman+melville/">herman melville</a>, <a href="/tags/joshua+slocum/">joshua slocum</a>, <a href="/tags/moby+dick/">moby dick</a>, <a href="/tags/new+bedford/">new bedford</a>, <a href="/tags/new+bedford+whaling+museum/">new bedford whaling museum</a>, <a href="/tags/summer+2014/">summer 2014</a>, <a href="/tags/walter+teller/">walter teller</a></em></small></span>
-
-    <p>Since entering my hiatus from weekly blog posts, I’ve returned home for the summer to enjoy the weather, catch up on reading, and relax. Well, not so much relax – that lasted about a week before I needed to get back to work.</p>
-
-
-
-    <span class="post-date"><a href="/highlights/archives-and-moby-dick/">Read more...</a></span>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/highlights/today-i-visited-the-annual-memorial-day-weekend/">
-        Today I Visited The Annual Memorial Day Weekend
-      </a>
-    </h1>
-
-    <span class="post-date">24 May 2014 <em><small>tagged in <a href="/tags/fairhaven/">fairhaven</a>, <a href="/tags/fairhaven+ma/">fairhaven ma</a>, <a href="/tags/fort+phoenix/">fort phoenix</a>, <a href="/tags/revolutionary+war/">revolutionary war</a></em></small></span>
-
-    <p>Today, I visited the annual Memorial Day weekend Revolutionary War Encampment at Fort Phoenix, hosted by the Fairhaven Village Militia. </p>
-
-
-    <span class="post-date"><a href="/highlights/today-i-visited-the-annual-memorial-day-weekend/">Read more...</a></span>
 
   </div>
   
