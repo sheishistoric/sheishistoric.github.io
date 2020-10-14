@@ -5,9 +5,9 @@ title: Home
 
 # Hi, I'm Emily Esten.
 
-![Image of Emily Esten](/assets/img/esten-headshot.jpg){:class="selfie"}
+![Image of Emily Esten](/assets/img/Esten-2020-headshot.jpg){:class="selfie"}
 
-Hi, My name is **Emily Esten**, and I’m currently the [Judaica Digital Humanities Coordinator at Penn Libraries](https://judaicadh.github.io) as well as Web Manager for [Contingent Magazine](http://contingentmagazine.org/).
+Hi, My name is **Emily Esten**, and I’m currently the Judaica Digital Humanities Coordinator at [Penn Libraries](https://judaicadh.library.upenn.edu), as well as Web Manager for [Contingent Magazine](http://contingentmagazine.org/) and the Director of Communications for the [National Emerging Museum Professionals Network](https://nationalempnetwork.org/).
 
 I’m interested in digital public humanities, which thinks about audience, content, and methods in relation to the projects we build with technology. Broadly speaking, I borrow from museums, digital humanities, public history, public humanities, and digital culture.
 
