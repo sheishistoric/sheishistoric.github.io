@@ -187,14 +187,14 @@ web:
     page-tag: museums
 
 other:
-  - title: "Living alongside grief"
-    venue: "Broad Street Review"
-    date: "September 12, 2020"
-    url: "https://www.broadstreetreview.com/theater/philly-fringe-2020-benjamin-behrend-and-logan-gabriel-schulmans-welcome-to#"
+    - title: "Living alongside grief"
+      venue: "Broad Street Review"
+      date: "September 12, 2020"
+      url: "https://www.broadstreetreview.com/theater/philly-fringe-2020-benjamin-behrend-and-logan-gabriel-schulmans-welcome-to"
     - title: "Pixies in Powelton"
-    venue: "Broad Street Review"
-    date: "September 12", 2020"
-    url: "https://www.broadstreetreview.com/theater/fringe-festival-2020-lupine-performance-cooperatives-field-calls"
+      venue: "Broad Street Review"
+      date: "September 12", 2020"
+      url: "https://www.broadstreetreview.com/theater/fringe-festival-2020-lupine-performance-cooperatives-field-calls"
   - title: "The History of Quarantine"
     venue: "Broad Street Review"
     date: "March 10, 2020"

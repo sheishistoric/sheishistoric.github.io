@@ -1,5 +1,5 @@
 ---
-title: Pixies in Powelton: A Review of Field Calls, Philaelphia Fringe 2020 (Broad Street Review)
+title: Pixies in Powelton - A Review of Field Calls, Philaelphia Fringe 2020 (Broad Street Review)
 date: 2020-09-12
 author: admin
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: Living alongside grief: A Review of Welcome to the Shiva House, Philaelphia Fringe 2020 (Broad Street Review)
+title: Living alongside grief - A Review of Welcome to the Shiva House, Philaelphia Fringe 2020 (Broad Street Review)
 date: 2020-09-12
 author: admin
 layout: post
