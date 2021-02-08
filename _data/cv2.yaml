@@ -145,6 +145,13 @@ datasets:
     url: "https://repository.upenn.edu/judaica_americana/2/"
 
 web:
+  - title: "Scribes of the Cairo Geniza"
+    venue: "Visualizing Objects, Places, and Spaces: A Digital Project Handbook"
+    date: "February 2021"
+    url: "https://doi.org/10.21428/51bee781.0afc1687"
+    page-tag: publichumanities
+    page-tag: digital
+    page-tag: geniza
   - title: "Who are the #GenizaScribes: 2019-2020 Community Survey Report"
     venue: "Penn Libraries, University of Pennsylvania"
     date: "February 2020"
