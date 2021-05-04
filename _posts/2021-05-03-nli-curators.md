@@ -6,6 +6,8 @@ layout: post
 categories:
   - Highlights
 tags:
+  - upenn
+  - judaicadh
 period: early-career-professional
 summary: "Draft of the talk for the 4th Judaica Curators {Virtual} Conference (no slides)"
 ---
@@ -113,9 +115,9 @@ And here's where you hear of lots of words - crowdsourcing, data visualization, 
 
 I feel compelled to provide examples. 
 
--   Events like the British Library and Qatar Foundation Partnership Imaging Hack Days, in which staff members throughout the libraries came together to explore archive material related to Persian Gulf history and Arabic scientific manuscripts. Curators served as the content experts, providing ideas, feedback, and encouragement for the imagine team. These "hacks" experimented with different ways of capturing the material outside of the standardized capture process. Not only did it increase engagement with the collection - both internally and externally - but the Hack Days fostered the collaboration with content to explore relationships and striking visual narratives from digitized content. 
+-   This kind of engagement starts internally. Events like the [British Library and Qatar Foundation Partnership Imaging Hack Days](https://docs.google.com/document/d/1ycw1EP9NkurdvZvoEadSqXBW_ffeVxYfJQCLg3pDFic/edit#), in which staff members throughout the libraries came together to explore archive material related to Persian Gulf history and Arabic scientific manuscripts. Curators served as the content experts, providing ideas, feedback, and encouragement for the imagine team. These "hacks" experimented with different ways of capturing the material outside of the standardized capture process. Not only did it increase engagement with the collection - both internally and externally - but the Hack Days fostered the collaboration with content to explore relationships and striking visual narratives from digitized content. 
 
--   Projects like Pink Art at Williams College Museum of Art, in which students and faculty developed algorithms that ranked the collections images by a community-defined color of "pinkness", while curators consulted in development of the final exhibition. DH fueled the process and thinking, and the technological, but the curatorial investment was there at each step - caring for the data, directing the development of algorithms, deciding what to do with the output, arranging the art, and sharing it with the world. Being developed with the curatorial team, the project became a way of exploring the collection through a new frame, but also a DH-based question of how humans are intimately involved with digital processes and culture.
+-   Projects like *[Pink Art](https://artmuseum.williams.edu/pink-art/)* at Williams College Museum of Art, in which students and faculty developed algorithms that ranked the collections images by a community-defined color of "pinkness", while curators consulted in development of the final exhibition. DH fueled the process and thinking, and the technological, but the curatorial investment was there at each step - caring for the data, directing the development of algorithms, deciding what to do with the output, arranging the art, and sharing it with the world. Being developed with the curatorial team, the project became a way of exploring the collection through a new frame, but also a DH-based question of how humans are intimately involved with digital processes and culture.
 
 In each of these projects, the curator is not necessarily the one spearheading the project. But they're intimately involved, and bringing an important perspective. They're helping to shape the questions that we ask, take them into furthering our responsibilities. In making DH a part of curatorial practice, let its role of DH be one that brings up back, always, to the collections at hand. We're already using technology to connect to our collections and to connect to each other, so let's get to that next point.
 
